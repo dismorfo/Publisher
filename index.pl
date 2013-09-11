@@ -10,16 +10,16 @@ my $route = $ENV{'SCRIPT_URL'};
 given($route) {
 
   when('/publisher/publish') {
-    require '/cgi/eadManager.publish.pl'; 
+    require 'cgi/eadManager.publish.pl'; 
   }
 
   when('/publisher/published') {
-  	require '/cgi/eadManager.published.pl'; 
+  	require 'cgi/eadManager.published.pl'; 
   }
 
   default {
     # route /
-    require '/cgi/eadManager.index.pl';
+    require 'cgi/eadManager.index.pl';
   }
 
 }

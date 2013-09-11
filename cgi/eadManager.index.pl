@@ -12,11 +12,10 @@ require 'cgi/pages/index.page.pl';
 # in order to render a HTML is require to pass a data source 
 # hash with: pid, title and content
 
-
 # initializing hash to render as HTML
 
 my ($datasource) = {
-  
+
   # page id
   'pid' => 'page-index',
 
@@ -32,9 +31,6 @@ my ($datasource) = {
   # main content of the page
   'content' => getBody()
 };
-    
-# print HTML page
-outputHTML($datasource);
     
 # print HTML page
 outputHTML($datasource);
