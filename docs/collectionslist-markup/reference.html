@@ -1,0 +1,99 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN"
+   "http://www.w3.org/TR/html4/strict.dtd">
+
+<html lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<title>untitled</title>
+	<meta name="generator" content="TextMate http://macromates.com/">
+	<meta name="author" content="Brian Hoffman 2">
+	<style type="text/css" media="screen">
+		body {
+			background-color: #FFFFCC;
+			font-family: "trebuchet MS";	
+		}
+		
+
+/* Overall Layout*/
+
+		.collection {
+			padding-top: 10px;
+			padding-bottom: 10px;
+			border-top: 1px solid grey;
+		}
+		
+		.title-region {
+			float: left;
+		}
+		
+		.description-label {
+			float:right;
+		}
+		
+		.description-region {
+			clear:both;
+		}
+		
+/* Specific Formatting */
+		.title-region h2 {
+			margin: 1px;
+			font-size: 1.2em;
+		}
+
+		.description {
+			display:none;
+		}
+	
+			
+		
+		
+	</style>
+	<!-- Date: 2009-06-15 -->
+	
+
+	
+	<script language="javascript" src="jquery-1.3.2.js"></script>
+	
+	<script language="javascript">
+	function toggleDescription(descriptionId) {
+	//	descriptionDiv = document.getElementById(descriptionId);
+		$("#" + descriptionId).toggle();
+	}
+	</script>
+
+</head>
+<body>
+	<div id="global-navigation">
+		Navigation<br />
+		<a href="#general">Manuscripts, Personal Papers, Organizational Records, Oral History, Non-Print and Photograph Collections</a><br />
+		<a href="#alba">Abraham Lincoln Brigade Archives (ALBA) Collections</a>
+	</div>        <a name="general"></a>
+	<h2>Manuscripts, Personal Papers, Organizational Records, Oral History, Non-Print and Photograph Collections</h2>
+
+		<div id="collection-11" class="collection">
+			<div class="title-region"><h2>Abe Weisburd Scrapbook (TAM 450)</h2><!--Title + Resource Identifier-->
+						<div class="fa-link"></div><!--Leave empty if there is no finding aid-->
+			</div>
+			<div class="description-label"><a href="javascript:void(0);" onclick="toggleDescription('description-11');">Description</a></div>
+			<div class="description-region">
+				<div id="description-11" class="description">1 box (.5 feet). Abe Weisburd was a progressive activist who wrote regularly for the communist weekly paper The Guardian. This collection is a scrapbook presented to Abe by family and friends on his 70th birthday. It contains writings by Weisburd, biographical notes, photos, and letters from friends and family talking about Weisburd. This can be a great tool to allow your readers to see only the content they need, but if you put too much stuff inside the hidden DIVs, it can drastically impact how the page loads. Remember that even though the content isn't displaying, the Web browser is still downloading it. So use good sense in how much content you put in there.</div>
+				</div>
+
+		</div>
+
+		<div id="collection-12" class="collection">
+			
+				<div class="title-region"><h2>Abe Weisburd Slide Collection (PHOTOS 211)</h2><!--Title + Resource Identifier-->
+					<div class="fa-link"><a href="http://example.com/wesiburd.html">http://example.com/wesiburd.html</a></div>
+				</div>
+				<div class="description-label"><a href="javascript:void(0);" onclick="toggleDescription('description-12');" id="toggle-description-12">Description</a></div>
+				<div class="description-region">
+					<div id="description-12" class="description">2 boxes. Nearly 5,000 color slides of this progressive activist's personal and political travels.</div>
+					</div>
+
+			</div>
+
+
+</body>
+
+</html>

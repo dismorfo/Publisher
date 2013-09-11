@@ -1,0 +1,21 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+ <head>
+   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+   <title>CSV Upload</title>
+ </head>
+ <body>
+<a href="http://localhost/publisher/">Return to Home page</a>
+   <form action="./processCSV.pl" method="post"enctype="multipart/form-data">
+     <p>Select Collection: <select name="collection">
+       <option value="default">please select one</option>
+       <option value="archives">archives</option>
+       <option value="nyhs">nyhs</option>
+       <option value="fales">fales</option>
+       <option value="tamwag">tamwag</option>
+     </select></p>
+     <p>CSV to Upload: <input type="file" name="csv_file" /></p>
+     <p><input type="submit" name="Upload" value="Upload/Process" /></p>
+   </form>
+ </body>
+</html>

@@ -1,0 +1,91 @@
+html, body, #header {
+  min-width: 1030px;
+}
+
+div.search {
+  padding-top: 100px;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+}
+
+ul li {
+  line-height: 1.5em
+}
+
+a, a:visited {
+  color: blue;
+}
+
+a:hover, a:active, a:focus {
+  color: red;
+}
+
+.main {
+  text-align: left;
+  margin: 50px 0;
+}
+
+.content {
+  border: 0;
+  border-bottom: 1px solid #b7b7b7;
+}
+
+.main .content, .sub .content, .body .content {
+  margin-left: 1em;
+  margin-right: 1em;
+}
+
+table {
+  width: 100%;
+}
+
+  table a {
+    text-decoration: none;
+  }
+  
+  .yui3-tabview .main {
+  	margin-top: 0;
+  }
+
+  table .actions, table .preview {
+	text-align: center;
+  }
+  
+.yui3-skin-sam .yui3-tabview-panel.yui3-tabview-panel {
+  background: #fff;
+}
+
+.hidden {
+  display: none;
+  visibility: hidden;
+}
+
+.tab-table {
+	margin-top: 1em;
+}
+
+.alert-danger {
+  color: #b94a48;
+  background-color: #f2dede;
+  border-color: #eed3d7;
+}
+
+.alert {
+  padding: 15px;
+  margin-bottom: 20px;
+  border: 1px solid transparent;
+  border-radius: 4px;
+}
+
+#filelist {
+    margin-top: 15px;
+}
+
+#uploadFilesButtonContainer, #selectFilesButtonContainer, #overallProgress {
+    display: inline-block;
+}
+
+#overallProgress {
+    float: right;
+}

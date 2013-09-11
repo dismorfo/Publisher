@@ -1,0 +1,493 @@
+/* --- Styles for fixed left menu --- */
+html, body {
+    font-size:90%;
+/*    margin: 0;*/
+  	height: 100%;
+  	margin: 0 0 1px;
+    padding: 0;
+}
+
+#body-container {
+    font-family:Verdana;
+    background-color:#ffffff;
+    margin-left:270px;
+    padding:10px; 
+    
+}
+
+
+/* --- Background color based on collection name--- */
+.archives #main {
+    background-color:#660000;
+
+}
+
+.archives #toc {
+	    background-color:#660000;
+}
+.archives #main a {
+ /*   color:#FFFFCC;*/
+}
+.fales #main {
+    background-color:#660066;
+ /*   padding-left:2%;*/
+}
+
+.fales #toc {
+    background-color:#660066;
+}
+
+.phr #main {
+    background-color:#009999;
+
+}
+
+.phr #toc {
+    background-color:#009999;
+}
+
+.tamwag #main {
+    background-color:#000000;
+
+}
+
+.tamwag #toc {
+    background-color:#000000;
+}
+
+.nyhs #main {
+    background-color:#E28C05;
+
+}
+
+.nyhs #toc {
+    background-color:#E28C05;
+}
+
+.rism #main {
+    background-color:#00215a;
+
+}
+
+.rism #toc {
+    background-color:#00215a;
+}
+
+.poly #main {
+    background-color:#00215a;
+}
+
+.poly #toc {
+    background-color:#0a83ae;
+}
+
+.bhs #main {
+    background-color:#0a83ae;
+
+}
+
+.bhs #main {
+    background-color:#0E3655;
+}
+
+
+/* --- Styles for Table of Contents--- */
+#tocWrapper { /* required to avoid jumping 
+           position: absolute;
+           margin-left: 35px;
+           margin:0;
+           padding:0;*/
+         }
+         
+#toc.fixed {
+   position: fixed;
+   top: 0;
+   }      
+         
+div#toc {
+    display:block;
+    width: 270px;
+    margin: 0;
+    padding: 0;
+    color:#ffffff;
+    font-family:tahoma;
+    left: 0;
+    top: 0;
+    position: absolute;
+    max-height: 100%;
+		height: 100%;
+    overflow: auto;
+}
+
+#toc h3 {
+    margin: 16px;
+    font-size:120%;
+}
+#toc dl {
+    margin: 12px 8px 12px 18px;   
+    font-size:98%;    
+}
+#toc dt {
+    margin: 2px;
+    padding: 0;
+    font-weight: normal;
+}
+
+#toc dt a:link, #toc dd a:link {
+    color: #333;
+    text-decoration: none;
+}
+#toc dt a:visited, #toc dd a:visited {
+    color: #333;
+    text-decoration: none;
+}
+#toc dt a:active, #toc dd a:active {
+    color: #FF5721;
+}
+#toc dt a:hover, #toc dd a:hover {
+    color: #FF5721;
+}
+
+
+/* --- Styles for Series and Subseries--- */
+#toc .arrow{margin-left:-16px;}
+#toc .dsc {
+    font-size:98%; 
+    margin-top: -12px;
+    margin-left: 16px;
+    margin-right: 8px;    
+}
+#toc .level1 {
+    margin-top: 2px;
+    margin-left: 16px;
+    margin-right: 8px;    
+    padding: 2px;
+}
+#toc .level2 {
+    margin-left: 12px;
+    margin-right: 8px;    
+    padding: 2px;
+   /* display:none;*/
+}
+#toc .level3 {
+    margin-left: 12px;
+    margin-right: 8px;
+    padding: 2px;
+    display:none;
+}
+
+#tocroot {
+	margin-left: 0px;
+	padding-left: 10px;
+}
+
+#toc ul li {
+	list-style: none;
+	padding-right: 4px;
+}
+
+.dscToc, .dscTocExpanded {margin:0; padding:2px 0;}
+
+li.dscToc {
+	list-style: none;
+}
+
+li.dscTocExpanded {
+		list-style: none;
+}
+
+
+/* --- toc styles based on collection name --- */
+#toc a {
+/* font-family:tahoma; */
+    color:#ffffff !important;
+/* font-weight:bold; */
+    text-decoration:none;
+}
+
+/* --- General sty--- */
+#titleProper {
+    text-align:center;
+    font-weight:bold;
+    font-size:115%;
+    padding-top:1%;
+}
+
+.imgHeader {
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+td.heading {
+    font-weight:bold;
+}
+th {
+    font-weight:bold;
+}
+.note {
+    font-style: italic;
+}
+.note p {
+    line-height: 1.0em;
+}
+blockquote {
+    margin:24px;
+}
+.eadHeader {
+    font-size:100%;
+    line-height:120%;
+}
+.adminInfo, .archdesc, .eadHeader, .bioghist, .scopecontent, .processinfo, .arrangement, .otherfindaid, .restrictions, .control, .admininfo, .index, .bibliography, .odd, .controlaccess {
+    padding-top:10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid gray;
+    margin-right: 10px;
+}
+
+.adminInfo h3, .archdesc h3, .eadHeader h3, .bioghist h3, .scopecontent h3, .processinfo h3, .arrangement h3, .relatedmaterial h3, .separatedmaterial h3, .otherfindaid h3, .restrictions h3, .control h3, .admininfo h3, .index h3, .bibliography h3, .odd h3, .controlaccess h3 {
+    font-size:120%;
+    margin:auto;
+    padding:12px;
+}
+.adminInfo h4, .archdesc h4, .eadHeader h4, .bioghist h4, .scopecontent h4, .processinfo h4, .arrangement h4, .relatedmaterial h4,
+.separatedmaterial h4, .otherfindaid h4, .restrictions h4, .control h4, .admininfo h4, .index h4,
+.bibliography h4, .odd h4, .controlaccess h4 {
+    margin-left: 30pt;
+}
+.adminInfo p, .archdesc p, .eadHeader p, .bioghist p, .scopecontent p, .processinfo p, .arrangement p, .relatedmaterial p, .separatedmaterial p, .otherfindaid p, .restrictions p, .control p, .restrict h4, .control h4, .admininfo p, .admininfo h4, .index p, .bibliography p, .odd p {
+    margin-left: 30pt;
+}
+.controlaccess h4 {
+    margin-top: 12pt;
+}
+.controlaccess ul {
+    margin-left: 38pt;
+}
+.admininfo p .address {
+    text-indent: 40pt;
+}
+.controlaccess-list, .arrangement-table {
+    margin-left: 30pt
+}
+.controlaccess-list h4 {
+    margin-left: 0;
+}
+.admininfo h4 {
+    margin-bottom: 0;
+}
+.control p {
+    line-height: 1.2em;
+    padding: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.eadHeader p {
+    line-height: 1.2em;
+    padding: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.archdesc table {
+    margin-left: 30pt;
+    margin-bottom: 10px;
+    width: 100%;
+    text-align: left;
+}
+.archdesc table tr th {
+    padding-right: 10px;
+    font-weight: 800;
+    vertical-align: top;
+    white-space:nowrap;
+}
+.unittitle {
+    line-height: 1.0em;
+
+}
+.unittitle_series {
+    font-weight: bold;
+    line-height: 1.6em;
+}
+.unittitle_subseries {
+    font-weight: bold;
+    line-height: 1.4em;
+}
+tr.did_row td {
+    padding-top: 10px;
+}
+tr.item_description_row {
+    margin-bottom: 20px;
+}
+tr.item_description_row td img {
+    margin-bottom: 10px;
+}
+table.c_table {
+    width: 100%;
+    padding-right: 10px;
+}
+table.c_table tr th {
+    text-align: left;
+    font-weight: 600;
+    padding-left:10px;
+}
+td.c_box, td.c_folder, td.c_item, td.c_date {
+    padding-left: 10px;
+    font-size: 0.8 em;
+}
+td.c_folder,td.c_item {
+    font-weight:bold;
+}
+.daoLink {
+    text-decoration:none;
+    padding-right:7px;
+}
+
+img.dao {display: block; clear:both; margin:8px;}
+h4 {
+    margin-bottom: 2px;
+}
+
+
+/* --- Styles from the AT stylesheet--- */
+p {
+    margin: 8px;
+}
+dt {
+    margin: 2px 8px;
+    font-weight:bold;
+}
+dd {
+    margin: 2px 16px;
+}
+br {
+    margin:0;
+    padding:0;
+}
+hr {
+    border:1px solid gray;
+    margin: 24px -12px;
+}
+/* --- Emph styles ------- */
+.smcaps {
+    font-variant: small-caps;
+}
+.underline {
+    text-decoration: underline;
+}
+/* ---List Styles--- */
+dl {margin-left: 30pt;}
+ol {margin-left: 30px;}
+ul {margin-left: 30px;}
+
+.simple {
+    list-style-type: none;
+}
+.arabic {
+    list-style-type: decimal
+}
+.upperalpha {
+    list-style-type: upper-alpha
+}
+.loweralpha {
+    list-style-type: lower-alpha
+}
+.upperroman {
+    list-style-type: upper-roman
+}
+.lowerroman {
+    list-style-type: lower-roman
+}
+/* --- Styles Index entry elements --- */
+.indexEntry {
+    display:block
+}
+/* ---- Table Styles --- */
+td, th {
+    vertical-align: top;
+    padding: 5px 8px;
+    text-align: left;
+}
+
+/* ---Container List Styles  -- */
+table.containerList {
+    border:none;
+    margin: 8px;
+    padding:0;
+    overflow:scroll;
+    border-spacing:0;
+}
+table.containerList h3 {
+    padding: 0px;
+    margin:0px;
+}
+table.containerList td {}
+tr.series h3 {
+    font-size:120%;
+    padding: 0px;
+    margin:0px;
+    /*background-color: #bbbbbb;*/
+}
+tr.subseries h3 {
+    font-size:100%;
+    padding: 0px;
+    margin:0px;
+    /*background-color: #dddddd;*/
+}
+.containerList h4{
+    font-size:90%;
+    font-weight:normal;
+    font-style:italic;
+    padding: 0px;
+    margin:0px;
+}
+.containerList p{   
+    font-size:100%;    
+}
+.containerList .unittitle{
+    font-size:100%;    
+}
+.containerHeader {
+    /*font-variant: small-caps;*/
+    font-weight:bold;
+    color:#000000;
+    text-align: left;
+}
+.containerList .adminInfo, .containerList .archdesc, .containerList .eadHeader, .containerList .bioghist, .containerList .scopecontent, .containerList .processinfo, .containerList .arrangement, .containerList .relatedmaterial, .containerList .separatedmaterial, .containerList .otherfindaid, .containerList .restrictions, .containerList .control, .containerList .admininfo, .containerList .index, .containerList .bibliography, .containerList .odd, .containerList .controlaccess {
+    padding-top:10px;
+    padding-bottom: 10px;
+    border-bottom: none !important;
+    margin-right: 10px;
+    margin-left: 30px;
+}
+.containerList .adminInfo h4, .containerList .archdesc h4, .containerList .eadHeader h4, .containerList .bioghist h4, .containerList .scopecontent h4, .containerList .processinfo h4, .containerList .arrangement h4, .containerList .relatedmaterial h4, .containerList .separatedmaterial h4, .containerList .otherfindaid h4, .containerList .restrictions h4, .containerList .control h4, .containerList .admininfo h4, .containerList .index h4, .containerList .bibliography h4, .containerList .odd h4, .containerList .controlaccess h4{
+    font-size:110%;
+    font-style:italic;
+    margin-left: -30px;    
+}
+.containerTypes {
+    /*font-varient: small-caps;*/
+    font-weight:bold;
+    color:#000000;
+    text-align: left;
+}
+.didTitle{margin:0px; padding:0px;}
+.clear {
+    clear:both;
+}
+table.parentContainers {
+    border:none;
+    float:right;
+    clear:both;
+    width: 400px;
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+}
+
+.odd_row {
+    background-color:#eee;
+}
+.address {
+    display:block;
+}
+

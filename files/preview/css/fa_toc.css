@@ -1,0 +1,136 @@
+body, html {
+margin: 0;
+padding: 0;
+height:100%;
+width:100%;
+}
+
+#archives{
+background-color:#660000;
+font-family:tahoma;
+color:#FFFFCC;
+font-weight:bold;
+padding-left:2%;
+}
+ 
+#fales{
+background-color:#660066;
+font-family:tahoma;
+color:#FFFFFF;
+font-weight:bold;
+padding-left:2%;
+}
+#phr{
+background-color:#009999;
+color:#FFFFFF;
+padding-left:2%;
+
+}
+
+#tamwag{
+background-color:#000000;
+font-family:tahoma;
+color:#FFFFFF;
+padding-left:2%;
+}
+
+#nyhs{
+background-color:#660000;
+font-family:tahoma;
+font-weight: bold;
+color: #ffffff;
+padding-left:2%;
+}
+
+#rism{
+background-color:#00215a;
+font-family:tahoma;
+font-weight: bold;
+color: #ffffff;
+padding-left:2%;
+}
+
+#bhs{
+background-color:#0E3655;
+font-family:tahoma;
+font-weight: bold;
+color: #ffffff;
+padding-left:2%;
+}
+
+p#tocHeader{
+font-size:120%;
+
+}
+table#generateEad{
+height:100%;
+width:100%;
+}
+td.toc{
+width:20%;
+vertical-align:top;
+height:100%;
+padding-left:2%;
+}
+
+td#archives a{
+color:#FFFFCC;
+}
+
+td#fales a{
+color:#FFFFFF;
+font-family:trebuchet;
+text-decoration:none;
+font-size:95%;
+}
+
+td#tamwag a{
+color:#FFFFFF;
+}
+
+td#nyhs a{
+color:#FFFFFF;
+}
+
+td#phr a{
+color:#FFFFFF;
+}
+
+td#rism a{
+color:#FFFFFF;
+}
+
+td#bhs a{
+color:#FFFFFF;
+}
+
+
+.display{
+display:block;
+padding-bottom:1%;
+}
+
+
+.serialsTOC{
+display:inline;
+}
+
+.processSeriesTitles{
+display:block;
+margin-left:10%; 
+margin-top:2%;
+font-size:90%;
+}
+#divSeries{
+height: 600%;
+display: none;
+font-weight:normal;
+}
+.processSeriesSubTitles{
+display:block;
+margin-left:13%; 
+margin-top:1%;
+font-size:80%;
+color:#FFFFFF;
+}
+

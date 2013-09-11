@@ -1,0 +1,129 @@
+
+
+body, html {
+margin: 0;
+padding: 0px;
+height:100%;
+width:100%;
+}
+
+table#generateEad{
+height:100%;
+width:100%;
+}
+#titleProper{
+text-align:center;
+font-weight:bold;
+font-size:115%;
+padding-top:1%;
+}
+.eadHeader{
+font-weight:700;
+font-size:90%;
+line-height:200%;
+}
+
+.eadAddress{
+line-height:normal;
+}
+
+td#displayContent{
+padding:0%;
+vertical-align:top;
+width:100%;
+}
+
+#content{
+font-size:90%;
+font-family:verdana;
+
+}
+#content table{
+height:0%;
+}
+#content td{
+font-size:90%;
+vertical-align:top;
+}
+
+.imgHeader{
+text-align: center; 
+display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+td.heading{
+font-weight:bold;
+}
+
+td.noteCell{
+	font-style: italic; border:0px; margin: 0px; vertical-align: top;
+}
+
+td.noteCell p{
+	margin: 0px;
+	padding: 0px;
+	libne-height: 1.0em;
+}
+
+blockquote {
+
+}
+
+
+.unittitle {
+	font-size: 1.0em;
+	line-height: 1.4em;
+  
+}
+
+.unittitle_series {
+	font-weight: bold;
+	line-height: 1.6em;
+}
+
+
+.unittitle_subseries {
+	font-weight: bold;
+	line-height: 1.4em;
+}
+
+
+
+
+tr.did_row td {
+	padding-top: 10px;
+}
+
+tr.item_description_row {
+	margin-bottom: 20px;
+}
+
+tr.item_description_row td img {
+	margin-bottom: 10px;
+}
+
+table.c_table { 
+  width: 100%;
+ }
+
+table.c_table tr th{ 
+  text-align: left;
+  font-weight: 600;
+  padding-left:10px;
+ }
+
+td.c_box, td.c_folder, td.c_item, td.c_date { 
+padding-left: 10px;
+font-size: 0.8 em;
+}
+
+td.c_folder,td.c_item{
+font-weight:bold;
+}
+
+#daoLink{
+text-decoration:none;
+padding-right:7px;
+}

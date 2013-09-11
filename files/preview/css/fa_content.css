@@ -1,0 +1,195 @@
+
+
+body, html {
+margin: 0;
+padding: 0px;
+height:100%;
+width:100%;
+}
+
+
+#titleProper{
+text-align:center;
+font-weight:bold;
+font-size:115%;
+padding-top:1%;
+}
+
+
+.eadAddress{
+line-height:normal;
+}
+
+td#displayContent{
+padding:0%;
+vertical-align:top;
+width:100%;
+}
+
+#content{
+font-size:90%;
+font-family:verdana;
+
+}
+#content table{
+height:0%;
+}
+#content td{
+font-size:90%;
+vertical-align:top;
+}
+
+.imgHeader{
+text-align: center; 
+display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+td.heading{
+font-weight:bold;
+}
+
+td.noteCell{
+	font-style: italic; border:0px; margin: 0px; vertical-align: top;
+}
+
+td.noteCell p{
+	margin: 0px;
+	padding: 0px;
+	line-height: 1.0em;
+}
+
+blockquote {
+
+}
+
+.eadHeader{
+font-size:100%;
+line-height:120%;
+}
+
+
+.archdesc, .eadHeader, .bioghist, .scopecontent, .arrangement, .relatedmaterial, .separatedmaterial, .otherfindaid, .restrict, .control, .admininfo, .index, .bibliography, .odd {
+	padding-bottom: 10px;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	border-bottom-color: grey;
+	margin-right: 10px;
+}
+
+.archdesc p, .eadHeader p, .bioghist p, .scopecontent p, .arrangement p, .relatedmaterial p, .separatedmaterial p, .otherfindaid p, .restrict p, .control p, .restrict h4, .control h4, .admininfo p, .admininfo h4, .index p, .bibliography p, .odd p {
+	margin-left: 30pt;
+}
+
+.admininfo p .address {
+	text-indent: 40pt;
+}
+
+.controlaccess-list, .arrangement-table {
+	margin-left: 30pt
+}
+
+.controlaccess-list h4 {
+	margin-left: 0;
+}
+
+
+.admininfo h4{
+	margin-bottom: 0;
+}
+
+.control p {
+	line-height: 1.2em;
+	padding: 0;
+	margin-top: 0;
+	margin-bottom: 0;
+	
+}
+
+.eadHeader p{
+	line-height: 1.2em;
+	padding: 0px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+.archdesc table {
+	margin-left: 30pt;
+	margin-bottom: 10px;
+	width: "100%";
+	text-align: left;
+}
+
+.archdesc table tr th {
+	padding-right: 10px;
+	font-weight: 800;
+	vertical-align: top;
+	white-space:nowrap;
+
+}
+
+
+.unittitle {
+	font-size: 1.0em;
+	line-height: 1.4em;
+  
+}
+
+.unittitle_series {
+	font-weight: bold;
+	line-height: 1.6em;
+}
+
+
+.unittitle_subseries {
+	font-weight: bold;
+	line-height: 1.4em;
+}
+
+
+
+
+tr.did_row td {
+	padding-top: 10px;
+}
+
+tr.item_description_row {
+	margin-bottom: 20px;
+}
+
+tr.item_description_row td img {
+	margin-bottom: 10px;
+}
+
+table.c_table { 
+  width: 100%;
+  padding-right: 10px;
+ }
+
+table.c_table tr th{ 
+  text-align: left;
+  font-weight: 600;
+  padding-left:10px;
+ }
+
+td.c_box, td.c_folder, td.c_item, td.c_date { 
+padding-left: 10px;
+font-size: 0.8 em;
+}
+
+td.c_folder,td.c_item{
+font-weight:bold;
+}
+
+#daoLink{
+text-decoration:none;
+padding-right:7px;
+}
+
+h4 {
+	margin-bottom: 2px;
+}
+
+
+

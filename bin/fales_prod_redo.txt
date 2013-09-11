@@ -1,0 +1,1689 @@
+/www/sites/findingaids/prod/ead/fales/0to9.xml
+0to9:
+
+--------
+/www/sites/findingaids/prod/ead/fales/adimari.xml
+adimari:
+
+--------
+/www/sites/findingaids/prod/ead/fales/afflick.xml
+afflick:
+
+--------
+/www/sites/findingaids/prod/ead/fales/air.xml
+air:
+
+--------
+/www/sites/findingaids/prod/ead/fales/albee.xml
+albee:
+
+--------
+/www/sites/findingaids/prod/ead/fales/alexander.xml
+alexander:
+
+--------
+/www/sites/findingaids/prod/ead/fales/allen.xml
+allen:
+
+--------
+/www/sites/findingaids/prod/ead/fales/amfamily.xml
+amfamily:
+
+--------
+/www/sites/findingaids/prod/ead/fales/amfam.xml
+amfam:
+
+--------
+/www/sites/findingaids/prod/ead/fales/amitin.xml
+amitin:
+
+--------
+/www/sites/findingaids/prod/ead/fales/angelhair.xml
+angelhair:
+
+--------
+/www/sites/findingaids/prod/ead/fales/anthony.xml
+anthony:
+
+--------
+/www/sites/findingaids/prod/ead/fales/apple.xml
+apple:
+
+--------
+/www/sites/findingaids/prod/ead/fales/asflyers.xml
+asflyers:
+
+--------
+/www/sites/findingaids/prod/ead/fales/asinger.xml
+asinger:
+
+--------
+/www/sites/findingaids/prod/ead/fales/baker_4.xml
+baker_4:
+
+--------
+/www/sites/findingaids/prod/ead/fales/baker.xml
+baker_4:
+
+--------
+/www/sites/findingaids/prod/ead/fales/barnard.xml
+barnard:
+
+--------
+/www/sites/findingaids/prod/ead/fales/beach.xml
+beach:
+
+--------
+/www/sites/findingaids/prod/ead/fales/beardcircle.xml
+beardcircle:
+
+--------
+/www/sites/findingaids/prod/ead/fales/beardcoll.xml
+beardcoll:
+
+--------
+/www/sites/findingaids/prod/ead/fales/beardpapers.xml
+beardpapers:
+
+--------
+/www/sites/findingaids/prod/ead/fales/bellamy.xml
+bellamy:
+
+--------
+/www/sites/findingaids/prod/ead/fales/benners.xml
+benners:
+
+--------
+/www/sites/findingaids/prod/ead/fales/berol.xml
+berol:
+
+--------
+/www/sites/findingaids/prod/ead/fales/blacksun.xml
+blacksun:
+
+--------
+/www/sites/findingaids/prod/ead/fales/blanchon.xml
+blanchon:
+
+--------
+/www/sites/findingaids/prod/ead/fales/blotcher.xml
+blotcher:
+
+--------
+/www/sites/findingaids/prod/ead/fales/bobst.xml
+bobst:
+
+--------
+/www/sites/findingaids/prod/ead/fales/brownstone.xml
+brownstone:
+
+--------
+/www/sites/findingaids/prod/ead/fales/brubaker.xml
+brubaker:
+
+--------
+/www/sites/findingaids/prod/ead/fales/btwcd.xml
+btwcd:
+
+--------
+/www/sites/findingaids/prod/ead/fales/burger.xml
+burger:
+
+--------
+/www/sites/findingaids/prod/ead/fales/burning_water.xml
+burning_water:
+
+--------
+/www/sites/findingaids/prod/ead/fales/butor.xml
+butor:
+
+--------
+/www/sites/findingaids/prod/ead/fales/callard.xml
+callard:
+
+--------
+/www/sites/findingaids/prod/ead/fales/camel.xml
+camel:
+
+--------
+/www/sites/findingaids/prod/ead/fales/cane.xml
+cane:
+
+--------
+/www/sites/findingaids/prod/ead/fales/carland.xml
+carland:
+
+--------
+/www/sites/findingaids/prod/ead/fales/carlandzines.xml
+carlandzines:
+
+--------
+/www/sites/findingaids/prod/ead/fales/caterpillar.xml
+caterpillar:
+
+--------
+/www/sites/findingaids/prod/ead/fales/champagne.xml
+champagne:
+
+--------
+/www/sites/findingaids/prod/ead/fales/charyn.xml
+charyn:
+
+--------
+/www/sites/findingaids/prod/ead/fales/cjournal.xml
+cjournal:
+
+--------
+/www/sites/findingaids/prod/ead/fales/collun.xml
+collun:
+
+--------
+/www/sites/findingaids/prod/ead/fales/cooper.xml
+cooper:
+
+--------
+/www/sites/findingaids/prod/ead/fales/corno.xml
+corno:
+
+--------
+/www/sites/findingaids/prod/ead/fales/cover.xml
+cover:
+
+--------
+/www/sites/findingaids/prod/ead/fales/crane.xml
+crane:
+
+--------
+/www/sites/findingaids/prod/ead/fales/creativetime.xml
+creativetime:
+
+--------
+/www/sites/findingaids/prod/ead/fales/dames.xml
+dames:
+
+--------
+/www/sites/findingaids/prod/ead/fales/darcangelo.xml
+darcangelo:
+
+--------
+/www/sites/findingaids/prod/ead/fales/davidovich.xml
+davidovich:
+
+--------
+/www/sites/findingaids/prod/ead/fales/dean.xml
+dean:
+
+--------
+/www/sites/findingaids/prod/ead/fales/demoura.xml
+demoura:
+
+--------
+/www/sites/findingaids/prod/ead/fales/desana.xml
+desana:
+
+--------
+/www/sites/findingaids/prod/ead/fales/dickason.xml
+dickason:
+
+--------
+/www/sites/findingaids/prod/ead/fales/dlugos.xml
+dlugos:
+
+--------
+/www/sites/findingaids/prod/ead/fales/doctorow_restricted.xml
+doctorow_restricted:
+
+--------
+/www/sites/findingaids/prod/ead/fales/dowell.xml
+dowell:
+
+--------
+/www/sites/findingaids/prod/ead/fales/edsmith.xml
+edsmith:
+
+--------
+/www/sites/findingaids/prod/ead/fales/ellis.xml
+ellis:
+
+--------
+/www/sites/findingaids/prod/ead/fales/english.xml
+english:
+
+--------
+/www/sites/findingaids/prod/ead/fales/enslin.xml
+enslin:
+
+--------
+/www/sites/findingaids/prod/ead/fales/explorers.xml
+explorers:
+
+--------
+/www/sites/findingaids/prod/ead/fales/eyeandear.xml
+eyeandear:
+
+--------
+/www/sites/findingaids/prod/ead/fales/fales_av.xml
+fales_av:
+
+--------
+/www/sites/findingaids/prod/ead/fales/fales_events.xml
+fales_events:
+
+--------
+/www/sites/findingaids/prod/ead/fales/fales_man.xml
+fales_man:
+
+--------
+/www/sites/findingaids/prod/ead/fales/falesman.xml
+fales_man:
+
+--------
+/www/sites/findingaids/prod/ead/fales/fales.xml
+fales:
+
+--------
+/www/sites/findingaids/prod/ead/fales/fashionmoda.xml
+fashionmoda:
+
+--------
+/www/sites/findingaids/prod/ead/fales/fashion.xml
+fashion:
+
+--------
+/www/sites/findingaids/prod/ead/fales/fateman.xml
+fateman:
+
+--------
+/www/sites/findingaids/prod/ead/fales/flyer.xml
+flyer:
+
+--------
+/www/sites/findingaids/prod/ead/fales/foodephemera.xml
+foodephemera:
+
+--------
+/www/sites/findingaids/prod/ead/fales/fox_royston.xml
+fox_royston:
+
+--------
+/www/sites/findingaids/prod/ead/fales/franklin.xml
+franklin:
+
+--------
+/www/sites/findingaids/prod/ead/fales/fugsarchive.xml
+fugsarchive:
+
+--------
+/www/sites/findingaids/prod/ead/fales/fugs.xml
+fugsarchive:
+
+--------
+/www/sites/findingaids/prod/ead/fales/fulldesana.xml
+desana:
+
+--------
+/www/sites/findingaids/prod/ead/fales/garrett.xml
+garrett:
+
+--------
+/www/sites/findingaids/prod/ead/fales/gaypulp.xml
+gaypulp:
+
+--------
+/www/sites/findingaids/prod/ead/fales/gelber.xml
+gelber:
+
+--------
+/www/sites/findingaids/prod/ead/fales/germanletters.xml
+germanletters:
+
+--------
+/www/sites/findingaids/prod/ead/fales/ghost.xml
+ghost:
+
+--------
+/www/sites/findingaids/prod/ead/fales/gilbert.xml
+gilbert:
+
+--------
+/www/sites/findingaids/prod/ead/fales/godzilla.xml
+godzilla:
+
+--------
+/www/sites/findingaids/prod/ead/fales/groupmaterial.xml
+groupmaterial:
+
+--------
+/www/sites/findingaids/prod/ead/fales/guerrilla.xml
+guerrilla:
+
+--------
+/www/sites/findingaids/prod/ead/fales/hall2.xml
+hall2:
+
+--------
+/www/sites/findingaids/prod/ead/fales/hammond_script.xml
+hammond_script:
+
+--------
+/www/sites/findingaids/prod/ead/fales/hammond.xml
+hammond:
+
+--------
+/www/sites/findingaids/prod/ead/fales/hanna.xml
+hanna:
+
+--------
+/www/sites/findingaids/prod/ead/fales/harlequin.xml
+harlequin:
+
+--------
+/www/sites/findingaids/prod/ead/fales/harris.xml
+harris:
+
+--------
+/www/sites/findingaids/prod/ead/fales/hellman.xml
+hellman:
+
+--------
+/www/sites/findingaids/prod/ead/fales/hell.xml
+hell:
+
+--------
+/www/sites/findingaids/prod/ead/fales/highrisk.xml
+highrisk:
+
+--------
+/www/sites/findingaids/prod/ead/fales/hika.xml
+hika:
+
+--------
+/www/sites/findingaids/prod/ead/fales/holman.xml
+holman:
+
+--------
+/www/sites/findingaids/prod/ead/fales/iacd.xml
+iacd:
+
+--------
+/www/sites/findingaids/prod/ead/fales/ibm.xml
+ibm:
+
+--------
+/www/sites/findingaids/prod/ead/fales/indiana.xml
+indiana:
+
+--------
+/www/sites/findingaids/prod/ead/fales/itzhak.xml
+itzhak:
+
+--------
+/www/sites/findingaids/prod/ead/fales/jacobson.xml
+jacobson:
+
+--------
+/www/sites/findingaids/prod/ead/fales/judsonoral.xml
+judsonoral:
+
+--------
+/www/sites/findingaids/prod/ead/fales/judson.xml
+judson:
+
+--------
+/www/sites/findingaids/prod/ead/fales/klein.xml
+klein:
+
+--------
+/www/sites/findingaids/prod/ead/fales/klooster.xml
+klooster:
+
+--------
+/www/sites/findingaids/prod/ead/fales/kolm.xml
+kolm:
+
+--------
+/www/sites/findingaids/prod/ead/fales/kopit.xml
+kopit:
+
+--------
+/www/sites/findingaids/prod/ead/fales/kostel.xml
+kostel:
+
+--------
+/www/sites/findingaids/prod/ead/fales/lcsna.xml
+lcsna:
+
+--------
+/www/sites/findingaids/prod/ead/fales/lebherz.xml
+lebherz:
+
+--------
+/www/sites/findingaids/prod/ead/fales/levydime.xml
+levy:
+
+--------
+/www/sites/findingaids/prod/ead/fales/levy.xml
+levy:
+
+--------
+/www/sites/findingaids/prod/ead/fales/lewis.xml
+lewis:
+
+--------
+/www/sites/findingaids/prod/ead/fales/lforeman.xml
+lforeman:
+
+--------
+/www/sites/findingaids/prod/ead/fales/liederkranz.xml
+liederkranz:
+
+--------
+/www/sites/findingaids/prod/ead/fales/lines.xml
+lines:
+
+--------
+/www/sites/findingaids/prod/ead/fales/lippard.xml
+lippard:
+
+--------
+/www/sites/findingaids/prod/ead/fales/lorwin.xml
+lorwin:
+
+--------
+/www/sites/findingaids/prod/ead/fales/love.xml
+love:
+
+--------
+/www/sites/findingaids/prod/ead/fales/lukins.xml
+luk:
+
+--------
+/www/sites/findingaids/prod/ead/fales/maass.xml
+maass:
+
+--------
+/www/sites/findingaids/prod/ead/fales/mabou.xml
+mabou:
+
+--------
+/www/sites/findingaids/prod/ead/fales/martin.xml
+martin:
+
+--------
+/www/sites/findingaids/prod/ead/fales/mccay.xml
+mccay:
+
+--------
+/www/sites/findingaids/prod/ead/fales/mcnamara.xml
+mcnamara:
+
+--------
+/www/sites/findingaids/prod/ead/fales/mendez.xml
+mendez:
+
+--------
+/www/sites/findingaids/prod/ead/fales/mix.xml
+mix:
+
+--------
+/www/sites/findingaids/prod/ead/fales/moore.xml
+moore:
+
+--------
+/www/sites/findingaids/prod/ead/fales/musicdept.xml
+musicdept:
+
+--------
+/www/sites/findingaids/prod/ead/fales/myown.xml
+myown:
+
+--------
+/www/sites/findingaids/prod/ead/fales/nal.xml
+nal:
+
+--------
+/www/sites/findingaids/prod/ead/fales/neuman.xml
+neuman:
+
+--------
+/www/sites/findingaids/prod/ead/fales/neumiller.xml
+neumiller:
+
+--------
+/www/sites/findingaids/prod/ead/fales/nicholson.xml
+nicholson:
+
+--------
+/www/sites/findingaids/prod/ead/fales/nosei.xml
+nosei:
+
+--------
+/www/sites/findingaids/prod/ead/fales/nyreview.xml
+nyreview:
+
+--------
+/www/sites/findingaids/prod/ead/fales/ocasey.xml
+ocasey:
+
+--------
+/www/sites/findingaids/prod/ead/fales/once.xml
+once:
+
+--------
+/www/sites/findingaids/prod/ead/fales/origin.xml
+origin:
+
+--------
+/www/sites/findingaids/prod/ead/fales/outburst.xml
+outburst:
+
+--------
+/www/sites/findingaids/prod/ead/fales/outpunk.xml
+outpunk:
+
+--------
+/www/sites/findingaids/prod/ead/fales/paf.xml
+paf:
+
+--------
+/www/sites/findingaids/prod/ead/fales/palmieri.xml
+palmieri:
+
+--------
+/www/sites/findingaids/prod/ead/fales/paulson.xml
+paulson:
+
+--------
+/www/sites/findingaids/prod/ead/fales/perron.xml
+perron:
+
+--------
+/www/sites/findingaids/prod/ead/fales/pickett.xml
+pickett:
+
+--------
+/www/sites/findingaids/prod/ead/fales/pleiades.xml
+pleiades:
+
+--------
+/www/sites/findingaids/prod/ead/fales/poe.xml
+poe:
+
+--------
+/www/sites/findingaids/prod/ead/fales/portrait_subject.xml
+portrait_subject:
+
+--------
+/www/sites/findingaids/prod/ead/fales/portrait.xml
+portrait:
+
+--------
+/www/sites/findingaids/prod/ead/fales/rainer.xml
+rainer:
+
+--------
+/www/sites/findingaids/prod/ead/fales/rainsford.xml
+rainsford:
+
+--------
+/www/sites/findingaids/prod/ead/fales/redhot.xml
+redhot:
+
+--------
+/www/sites/findingaids/prod/ead/fales/redtape.xml
+redtape:
+
+--------
+/www/sites/findingaids/prod/ead/fales/repo.xml
+repo:
+
+--------
+/www/sites/findingaids/prod/ead/fales/retape.xml
+redtape:
+
+--------
+/www/sites/findingaids/prod/ead/fales/rforeman.xml
+rforeman:
+
+--------
+/www/sites/findingaids/prod/ead/fales/rgpublicity.xml
+rgpublicity:
+
+--------
+/www/sites/findingaids/prod/ead/fales/robins.xml
+robins:
+
+--------
+/www/sites/findingaids/prod/ead/fales/rosenman.xml
+rosenman:
+
+--------
+/www/sites/findingaids/prod/ead/fales/rosenthal.xml
+rosenthal:
+
+--------
+/www/sites/findingaids/prod/ead/fales/roundtable.xml
+roundtable:
+
+--------
+/www/sites/findingaids/prod/ead/fales/royston.xml
+royston:
+
+--------
+/www/sites/findingaids/prod/ead/fales/rwf.xml
+roundtable:
+
+--------
+/www/sites/findingaids/prod/ead/fales/scifipulp.xml
+scifipulp:
+
+--------
+/www/sites/findingaids/prod/ead/fales/scott_gary.xml
+scott_gary:
+
+--------
+/www/sites/findingaids/prod/ead/fales/second_aeon.xml
+second_aeon:
+
+--------
+/www/sites/findingaids/prod/ead/fales/secunda.xml
+secunda:
+
+--------
+/www/sites/findingaids/prod/ead/fales/sellers.xml
+sellers:
+
+--------
+/www/sites/findingaids/prod/ead/fales/semio.xml
+semio:
+
+--------
+/www/sites/findingaids/prod/ead/fales/sensksin.xml
+senskin:
+
+--------
+/www/sites/findingaids/prod/ead/fales/sherman.xml
+stuartsherman:
+
+--------
+/www/sites/findingaids/prod/ead/fales/sherry.xml
+sherry:
+
+--------
+/www/sites/findingaids/prod/ead/fales/signal.xml
+signal:
+
+--------
+/www/sites/findingaids/prod/ead/fales/signorile_restricted.xml
+signorile_restricted:
+
+--------
+/www/sites/findingaids/prod/ead/fales/signorile.xml
+signorile:
+
+--------
+/www/sites/findingaids/prod/ead/fales/silverberg.xml
+silverberg:
+
+--------
+/www/sites/findingaids/prod/ead/fales/silverman.xml
+silverman:
+
+--------
+/www/sites/findingaids/prod/ead/fales/snider.xml
+snider:
+
+--------
+/www/sites/findingaids/prod/ead/fales/spar.xml
+spar:
+
+--------
+/www/sites/findingaids/prod/ead/fales/splitbritches.xml
+splitbritches:
+
+--------
+/www/sites/findingaids/prod/ead/fales/steves.xml
+steves:
+
+--------
+/www/sites/findingaids/prod/ead/fales/straub.xml
+straub:
+
+--------
+/www/sites/findingaids/prod/ead/fales/streeter2.xml
+streeter2:
+
+--------
+/www/sites/findingaids/prod/ead/fales/strickland.xml
+strickland:
+
+--------
+/www/sites/findingaids/prod/ead/fales/sturken.xml
+sturken:
+
+--------
+/www/sites/findingaids/prod/ead/fales/sylmanor.xml
+sylvmanor:
+
+--------
+/www/sites/findingaids/prod/ead/fales/sylvester.xml
+sylmanor:
+
+--------
+/www/sites/findingaids/prod/ead/fales/taggart.xml
+taggart:
+
+--------
+/www/sites/findingaids/prod/ead/fales/targ.xml
+targ:
+
+--------
+/www/sites/findingaids/prod/ead/fales/thane.xml
+thane:
+
+--------
+/www/sites/findingaids/prod/ead/fales/tillman.xml
+tillman:
+
+--------
+/www/sites/findingaids/prod/ead/fales/trinidad.xml
+trinidad:
+
+--------
+/www/sites/findingaids/prod/ead/fales/trin.xml
+trin:
+EAD probably not exported from Archivists Toolkit. Moving on to the next one.
+--------
+/www/sites/findingaids/prod/ead/fales/ubu.xml
+ubu:
+
+--------
+/www/sites/findingaids/prod/ead/fales/vega.xml
+vega:
+
+--------
+/www/sites/findingaids/prod/ead/fales/watts.xml
+watts:
+
+--------
+/www/sites/findingaids/prod/ead/fales/wisberg.xml
+wisberg:
+
+--------
+/www/sites/findingaids/prod/ead/fales/witz.xml
+witz:
+
+--------
+/www/sites/findingaids/prod/ead/fales/woj.xml
+woj:
+
+--------
+/www/sites/findingaids/prod/ead/fales/wong.xml
+wong:
+
+--------
+/www/sites/findingaids/prod/ead/fales/wu.xml
+wu:
+
+--------
+/www/sites/findingaids/prod/ead/fales/zackheim.xml
+zackheim:
+
+--------
+/www/sites/findingaids/prod/ead/fales/zedd.xml
+zedd:
+
+--------
+/www/sites/findingaids/prod/ead/fales/zinsser.xml
+zinsser:
+
+--------
+PASTE THIS INTO THE HTTPD CONF FILE------
+ 
+ Redirect permanent /findingaids/html/fales/0to9.html http://dlib.nyu.edu/findingaids/html/fales/0to9 
+ Redirect permanent /findingaids/html/fales/adimari.html http://dlib.nyu.edu/findingaids/html/fales/adimari 
+ Redirect permanent /findingaids/html/fales/afflick.html http://dlib.nyu.edu/findingaids/html/fales/afflick 
+ Redirect permanent /findingaids/html/fales/air.html http://dlib.nyu.edu/findingaids/html/fales/air 
+ Redirect permanent /findingaids/html/fales/albee.html http://dlib.nyu.edu/findingaids/html/fales/albee 
+ Redirect permanent /findingaids/html/fales/alexander.html http://dlib.nyu.edu/findingaids/html/fales/alexander 
+ Redirect permanent /findingaids/html/fales/allen.html http://dlib.nyu.edu/findingaids/html/fales/allen 
+ Redirect permanent /findingaids/html/fales/amfamily.html http://dlib.nyu.edu/findingaids/html/fales/amfamily 
+ Redirect permanent /findingaids/html/fales/amfam.html http://dlib.nyu.edu/findingaids/html/fales/amfam 
+ Redirect permanent /findingaids/html/fales/amitin.html http://dlib.nyu.edu/findingaids/html/fales/amitin 
+ Redirect permanent /findingaids/html/fales/angelhair.html http://dlib.nyu.edu/findingaids/html/fales/angelhair 
+ Redirect permanent /findingaids/html/fales/anthony.html http://dlib.nyu.edu/findingaids/html/fales/anthony 
+ Redirect permanent /findingaids/html/fales/apple.html http://dlib.nyu.edu/findingaids/html/fales/apple 
+ Redirect permanent /findingaids/html/fales/asflyers.html http://dlib.nyu.edu/findingaids/html/fales/asflyers 
+ Redirect permanent /findingaids/html/fales/asinger.html http://dlib.nyu.edu/findingaids/html/fales/asinger 
+ Redirect permanent /findingaids/html/fales/baker_4.html http://dlib.nyu.edu/findingaids/html/fales/baker_4 
+ Redirect permanent /findingaids/html/fales/baker.html http://dlib.nyu.edu/findingaids/html/fales/baker_4 
+ Redirect permanent /findingaids/html/fales/barnard.html http://dlib.nyu.edu/findingaids/html/fales/barnard 
+ Redirect permanent /findingaids/html/fales/beach.html http://dlib.nyu.edu/findingaids/html/fales/beach 
+ Redirect permanent /findingaids/html/fales/beardcircle.html http://dlib.nyu.edu/findingaids/html/fales/beardcircle 
+ Redirect permanent /findingaids/html/fales/beardcoll.html http://dlib.nyu.edu/findingaids/html/fales/beardcoll 
+ Redirect permanent /findingaids/html/fales/beardpapers.html http://dlib.nyu.edu/findingaids/html/fales/beardpapers 
+ Redirect permanent /findingaids/html/fales/bellamy.html http://dlib.nyu.edu/findingaids/html/fales/bellamy 
+ Redirect permanent /findingaids/html/fales/benners.html http://dlib.nyu.edu/findingaids/html/fales/benners 
+ Redirect permanent /findingaids/html/fales/berol.html http://dlib.nyu.edu/findingaids/html/fales/berol 
+ Redirect permanent /findingaids/html/fales/blacksun.html http://dlib.nyu.edu/findingaids/html/fales/blacksun 
+ Redirect permanent /findingaids/html/fales/blanchon.html http://dlib.nyu.edu/findingaids/html/fales/blanchon 
+ Redirect permanent /findingaids/html/fales/blotcher.html http://dlib.nyu.edu/findingaids/html/fales/blotcher 
+ Redirect permanent /findingaids/html/fales/bobst.html http://dlib.nyu.edu/findingaids/html/fales/bobst 
+ Redirect permanent /findingaids/html/fales/brownstone.html http://dlib.nyu.edu/findingaids/html/fales/brownstone 
+ Redirect permanent /findingaids/html/fales/brubaker.html http://dlib.nyu.edu/findingaids/html/fales/brubaker 
+ Redirect permanent /findingaids/html/fales/btwcd.html http://dlib.nyu.edu/findingaids/html/fales/btwcd 
+ Redirect permanent /findingaids/html/fales/burger.html http://dlib.nyu.edu/findingaids/html/fales/burger 
+ Redirect permanent /findingaids/html/fales/burning_water.html http://dlib.nyu.edu/findingaids/html/fales/burning_water 
+ Redirect permanent /findingaids/html/fales/butor.html http://dlib.nyu.edu/findingaids/html/fales/butor 
+ Redirect permanent /findingaids/html/fales/callard.html http://dlib.nyu.edu/findingaids/html/fales/callard 
+ Redirect permanent /findingaids/html/fales/camel.html http://dlib.nyu.edu/findingaids/html/fales/camel 
+ Redirect permanent /findingaids/html/fales/cane.html http://dlib.nyu.edu/findingaids/html/fales/cane 
+ Redirect permanent /findingaids/html/fales/carland.html http://dlib.nyu.edu/findingaids/html/fales/carland 
+ Redirect permanent /findingaids/html/fales/carlandzines.html http://dlib.nyu.edu/findingaids/html/fales/carlandzines 
+ Redirect permanent /findingaids/html/fales/caterpillar.html http://dlib.nyu.edu/findingaids/html/fales/caterpillar 
+ Redirect permanent /findingaids/html/fales/champagne.html http://dlib.nyu.edu/findingaids/html/fales/champagne 
+ Redirect permanent /findingaids/html/fales/charyn.html http://dlib.nyu.edu/findingaids/html/fales/charyn 
+ Redirect permanent /findingaids/html/fales/cjournal.html http://dlib.nyu.edu/findingaids/html/fales/cjournal 
+ Redirect permanent /findingaids/html/fales/collun.html http://dlib.nyu.edu/findingaids/html/fales/collun 
+ Redirect permanent /findingaids/html/fales/cooper.html http://dlib.nyu.edu/findingaids/html/fales/cooper 
+ Redirect permanent /findingaids/html/fales/corno.html http://dlib.nyu.edu/findingaids/html/fales/corno 
+ Redirect permanent /findingaids/html/fales/cover.html http://dlib.nyu.edu/findingaids/html/fales/cover 
+ Redirect permanent /findingaids/html/fales/crane.html http://dlib.nyu.edu/findingaids/html/fales/crane 
+ Redirect permanent /findingaids/html/fales/creativetime.html http://dlib.nyu.edu/findingaids/html/fales/creativetime 
+ Redirect permanent /findingaids/html/fales/dames.html http://dlib.nyu.edu/findingaids/html/fales/dames 
+ Redirect permanent /findingaids/html/fales/darcangelo.html http://dlib.nyu.edu/findingaids/html/fales/darcangelo 
+ Redirect permanent /findingaids/html/fales/davidovich.html http://dlib.nyu.edu/findingaids/html/fales/davidovich 
+ Redirect permanent /findingaids/html/fales/dean.html http://dlib.nyu.edu/findingaids/html/fales/dean 
+ Redirect permanent /findingaids/html/fales/demoura.html http://dlib.nyu.edu/findingaids/html/fales/demoura 
+ Redirect permanent /findingaids/html/fales/desana.html http://dlib.nyu.edu/findingaids/html/fales/desana 
+ Redirect permanent /findingaids/html/fales/dickason.html http://dlib.nyu.edu/findingaids/html/fales/dickason 
+ Redirect permanent /findingaids/html/fales/dlugos.html http://dlib.nyu.edu/findingaids/html/fales/dlugos 
+ Redirect permanent /findingaids/html/fales/doctorow_restricted.html http://dlib.nyu.edu/findingaids/html/fales/doctorow_restricted 
+ Redirect permanent /findingaids/html/fales/dowell.html http://dlib.nyu.edu/findingaids/html/fales/dowell 
+ Redirect permanent /findingaids/html/fales/edsmith.html http://dlib.nyu.edu/findingaids/html/fales/edsmith 
+ Redirect permanent /findingaids/html/fales/ellis.html http://dlib.nyu.edu/findingaids/html/fales/ellis 
+ Redirect permanent /findingaids/html/fales/english.html http://dlib.nyu.edu/findingaids/html/fales/english 
+ Redirect permanent /findingaids/html/fales/enslin.html http://dlib.nyu.edu/findingaids/html/fales/enslin 
+ Redirect permanent /findingaids/html/fales/explorers.html http://dlib.nyu.edu/findingaids/html/fales/explorers 
+ Redirect permanent /findingaids/html/fales/eyeandear.html http://dlib.nyu.edu/findingaids/html/fales/eyeandear 
+ Redirect permanent /findingaids/html/fales/fales_av.html http://dlib.nyu.edu/findingaids/html/fales/fales_av 
+ Redirect permanent /findingaids/html/fales/fales_events.html http://dlib.nyu.edu/findingaids/html/fales/fales_events 
+ Redirect permanent /findingaids/html/fales/fales_man.html http://dlib.nyu.edu/findingaids/html/fales/fales_man 
+ Redirect permanent /findingaids/html/fales/falesman.html http://dlib.nyu.edu/findingaids/html/fales/fales_man 
+ Redirect permanent /findingaids/html/fales/fales.html http://dlib.nyu.edu/findingaids/html/fales/fales 
+ Redirect permanent /findingaids/html/fales/fashionmoda.html http://dlib.nyu.edu/findingaids/html/fales/fashionmoda 
+ Redirect permanent /findingaids/html/fales/fashion.html http://dlib.nyu.edu/findingaids/html/fales/fashion 
+ Redirect permanent /findingaids/html/fales/fateman.html http://dlib.nyu.edu/findingaids/html/fales/fateman 
+ Redirect permanent /findingaids/html/fales/flyer.html http://dlib.nyu.edu/findingaids/html/fales/flyer 
+ Redirect permanent /findingaids/html/fales/foodephemera.html http://dlib.nyu.edu/findingaids/html/fales/foodephemera 
+ Redirect permanent /findingaids/html/fales/fox_royston.html http://dlib.nyu.edu/findingaids/html/fales/fox_royston 
+ Redirect permanent /findingaids/html/fales/franklin.html http://dlib.nyu.edu/findingaids/html/fales/franklin 
+ Redirect permanent /findingaids/html/fales/fugsarchive.html http://dlib.nyu.edu/findingaids/html/fales/fugsarchive 
+ Redirect permanent /findingaids/html/fales/fugs.html http://dlib.nyu.edu/findingaids/html/fales/fugsarchive 
+ Redirect permanent /findingaids/html/fales/fulldesana.html http://dlib.nyu.edu/findingaids/html/fales/desana 
+ Redirect permanent /findingaids/html/fales/garrett.html http://dlib.nyu.edu/findingaids/html/fales/garrett 
+ Redirect permanent /findingaids/html/fales/gaypulp.html http://dlib.nyu.edu/findingaids/html/fales/gaypulp 
+ Redirect permanent /findingaids/html/fales/gelber.html http://dlib.nyu.edu/findingaids/html/fales/gelber 
+ Redirect permanent /findingaids/html/fales/germanletters.html http://dlib.nyu.edu/findingaids/html/fales/germanletters 
+ Redirect permanent /findingaids/html/fales/ghost.html http://dlib.nyu.edu/findingaids/html/fales/ghost 
+ Redirect permanent /findingaids/html/fales/gilbert.html http://dlib.nyu.edu/findingaids/html/fales/gilbert 
+ Redirect permanent /findingaids/html/fales/godzilla.html http://dlib.nyu.edu/findingaids/html/fales/godzilla 
+ Redirect permanent /findingaids/html/fales/groupmaterial.html http://dlib.nyu.edu/findingaids/html/fales/groupmaterial 
+ Redirect permanent /findingaids/html/fales/guerrilla.html http://dlib.nyu.edu/findingaids/html/fales/guerrilla 
+ Redirect permanent /findingaids/html/fales/hall2.html http://dlib.nyu.edu/findingaids/html/fales/hall2 
+ Redirect permanent /findingaids/html/fales/hammond_script.html http://dlib.nyu.edu/findingaids/html/fales/hammond_script 
+ Redirect permanent /findingaids/html/fales/hammond.html http://dlib.nyu.edu/findingaids/html/fales/hammond 
+ Redirect permanent /findingaids/html/fales/hanna.html http://dlib.nyu.edu/findingaids/html/fales/hanna 
+ Redirect permanent /findingaids/html/fales/harlequin.html http://dlib.nyu.edu/findingaids/html/fales/harlequin 
+ Redirect permanent /findingaids/html/fales/harris.html http://dlib.nyu.edu/findingaids/html/fales/harris 
+ Redirect permanent /findingaids/html/fales/hellman.html http://dlib.nyu.edu/findingaids/html/fales/hellman 
+ Redirect permanent /findingaids/html/fales/hell.html http://dlib.nyu.edu/findingaids/html/fales/hell 
+ Redirect permanent /findingaids/html/fales/highrisk.html http://dlib.nyu.edu/findingaids/html/fales/highrisk 
+ Redirect permanent /findingaids/html/fales/hika.html http://dlib.nyu.edu/findingaids/html/fales/hika 
+ Redirect permanent /findingaids/html/fales/holman.html http://dlib.nyu.edu/findingaids/html/fales/holman 
+ Redirect permanent /findingaids/html/fales/iacd.html http://dlib.nyu.edu/findingaids/html/fales/iacd 
+ Redirect permanent /findingaids/html/fales/ibm.html http://dlib.nyu.edu/findingaids/html/fales/ibm 
+ Redirect permanent /findingaids/html/fales/indiana.html http://dlib.nyu.edu/findingaids/html/fales/indiana 
+ Redirect permanent /findingaids/html/fales/itzhak.html http://dlib.nyu.edu/findingaids/html/fales/itzhak 
+ Redirect permanent /findingaids/html/fales/jacobson.html http://dlib.nyu.edu/findingaids/html/fales/jacobson 
+ Redirect permanent /findingaids/html/fales/judsonoral.html http://dlib.nyu.edu/findingaids/html/fales/judsonoral 
+ Redirect permanent /findingaids/html/fales/judson.html http://dlib.nyu.edu/findingaids/html/fales/judson 
+ Redirect permanent /findingaids/html/fales/klein.html http://dlib.nyu.edu/findingaids/html/fales/klein 
+ Redirect permanent /findingaids/html/fales/klooster.html http://dlib.nyu.edu/findingaids/html/fales/klooster 
+ Redirect permanent /findingaids/html/fales/kolm.html http://dlib.nyu.edu/findingaids/html/fales/kolm 
+ Redirect permanent /findingaids/html/fales/kopit.html http://dlib.nyu.edu/findingaids/html/fales/kopit 
+ Redirect permanent /findingaids/html/fales/kostel.html http://dlib.nyu.edu/findingaids/html/fales/kostel 
+ Redirect permanent /findingaids/html/fales/lcsna.html http://dlib.nyu.edu/findingaids/html/fales/lcsna 
+ Redirect permanent /findingaids/html/fales/lebherz.html http://dlib.nyu.edu/findingaids/html/fales/lebherz 
+ Redirect permanent /findingaids/html/fales/levydime.html http://dlib.nyu.edu/findingaids/html/fales/levy 
+ Redirect permanent /findingaids/html/fales/levy.html http://dlib.nyu.edu/findingaids/html/fales/levy 
+ Redirect permanent /findingaids/html/fales/lewis.html http://dlib.nyu.edu/findingaids/html/fales/lewis 
+ Redirect permanent /findingaids/html/fales/lforeman.html http://dlib.nyu.edu/findingaids/html/fales/lforeman 
+ Redirect permanent /findingaids/html/fales/liederkranz.html http://dlib.nyu.edu/findingaids/html/fales/liederkranz 
+ Redirect permanent /findingaids/html/fales/lines.html http://dlib.nyu.edu/findingaids/html/fales/lines 
+ Redirect permanent /findingaids/html/fales/lippard.html http://dlib.nyu.edu/findingaids/html/fales/lippard 
+ Redirect permanent /findingaids/html/fales/lorwin.html http://dlib.nyu.edu/findingaids/html/fales/lorwin 
+ Redirect permanent /findingaids/html/fales/love.html http://dlib.nyu.edu/findingaids/html/fales/love 
+ Redirect permanent /findingaids/html/fales/lukins.html http://dlib.nyu.edu/findingaids/html/fales/luk 
+ Redirect permanent /findingaids/html/fales/maass.html http://dlib.nyu.edu/findingaids/html/fales/maass 
+ Redirect permanent /findingaids/html/fales/mabou.html http://dlib.nyu.edu/findingaids/html/fales/mabou 
+ Redirect permanent /findingaids/html/fales/martin.html http://dlib.nyu.edu/findingaids/html/fales/martin 
+ Redirect permanent /findingaids/html/fales/mccay.html http://dlib.nyu.edu/findingaids/html/fales/mccay 
+ Redirect permanent /findingaids/html/fales/mcnamara.html http://dlib.nyu.edu/findingaids/html/fales/mcnamara 
+ Redirect permanent /findingaids/html/fales/mendez.html http://dlib.nyu.edu/findingaids/html/fales/mendez 
+ Redirect permanent /findingaids/html/fales/mix.html http://dlib.nyu.edu/findingaids/html/fales/mix 
+ Redirect permanent /findingaids/html/fales/moore.html http://dlib.nyu.edu/findingaids/html/fales/moore 
+ Redirect permanent /findingaids/html/fales/musicdept.html http://dlib.nyu.edu/findingaids/html/fales/musicdept 
+ Redirect permanent /findingaids/html/fales/myown.html http://dlib.nyu.edu/findingaids/html/fales/myown 
+ Redirect permanent /findingaids/html/fales/nal.html http://dlib.nyu.edu/findingaids/html/fales/nal 
+ Redirect permanent /findingaids/html/fales/neuman.html http://dlib.nyu.edu/findingaids/html/fales/neuman 
+ Redirect permanent /findingaids/html/fales/neumiller.html http://dlib.nyu.edu/findingaids/html/fales/neumiller 
+ Redirect permanent /findingaids/html/fales/nicholson.html http://dlib.nyu.edu/findingaids/html/fales/nicholson 
+ Redirect permanent /findingaids/html/fales/nosei.html http://dlib.nyu.edu/findingaids/html/fales/nosei 
+ Redirect permanent /findingaids/html/fales/nyreview.html http://dlib.nyu.edu/findingaids/html/fales/nyreview 
+ Redirect permanent /findingaids/html/fales/ocasey.html http://dlib.nyu.edu/findingaids/html/fales/ocasey 
+ Redirect permanent /findingaids/html/fales/once.html http://dlib.nyu.edu/findingaids/html/fales/once 
+ Redirect permanent /findingaids/html/fales/origin.html http://dlib.nyu.edu/findingaids/html/fales/origin 
+ Redirect permanent /findingaids/html/fales/outburst.html http://dlib.nyu.edu/findingaids/html/fales/outburst 
+ Redirect permanent /findingaids/html/fales/outpunk.html http://dlib.nyu.edu/findingaids/html/fales/outpunk 
+ Redirect permanent /findingaids/html/fales/paf.html http://dlib.nyu.edu/findingaids/html/fales/paf 
+ Redirect permanent /findingaids/html/fales/palmieri.html http://dlib.nyu.edu/findingaids/html/fales/palmieri 
+ Redirect permanent /findingaids/html/fales/paulson.html http://dlib.nyu.edu/findingaids/html/fales/paulson 
+ Redirect permanent /findingaids/html/fales/perron.html http://dlib.nyu.edu/findingaids/html/fales/perron 
+ Redirect permanent /findingaids/html/fales/pickett.html http://dlib.nyu.edu/findingaids/html/fales/pickett 
+ Redirect permanent /findingaids/html/fales/pleiades.html http://dlib.nyu.edu/findingaids/html/fales/pleiades 
+ Redirect permanent /findingaids/html/fales/poe.html http://dlib.nyu.edu/findingaids/html/fales/poe 
+ Redirect permanent /findingaids/html/fales/portrait_subject.html http://dlib.nyu.edu/findingaids/html/fales/portrait_subject 
+ Redirect permanent /findingaids/html/fales/portrait.html http://dlib.nyu.edu/findingaids/html/fales/portrait 
+ Redirect permanent /findingaids/html/fales/rainer.html http://dlib.nyu.edu/findingaids/html/fales/rainer 
+ Redirect permanent /findingaids/html/fales/rainsford.html http://dlib.nyu.edu/findingaids/html/fales/rainsford 
+ Redirect permanent /findingaids/html/fales/redhot.html http://dlib.nyu.edu/findingaids/html/fales/redhot 
+ Redirect permanent /findingaids/html/fales/redtape.html http://dlib.nyu.edu/findingaids/html/fales/redtape 
+ Redirect permanent /findingaids/html/fales/repo.html http://dlib.nyu.edu/findingaids/html/fales/repo 
+ Redirect permanent /findingaids/html/fales/retape.html http://dlib.nyu.edu/findingaids/html/fales/redtape 
+ Redirect permanent /findingaids/html/fales/rforeman.html http://dlib.nyu.edu/findingaids/html/fales/rforeman 
+ Redirect permanent /findingaids/html/fales/rgpublicity.html http://dlib.nyu.edu/findingaids/html/fales/rgpublicity 
+ Redirect permanent /findingaids/html/fales/robins.html http://dlib.nyu.edu/findingaids/html/fales/robins 
+ Redirect permanent /findingaids/html/fales/rosenman.html http://dlib.nyu.edu/findingaids/html/fales/rosenman 
+ Redirect permanent /findingaids/html/fales/rosenthal.html http://dlib.nyu.edu/findingaids/html/fales/rosenthal 
+ Redirect permanent /findingaids/html/fales/roundtable.html http://dlib.nyu.edu/findingaids/html/fales/roundtable 
+ Redirect permanent /findingaids/html/fales/royston.html http://dlib.nyu.edu/findingaids/html/fales/royston 
+ Redirect permanent /findingaids/html/fales/rwf.html http://dlib.nyu.edu/findingaids/html/fales/roundtable 
+ Redirect permanent /findingaids/html/fales/scifipulp.html http://dlib.nyu.edu/findingaids/html/fales/scifipulp 
+ Redirect permanent /findingaids/html/fales/scott_gary.html http://dlib.nyu.edu/findingaids/html/fales/scott_gary 
+ Redirect permanent /findingaids/html/fales/second_aeon.html http://dlib.nyu.edu/findingaids/html/fales/second_aeon 
+ Redirect permanent /findingaids/html/fales/secunda.html http://dlib.nyu.edu/findingaids/html/fales/secunda 
+ Redirect permanent /findingaids/html/fales/sellers.html http://dlib.nyu.edu/findingaids/html/fales/sellers 
+ Redirect permanent /findingaids/html/fales/semio.html http://dlib.nyu.edu/findingaids/html/fales/semio 
+ Redirect permanent /findingaids/html/fales/sensksin.html http://dlib.nyu.edu/findingaids/html/fales/senskin 
+ Redirect permanent /findingaids/html/fales/sherman.html http://dlib.nyu.edu/findingaids/html/fales/stuartsherman 
+ Redirect permanent /findingaids/html/fales/sherry.html http://dlib.nyu.edu/findingaids/html/fales/sherry 
+ Redirect permanent /findingaids/html/fales/signal.html http://dlib.nyu.edu/findingaids/html/fales/signal 
+ Redirect permanent /findingaids/html/fales/signorile_restricted.html http://dlib.nyu.edu/findingaids/html/fales/signorile_restricted 
+ Redirect permanent /findingaids/html/fales/signorile.html http://dlib.nyu.edu/findingaids/html/fales/signorile 
+ Redirect permanent /findingaids/html/fales/silverberg.html http://dlib.nyu.edu/findingaids/html/fales/silverberg 
+ Redirect permanent /findingaids/html/fales/silverman.html http://dlib.nyu.edu/findingaids/html/fales/silverman 
+ Redirect permanent /findingaids/html/fales/snider.html http://dlib.nyu.edu/findingaids/html/fales/snider 
+ Redirect permanent /findingaids/html/fales/spar.html http://dlib.nyu.edu/findingaids/html/fales/spar 
+ Redirect permanent /findingaids/html/fales/splitbritches.html http://dlib.nyu.edu/findingaids/html/fales/splitbritches 
+ Redirect permanent /findingaids/html/fales/steves.html http://dlib.nyu.edu/findingaids/html/fales/steves 
+ Redirect permanent /findingaids/html/fales/straub.html http://dlib.nyu.edu/findingaids/html/fales/straub 
+ Redirect permanent /findingaids/html/fales/streeter2.html http://dlib.nyu.edu/findingaids/html/fales/streeter2 
+ Redirect permanent /findingaids/html/fales/strickland.html http://dlib.nyu.edu/findingaids/html/fales/strickland 
+ Redirect permanent /findingaids/html/fales/sturken.html http://dlib.nyu.edu/findingaids/html/fales/sturken 
+ Redirect permanent /findingaids/html/fales/sylmanor.html http://dlib.nyu.edu/findingaids/html/fales/sylvmanor 
+ Redirect permanent /findingaids/html/fales/sylvester.html http://dlib.nyu.edu/findingaids/html/fales/sylmanor 
+ Redirect permanent /findingaids/html/fales/taggart.html http://dlib.nyu.edu/findingaids/html/fales/taggart 
+ Redirect permanent /findingaids/html/fales/targ.html http://dlib.nyu.edu/findingaids/html/fales/targ 
+ Redirect permanent /findingaids/html/fales/thane.html http://dlib.nyu.edu/findingaids/html/fales/thane 
+ Redirect permanent /findingaids/html/fales/tillman.html http://dlib.nyu.edu/findingaids/html/fales/tillman 
+ Redirect permanent /findingaids/html/fales/trinidad.html http://dlib.nyu.edu/findingaids/html/fales/trinidad 
+ Redirect permanent /findingaids/html/fales/ubu.html http://dlib.nyu.edu/findingaids/html/fales/ubu 
+ Redirect permanent /findingaids/html/fales/vega.html http://dlib.nyu.edu/findingaids/html/fales/vega 
+ Redirect permanent /findingaids/html/fales/watts.html http://dlib.nyu.edu/findingaids/html/fales/watts 
+ Redirect permanent /findingaids/html/fales/wisberg.html http://dlib.nyu.edu/findingaids/html/fales/wisberg 
+ Redirect permanent /findingaids/html/fales/witz.html http://dlib.nyu.edu/findingaids/html/fales/witz 
+ Redirect permanent /findingaids/html/fales/woj.html http://dlib.nyu.edu/findingaids/html/fales/woj 
+ Redirect permanent /findingaids/html/fales/wong.html http://dlib.nyu.edu/findingaids/html/fales/wong 
+ Redirect permanent /findingaids/html/fales/wu.html http://dlib.nyu.edu/findingaids/html/fales/wu 
+ Redirect permanent /findingaids/html/fales/zackheim.html http://dlib.nyu.edu/findingaids/html/fales/zackheim 
+ Redirect permanent /findingaids/html/fales/zedd.html http://dlib.nyu.edu/findingaids/html/fales/zedd 
+ Redirect permanent /findingaids/html/fales/zinsser.html http://dlib.nyu.edu/findingaids/html/fales/zinsser
+----------
+THESE URLS ARE UNCHANGED
+EADID: trin 
+ http://dlib.nyu.edu/findingaids/html/fales/trin.html 
+  REASON: Missing correct namespace (not an AT export) 
+
+-----------
+THESE URLS ARE CHANGED
+EADID: 0to9 
+ old: http://dlib.nyu.edu/findingaids/html/fales/0to9.html 
+ new: http://dlib.nyu.edu/findingaids/html/fales/0to9 
+EADID: adimari 
+ old: http://dlib.nyu.edu/findingaids/html/fales/adimari.html 
+ new: http://dlib.nyu.edu/findingaids/html/fales/adimari 
+EADID: afflick 
+ old: http://dlib.nyu.edu/findingaids/html/fales/afflick.html 
+ new: http://dlib.nyu.edu/findingaids/html/fales/afflick 
+EADID: air 
+ old: http://dlib.nyu.edu/findingaids/html/fales/air.html 
+ new: http://dlib.nyu.edu/findingaids/html/fales/air 
+EADID: albee 
+ old: http://dlib.nyu.edu/findingaids/html/fales/albee.html 
+ new: http://dlib.nyu.edu/findingaids/html/fales/albee 
+EADID: alexander 
+ old: http://dlib.nyu.edu/findingaids/html/fales/alexander.html 
+ new: http://dlib.nyu.edu/findingaids/html/fales/alexander 
+EADID: allen 
+ old: http://dlib.nyu.edu/findingaids/html/fales/allen.html 
+ new: http://dlib.nyu.edu/findingaids/html/fales/allen 
+EADID: amfamily 
+ old: http://dlib.nyu.edu/findingaids/html/fales/amfamily.html 
+ new: http://dlib.nyu.edu/findingaids/html/fales/amfamily 
+EADID: amfam 
+ old: http://dlib.nyu.edu/findingaids/html/fales/amfam.html 
+ new: http://dlib.nyu.edu/findingaids/html/fales/amfam 
+EADID: amitin 
+ old: http://dlib.nyu.edu/findingaids/html/fales/amitin.html 
+ new: http://dlib.nyu.edu/findingaids/html/fales/amitin 
+EADID: angelhair 
+ old: http://dlib.nyu.edu/findingaids/html/fales/angelhair.html 
+ new: http://dlib.nyu.edu/findingaids/html/fales/angelhair 
+EADID: anthony 
+ old: http://dlib.nyu.edu/findingaids/html/fales/anthony.html 
+ new: http://dlib.nyu.edu/findingaids/html/fales/anthony 
+EADID: apple 
+ old: http://dlib.nyu.edu/findingaids/html/fales/apple.html 
+ new: http://dlib.nyu.edu/findingaids/html/fales/apple 
+EADID: asflyers 
+ old: http://dlib.nyu.edu/findingaids/html/fales/asflyers.html 
+ new: http://dlib.nyu.edu/findingaids/html/fales/asflyers 
+EADID: asinger 
+ old: http://dlib.nyu.edu/findingaids/html/fales/asinger.html 
+ new: http://dlib.nyu.edu/findingaids/html/fales/asinger 
+EADID: baker_4 
+ old: http://dlib.nyu.edu/findingaids/html/fales/baker_4.html 
+ new: http://dlib.nyu.edu/findingaids/html/fales/baker_4 
+EADID: baker_4 
+ old: http://dlib.nyu.edu/findingaids/html/fales/baker.html 
+ new: http://dlib.nyu.edu/findingaids/html/fales/baker_4 
+EADID: barnard 
+ old: http://dlib.nyu.edu/findingaids/html/fales/barnard.html 
+ new: http://dlib.nyu.edu/findingaids/html/fales/barnard 
+EADID: beach 
+ old: http://dlib.nyu.edu/findingaids/html/fales/beach.html 
+ new: http://dlib.nyu.edu/findingaids/html/fales/beach 
+EADID: beardcircle 
+ old: http://dlib.nyu.edu/findingaids/html/fales/beardcircle.html 
+ new: http://dlib.nyu.edu/findingaids/html/fales/beardcircle 
+EADID: beardcoll 
+ old: http://dlib.nyu.edu/findingaids/html/fales/beardcoll.html 
+ new: http://dlib.nyu.edu/findingaids/html/fales/beardcoll 
+EADID: beardpapers 
+ old: http://dlib.nyu.edu/findingaids/html/fales/beardpapers.html 
+ new: http://dlib.nyu.edu/findingaids/html/fales/beardpapers 
+EADID: bellamy 
+ old: http://dlib.nyu.edu/findingaids/html/fales/bellamy.html 
+ new: http://dlib.nyu.edu/findingaids/html/fales/bellamy 
+EADID: benners 
+ old: http://dlib.nyu.edu/findingaids/html/fales/benners.html 
+ new: http://dlib.nyu.edu/findingaids/html/fales/benners 
+EADID: berol 
+ old: http://dlib.nyu.edu/findingaids/html/fales/berol.html 
+ new: http://dlib.nyu.edu/findingaids/html/fales/berol 
+EADID: blacksun 
+ old: http://dlib.nyu.edu/findingaids/html/fales/blacksun.html 
+ new: http://dlib.nyu.edu/findingaids/html/fales/blacksun 
+EADID: blanchon 
+ old: http://dlib.nyu.edu/findingaids/html/fales/blanchon.html 
+ new: http://dlib.nyu.edu/findingaids/html/fales/blanchon 
+EADID: blotcher 
+ old: http://dlib.nyu.edu/findingaids/html/fales/blotcher.html 
+ new: http://dlib.nyu.edu/findingaids/html/fales/blotcher 
+EADID: bobst 
+ old: http://dlib.nyu.edu/findingaids/html/fales/bobst.html 
+ new: http://dlib.nyu.edu/findingaids/html/fales/bobst 
+EADID: brownstone 
+ old: http://dlib.nyu.edu/findingaids/html/fales/brownstone.html 
+ new: http://dlib.nyu.edu/findingaids/html/fales/brownstone 
+EADID: brubaker 
+ old: http://dlib.nyu.edu/findingaids/html/fales/brubaker.html 
+ new: http://dlib.nyu.edu/findingaids/html/fales/brubaker 
+EADID: btwcd 
+ old: http://dlib.nyu.edu/findingaids/html/fales/btwcd.html 
+ new: http://dlib.nyu.edu/findingaids/html/fales/btwcd 
+EADID: burger 
+ old: http://dlib.nyu.edu/findingaids/html/fales/burger.html 
+ new: http://dlib.nyu.edu/findingaids/html/fales/burger 
+EADID: burning_water 
+ old: http://dlib.nyu.edu/findingaids/html/fales/burning_water.html 
+ new: http://dlib.nyu.edu/findingaids/html/fales/burning_water 
+EADID: butor 
+ old: http://dlib.nyu.edu/findingaids/html/fales/butor.html 
+ new: http://dlib.nyu.edu/findingaids/html/fales/butor 
+EADID: callard 
+ old: http://dlib.nyu.edu/findingaids/html/fales/callard.html 
+ new: http://dlib.nyu.edu/findingaids/html/fales/callard 
+EADID: camel 
+ old: http://dlib.nyu.edu/findingaids/html/fales/camel.html 
+ new: http://dlib.nyu.edu/findingaids/html/fales/camel 
+EADID: cane 
+ old: http://dlib.nyu.edu/findingaids/html/fales/cane.html 
+ new: http://dlib.nyu.edu/findingaids/html/fales/cane 
+EADID: carland 
+ old: http://dlib.nyu.edu/findingaids/html/fales/carland.html 
+ new: http://dlib.nyu.edu/findingaids/html/fales/carland 
+EADID: carlandzines 
+ old: http://dlib.nyu.edu/findingaids/html/fales/carlandzines.html 
+ new: http://dlib.nyu.edu/findingaids/html/fales/carlandzines 
+EADID: caterpillar 
+ old: http://dlib.nyu.edu/findingaids/html/fales/caterpillar.html 
+ new: http://dlib.nyu.edu/findingaids/html/fales/caterpillar 
+EADID: champagne 
+ old: http://dlib.nyu.edu/findingaids/html/fales/champagne.html 
+ new: http://dlib.nyu.edu/findingaids/html/fales/champagne 
+EADID: charyn 
+ old: http://dlib.nyu.edu/findingaids/html/fales/charyn.html 
+ new: http://dlib.nyu.edu/findingaids/html/fales/charyn 
+EADID: cjournal 
+ old: http://dlib.nyu.edu/findingaids/html/fales/cjournal.html 
+ new: http://dlib.nyu.edu/findingaids/html/fales/cjournal 
+EADID: collun 
+ old: http://dlib.nyu.edu/findingaids/html/fales/collun.html 
+ new: http://dlib.nyu.edu/findingaids/html/fales/collun 
+EADID: cooper 
+ old: http://dlib.nyu.edu/findingaids/html/fales/cooper.html 
+ new: http://dlib.nyu.edu/findingaids/html/fales/cooper 
+EADID: corno 
+ old: http://dlib.nyu.edu/findingaids/html/fales/corno.html 
+ new: http://dlib.nyu.edu/findingaids/html/fales/corno 
+EADID: cover 
+ old: http://dlib.nyu.edu/findingaids/html/fales/cover.html 
+ new: http://dlib.nyu.edu/findingaids/html/fales/cover 
+EADID: crane 
+ old: http://dlib.nyu.edu/findingaids/html/fales/crane.html 
+ new: http://dlib.nyu.edu/findingaids/html/fales/crane 
+EADID: creativetime 
+ old: http://dlib.nyu.edu/findingaids/html/fales/creativetime.html 
+ new: http://dlib.nyu.edu/findingaids/html/fales/creativetime 
+EADID: dames 
+ old: http://dlib.nyu.edu/findingaids/html/fales/dames.html 
+ new: http://dlib.nyu.edu/findingaids/html/fales/dames 
+EADID: darcangelo 
+ old: http://dlib.nyu.edu/findingaids/html/fales/darcangelo.html 
+ new: http://dlib.nyu.edu/findingaids/html/fales/darcangelo 
+EADID: davidovich 
+ old: http://dlib.nyu.edu/findingaids/html/fales/davidovich.html 
+ new: http://dlib.nyu.edu/findingaids/html/fales/davidovich 
+EADID: dean 
+ old: http://dlib.nyu.edu/findingaids/html/fales/dean.html 
+ new: http://dlib.nyu.edu/findingaids/html/fales/dean 
+EADID: demoura 
+ old: http://dlib.nyu.edu/findingaids/html/fales/demoura.html 
+ new: http://dlib.nyu.edu/findingaids/html/fales/demoura 
+EADID: desana 
+ old: http://dlib.nyu.edu/findingaids/html/fales/desana.html 
+ new: http://dlib.nyu.edu/findingaids/html/fales/desana 
+EADID: dickason 
+ old: http://dlib.nyu.edu/findingaids/html/fales/dickason.html 
+ new: http://dlib.nyu.edu/findingaids/html/fales/dickason 
+EADID: dlugos 
+ old: http://dlib.nyu.edu/findingaids/html/fales/dlugos.html 
+ new: http://dlib.nyu.edu/findingaids/html/fales/dlugos 
+EADID: doctorow_restricted 
+ old: http://dlib.nyu.edu/findingaids/html/fales/doctorow_restricted.html 
+ new: http://dlib.nyu.edu/findingaids/html/fales/doctorow_restricted 
+EADID: dowell 
+ old: http://dlib.nyu.edu/findingaids/html/fales/dowell.html 
+ new: http://dlib.nyu.edu/findingaids/html/fales/dowell 
+EADID: edsmith 
+ old: http://dlib.nyu.edu/findingaids/html/fales/edsmith.html 
+ new: http://dlib.nyu.edu/findingaids/html/fales/edsmith 
+EADID: ellis 
+ old: http://dlib.nyu.edu/findingaids/html/fales/ellis.html 
+ new: http://dlib.nyu.edu/findingaids/html/fales/ellis 
+EADID: english 
+ old: http://dlib.nyu.edu/findingaids/html/fales/english.html 
+ new: http://dlib.nyu.edu/findingaids/html/fales/english 
+EADID: enslin 
+ old: http://dlib.nyu.edu/findingaids/html/fales/enslin.html 
+ new: http://dlib.nyu.edu/findingaids/html/fales/enslin 
+EADID: explorers 
+ old: http://dlib.nyu.edu/findingaids/html/fales/explorers.html 
+ new: http://dlib.nyu.edu/findingaids/html/fales/explorers 
+EADID: eyeandear 
+ old: http://dlib.nyu.edu/findingaids/html/fales/eyeandear.html 
+ new: http://dlib.nyu.edu/findingaids/html/fales/eyeandear 
+EADID: fales_av 
+ old: http://dlib.nyu.edu/findingaids/html/fales/fales_av.html 
+ new: http://dlib.nyu.edu/findingaids/html/fales/fales_av 
+EADID: fales_events 
+ old: http://dlib.nyu.edu/findingaids/html/fales/fales_events.html 
+ new: http://dlib.nyu.edu/findingaids/html/fales/fales_events 
+EADID: fales_man 
+ old: http://dlib.nyu.edu/findingaids/html/fales/fales_man.html 
+ new: http://dlib.nyu.edu/findingaids/html/fales/fales_man 
+EADID: fales_man 
+ old: http://dlib.nyu.edu/findingaids/html/fales/falesman.html 
+ new: http://dlib.nyu.edu/findingaids/html/fales/fales_man 
+EADID: fales 
+ old: http://dlib.nyu.edu/findingaids/html/fales/fales.html 
+ new: http://dlib.nyu.edu/findingaids/html/fales/fales 
+EADID: fashionmoda 
+ old: http://dlib.nyu.edu/findingaids/html/fales/fashionmoda.html 
+ new: http://dlib.nyu.edu/findingaids/html/fales/fashionmoda 
+EADID: fashion 
+ old: http://dlib.nyu.edu/findingaids/html/fales/fashion.html 
+ new: http://dlib.nyu.edu/findingaids/html/fales/fashion 
+EADID: fateman 
+ old: http://dlib.nyu.edu/findingaids/html/fales/fateman.html 
+ new: http://dlib.nyu.edu/findingaids/html/fales/fateman 
+EADID: flyer 
+ old: http://dlib.nyu.edu/findingaids/html/fales/flyer.html 
+ new: http://dlib.nyu.edu/findingaids/html/fales/flyer 
+EADID: foodephemera 
+ old: http://dlib.nyu.edu/findingaids/html/fales/foodephemera.html 
+ new: http://dlib.nyu.edu/findingaids/html/fales/foodephemera 
+EADID: fox_royston 
+ old: http://dlib.nyu.edu/findingaids/html/fales/fox_royston.html 
+ new: http://dlib.nyu.edu/findingaids/html/fales/fox_royston 
+EADID: franklin 
+ old: http://dlib.nyu.edu/findingaids/html/fales/franklin.html 
+ new: http://dlib.nyu.edu/findingaids/html/fales/franklin 
+EADID: fugsarchive 
+ old: http://dlib.nyu.edu/findingaids/html/fales/fugsarchive.html 
+ new: http://dlib.nyu.edu/findingaids/html/fales/fugsarchive 
+EADID: fugsarchive 
+ old: http://dlib.nyu.edu/findingaids/html/fales/fugs.html 
+ new: http://dlib.nyu.edu/findingaids/html/fales/fugsarchive 
+EADID: desana 
+ old: http://dlib.nyu.edu/findingaids/html/fales/fulldesana.html 
+ new: http://dlib.nyu.edu/findingaids/html/fales/desana 
+EADID: garrett 
+ old: http://dlib.nyu.edu/findingaids/html/fales/garrett.html 
+ new: http://dlib.nyu.edu/findingaids/html/fales/garrett 
+EADID: gaypulp 
+ old: http://dlib.nyu.edu/findingaids/html/fales/gaypulp.html 
+ new: http://dlib.nyu.edu/findingaids/html/fales/gaypulp 
+EADID: gelber 
+ old: http://dlib.nyu.edu/findingaids/html/fales/gelber.html 
+ new: http://dlib.nyu.edu/findingaids/html/fales/gelber 
+EADID: germanletters 
+ old: http://dlib.nyu.edu/findingaids/html/fales/germanletters.html 
+ new: http://dlib.nyu.edu/findingaids/html/fales/germanletters 
+EADID: ghost 
+ old: http://dlib.nyu.edu/findingaids/html/fales/ghost.html 
+ new: http://dlib.nyu.edu/findingaids/html/fales/ghost 
+EADID: gilbert 
+ old: http://dlib.nyu.edu/findingaids/html/fales/gilbert.html 
+ new: http://dlib.nyu.edu/findingaids/html/fales/gilbert 
+EADID: godzilla 
+ old: http://dlib.nyu.edu/findingaids/html/fales/godzilla.html 
+ new: http://dlib.nyu.edu/findingaids/html/fales/godzilla 
+EADID: groupmaterial 
+ old: http://dlib.nyu.edu/findingaids/html/fales/groupmaterial.html 
+ new: http://dlib.nyu.edu/findingaids/html/fales/groupmaterial 
+EADID: guerrilla 
+ old: http://dlib.nyu.edu/findingaids/html/fales/guerrilla.html 
+ new: http://dlib.nyu.edu/findingaids/html/fales/guerrilla 
+EADID: hall2 
+ old: http://dlib.nyu.edu/findingaids/html/fales/hall2.html 
+ new: http://dlib.nyu.edu/findingaids/html/fales/hall2 
+EADID: hammond_script 
+ old: http://dlib.nyu.edu/findingaids/html/fales/hammond_script.html 
+ new: http://dlib.nyu.edu/findingaids/html/fales/hammond_script 
+EADID: hammond 
+ old: http://dlib.nyu.edu/findingaids/html/fales/hammond.html 
+ new: http://dlib.nyu.edu/findingaids/html/fales/hammond 
+EADID: hanna 
+ old: http://dlib.nyu.edu/findingaids/html/fales/hanna.html 
+ new: http://dlib.nyu.edu/findingaids/html/fales/hanna 
+EADID: harlequin 
+ old: http://dlib.nyu.edu/findingaids/html/fales/harlequin.html 
+ new: http://dlib.nyu.edu/findingaids/html/fales/harlequin 
+EADID: harris 
+ old: http://dlib.nyu.edu/findingaids/html/fales/harris.html 
+ new: http://dlib.nyu.edu/findingaids/html/fales/harris 
+EADID: hellman 
+ old: http://dlib.nyu.edu/findingaids/html/fales/hellman.html 
+ new: http://dlib.nyu.edu/findingaids/html/fales/hellman 
+EADID: hell 
+ old: http://dlib.nyu.edu/findingaids/html/fales/hell.html 
+ new: http://dlib.nyu.edu/findingaids/html/fales/hell 
+EADID: highrisk 
+ old: http://dlib.nyu.edu/findingaids/html/fales/highrisk.html 
+ new: http://dlib.nyu.edu/findingaids/html/fales/highrisk 
+EADID: hika 
+ old: http://dlib.nyu.edu/findingaids/html/fales/hika.html 
+ new: http://dlib.nyu.edu/findingaids/html/fales/hika 
+EADID: holman 
+ old: http://dlib.nyu.edu/findingaids/html/fales/holman.html 
+ new: http://dlib.nyu.edu/findingaids/html/fales/holman 
+EADID: iacd 
+ old: http://dlib.nyu.edu/findingaids/html/fales/iacd.html 
+ new: http://dlib.nyu.edu/findingaids/html/fales/iacd 
+EADID: ibm 
+ old: http://dlib.nyu.edu/findingaids/html/fales/ibm.html 
+ new: http://dlib.nyu.edu/findingaids/html/fales/ibm 
+EADID: indiana 
+ old: http://dlib.nyu.edu/findingaids/html/fales/indiana.html 
+ new: http://dlib.nyu.edu/findingaids/html/fales/indiana 
+EADID: itzhak 
+ old: http://dlib.nyu.edu/findingaids/html/fales/itzhak.html 
+ new: http://dlib.nyu.edu/findingaids/html/fales/itzhak 
+EADID: jacobson 
+ old: http://dlib.nyu.edu/findingaids/html/fales/jacobson.html 
+ new: http://dlib.nyu.edu/findingaids/html/fales/jacobson 
+EADID: judsonoral 
+ old: http://dlib.nyu.edu/findingaids/html/fales/judsonoral.html 
+ new: http://dlib.nyu.edu/findingaids/html/fales/judsonoral 
+EADID: judson 
+ old: http://dlib.nyu.edu/findingaids/html/fales/judson.html 
+ new: http://dlib.nyu.edu/findingaids/html/fales/judson 
+EADID: klein 
+ old: http://dlib.nyu.edu/findingaids/html/fales/klein.html 
+ new: http://dlib.nyu.edu/findingaids/html/fales/klein 
+EADID: klooster 
+ old: http://dlib.nyu.edu/findingaids/html/fales/klooster.html 
+ new: http://dlib.nyu.edu/findingaids/html/fales/klooster 
+EADID: kolm 
+ old: http://dlib.nyu.edu/findingaids/html/fales/kolm.html 
+ new: http://dlib.nyu.edu/findingaids/html/fales/kolm 
+EADID: kopit 
+ old: http://dlib.nyu.edu/findingaids/html/fales/kopit.html 
+ new: http://dlib.nyu.edu/findingaids/html/fales/kopit 
+EADID: kostel 
+ old: http://dlib.nyu.edu/findingaids/html/fales/kostel.html 
+ new: http://dlib.nyu.edu/findingaids/html/fales/kostel 
+EADID: lcsna 
+ old: http://dlib.nyu.edu/findingaids/html/fales/lcsna.html 
+ new: http://dlib.nyu.edu/findingaids/html/fales/lcsna 
+EADID: lebherz 
+ old: http://dlib.nyu.edu/findingaids/html/fales/lebherz.html 
+ new: http://dlib.nyu.edu/findingaids/html/fales/lebherz 
+EADID: levy 
+ old: http://dlib.nyu.edu/findingaids/html/fales/levydime.html 
+ new: http://dlib.nyu.edu/findingaids/html/fales/levy 
+EADID: levy 
+ old: http://dlib.nyu.edu/findingaids/html/fales/levy.html 
+ new: http://dlib.nyu.edu/findingaids/html/fales/levy 
+EADID: lewis 
+ old: http://dlib.nyu.edu/findingaids/html/fales/lewis.html 
+ new: http://dlib.nyu.edu/findingaids/html/fales/lewis 
+EADID: lforeman 
+ old: http://dlib.nyu.edu/findingaids/html/fales/lforeman.html 
+ new: http://dlib.nyu.edu/findingaids/html/fales/lforeman 
+EADID: liederkranz 
+ old: http://dlib.nyu.edu/findingaids/html/fales/liederkranz.html 
+ new: http://dlib.nyu.edu/findingaids/html/fales/liederkranz 
+EADID: lines 
+ old: http://dlib.nyu.edu/findingaids/html/fales/lines.html 
+ new: http://dlib.nyu.edu/findingaids/html/fales/lines 
+EADID: lippard 
+ old: http://dlib.nyu.edu/findingaids/html/fales/lippard.html 
+ new: http://dlib.nyu.edu/findingaids/html/fales/lippard 
+EADID: lorwin 
+ old: http://dlib.nyu.edu/findingaids/html/fales/lorwin.html 
+ new: http://dlib.nyu.edu/findingaids/html/fales/lorwin 
+EADID: love 
+ old: http://dlib.nyu.edu/findingaids/html/fales/love.html 
+ new: http://dlib.nyu.edu/findingaids/html/fales/love 
+EADID: luk 
+ old: http://dlib.nyu.edu/findingaids/html/fales/lukins.html 
+ new: http://dlib.nyu.edu/findingaids/html/fales/luk 
+EADID: maass 
+ old: http://dlib.nyu.edu/findingaids/html/fales/maass.html 
+ new: http://dlib.nyu.edu/findingaids/html/fales/maass 
+EADID: mabou 
+ old: http://dlib.nyu.edu/findingaids/html/fales/mabou.html 
+ new: http://dlib.nyu.edu/findingaids/html/fales/mabou 
+EADID: martin 
+ old: http://dlib.nyu.edu/findingaids/html/fales/martin.html 
+ new: http://dlib.nyu.edu/findingaids/html/fales/martin 
+EADID: mccay 
+ old: http://dlib.nyu.edu/findingaids/html/fales/mccay.html 
+ new: http://dlib.nyu.edu/findingaids/html/fales/mccay 
+EADID: mcnamara 
+ old: http://dlib.nyu.edu/findingaids/html/fales/mcnamara.html 
+ new: http://dlib.nyu.edu/findingaids/html/fales/mcnamara 
+EADID: mendez 
+ old: http://dlib.nyu.edu/findingaids/html/fales/mendez.html 
+ new: http://dlib.nyu.edu/findingaids/html/fales/mendez 
+EADID: mix 
+ old: http://dlib.nyu.edu/findingaids/html/fales/mix.html 
+ new: http://dlib.nyu.edu/findingaids/html/fales/mix 
+EADID: moore 
+ old: http://dlib.nyu.edu/findingaids/html/fales/moore.html 
+ new: http://dlib.nyu.edu/findingaids/html/fales/moore 
+EADID: musicdept 
+ old: http://dlib.nyu.edu/findingaids/html/fales/musicdept.html 
+ new: http://dlib.nyu.edu/findingaids/html/fales/musicdept 
+EADID: myown 
+ old: http://dlib.nyu.edu/findingaids/html/fales/myown.html 
+ new: http://dlib.nyu.edu/findingaids/html/fales/myown 
+EADID: nal 
+ old: http://dlib.nyu.edu/findingaids/html/fales/nal.html 
+ new: http://dlib.nyu.edu/findingaids/html/fales/nal 
+EADID: neuman 
+ old: http://dlib.nyu.edu/findingaids/html/fales/neuman.html 
+ new: http://dlib.nyu.edu/findingaids/html/fales/neuman 
+EADID: neumiller 
+ old: http://dlib.nyu.edu/findingaids/html/fales/neumiller.html 
+ new: http://dlib.nyu.edu/findingaids/html/fales/neumiller 
+EADID: nicholson 
+ old: http://dlib.nyu.edu/findingaids/html/fales/nicholson.html 
+ new: http://dlib.nyu.edu/findingaids/html/fales/nicholson 
+EADID: nosei 
+ old: http://dlib.nyu.edu/findingaids/html/fales/nosei.html 
+ new: http://dlib.nyu.edu/findingaids/html/fales/nosei 
+EADID: nyreview 
+ old: http://dlib.nyu.edu/findingaids/html/fales/nyreview.html 
+ new: http://dlib.nyu.edu/findingaids/html/fales/nyreview 
+EADID: ocasey 
+ old: http://dlib.nyu.edu/findingaids/html/fales/ocasey.html 
+ new: http://dlib.nyu.edu/findingaids/html/fales/ocasey 
+EADID: once 
+ old: http://dlib.nyu.edu/findingaids/html/fales/once.html 
+ new: http://dlib.nyu.edu/findingaids/html/fales/once 
+EADID: origin 
+ old: http://dlib.nyu.edu/findingaids/html/fales/origin.html 
+ new: http://dlib.nyu.edu/findingaids/html/fales/origin 
+EADID: outburst 
+ old: http://dlib.nyu.edu/findingaids/html/fales/outburst.html 
+ new: http://dlib.nyu.edu/findingaids/html/fales/outburst 
+EADID: outpunk 
+ old: http://dlib.nyu.edu/findingaids/html/fales/outpunk.html 
+ new: http://dlib.nyu.edu/findingaids/html/fales/outpunk 
+EADID: paf 
+ old: http://dlib.nyu.edu/findingaids/html/fales/paf.html 
+ new: http://dlib.nyu.edu/findingaids/html/fales/paf 
+EADID: palmieri 
+ old: http://dlib.nyu.edu/findingaids/html/fales/palmieri.html 
+ new: http://dlib.nyu.edu/findingaids/html/fales/palmieri 
+EADID: paulson 
+ old: http://dlib.nyu.edu/findingaids/html/fales/paulson.html 
+ new: http://dlib.nyu.edu/findingaids/html/fales/paulson 
+EADID: perron 
+ old: http://dlib.nyu.edu/findingaids/html/fales/perron.html 
+ new: http://dlib.nyu.edu/findingaids/html/fales/perron 
+EADID: pickett 
+ old: http://dlib.nyu.edu/findingaids/html/fales/pickett.html 
+ new: http://dlib.nyu.edu/findingaids/html/fales/pickett 
+EADID: pleiades 
+ old: http://dlib.nyu.edu/findingaids/html/fales/pleiades.html 
+ new: http://dlib.nyu.edu/findingaids/html/fales/pleiades 
+EADID: poe 
+ old: http://dlib.nyu.edu/findingaids/html/fales/poe.html 
+ new: http://dlib.nyu.edu/findingaids/html/fales/poe 
+EADID: portrait_subject 
+ old: http://dlib.nyu.edu/findingaids/html/fales/portrait_subject.html 
+ new: http://dlib.nyu.edu/findingaids/html/fales/portrait_subject 
+EADID: portrait 
+ old: http://dlib.nyu.edu/findingaids/html/fales/portrait.html 
+ new: http://dlib.nyu.edu/findingaids/html/fales/portrait 
+EADID: rainer 
+ old: http://dlib.nyu.edu/findingaids/html/fales/rainer.html 
+ new: http://dlib.nyu.edu/findingaids/html/fales/rainer 
+EADID: rainsford 
+ old: http://dlib.nyu.edu/findingaids/html/fales/rainsford.html 
+ new: http://dlib.nyu.edu/findingaids/html/fales/rainsford 
+EADID: redhot 
+ old: http://dlib.nyu.edu/findingaids/html/fales/redhot.html 
+ new: http://dlib.nyu.edu/findingaids/html/fales/redhot 
+EADID: redtape 
+ old: http://dlib.nyu.edu/findingaids/html/fales/redtape.html 
+ new: http://dlib.nyu.edu/findingaids/html/fales/redtape 
+EADID: repo 
+ old: http://dlib.nyu.edu/findingaids/html/fales/repo.html 
+ new: http://dlib.nyu.edu/findingaids/html/fales/repo 
+EADID: redtape 
+ old: http://dlib.nyu.edu/findingaids/html/fales/retape.html 
+ new: http://dlib.nyu.edu/findingaids/html/fales/redtape 
+EADID: rforeman 
+ old: http://dlib.nyu.edu/findingaids/html/fales/rforeman.html 
+ new: http://dlib.nyu.edu/findingaids/html/fales/rforeman 
+EADID: rgpublicity 
+ old: http://dlib.nyu.edu/findingaids/html/fales/rgpublicity.html 
+ new: http://dlib.nyu.edu/findingaids/html/fales/rgpublicity 
+EADID: robins 
+ old: http://dlib.nyu.edu/findingaids/html/fales/robins.html 
+ new: http://dlib.nyu.edu/findingaids/html/fales/robins 
+EADID: rosenman 
+ old: http://dlib.nyu.edu/findingaids/html/fales/rosenman.html 
+ new: http://dlib.nyu.edu/findingaids/html/fales/rosenman 
+EADID: rosenthal 
+ old: http://dlib.nyu.edu/findingaids/html/fales/rosenthal.html 
+ new: http://dlib.nyu.edu/findingaids/html/fales/rosenthal 
+EADID: roundtable 
+ old: http://dlib.nyu.edu/findingaids/html/fales/roundtable.html 
+ new: http://dlib.nyu.edu/findingaids/html/fales/roundtable 
+EADID: royston 
+ old: http://dlib.nyu.edu/findingaids/html/fales/royston.html 
+ new: http://dlib.nyu.edu/findingaids/html/fales/royston 
+EADID: roundtable 
+ old: http://dlib.nyu.edu/findingaids/html/fales/rwf.html 
+ new: http://dlib.nyu.edu/findingaids/html/fales/roundtable 
+EADID: scifipulp 
+ old: http://dlib.nyu.edu/findingaids/html/fales/scifipulp.html 
+ new: http://dlib.nyu.edu/findingaids/html/fales/scifipulp 
+EADID: scott_gary 
+ old: http://dlib.nyu.edu/findingaids/html/fales/scott_gary.html 
+ new: http://dlib.nyu.edu/findingaids/html/fales/scott_gary 
+EADID: second_aeon 
+ old: http://dlib.nyu.edu/findingaids/html/fales/second_aeon.html 
+ new: http://dlib.nyu.edu/findingaids/html/fales/second_aeon 
+EADID: secunda 
+ old: http://dlib.nyu.edu/findingaids/html/fales/secunda.html 
+ new: http://dlib.nyu.edu/findingaids/html/fales/secunda 
+EADID: sellers 
+ old: http://dlib.nyu.edu/findingaids/html/fales/sellers.html 
+ new: http://dlib.nyu.edu/findingaids/html/fales/sellers 
+EADID: semio 
+ old: http://dlib.nyu.edu/findingaids/html/fales/semio.html 
+ new: http://dlib.nyu.edu/findingaids/html/fales/semio 
+EADID: senskin 
+ old: http://dlib.nyu.edu/findingaids/html/fales/sensksin.html 
+ new: http://dlib.nyu.edu/findingaids/html/fales/senskin 
+EADID: stuartsherman 
+ old: http://dlib.nyu.edu/findingaids/html/fales/sherman.html 
+ new: http://dlib.nyu.edu/findingaids/html/fales/stuartsherman 
+EADID: sherry 
+ old: http://dlib.nyu.edu/findingaids/html/fales/sherry.html 
+ new: http://dlib.nyu.edu/findingaids/html/fales/sherry 
+EADID: signal 
+ old: http://dlib.nyu.edu/findingaids/html/fales/signal.html 
+ new: http://dlib.nyu.edu/findingaids/html/fales/signal 
+EADID: signorile_restricted 
+ old: http://dlib.nyu.edu/findingaids/html/fales/signorile_restricted.html 
+ new: http://dlib.nyu.edu/findingaids/html/fales/signorile_restricted 
+EADID: signorile 
+ old: http://dlib.nyu.edu/findingaids/html/fales/signorile.html 
+ new: http://dlib.nyu.edu/findingaids/html/fales/signorile 
+EADID: silverberg 
+ old: http://dlib.nyu.edu/findingaids/html/fales/silverberg.html 
+ new: http://dlib.nyu.edu/findingaids/html/fales/silverberg 
+EADID: silverman 
+ old: http://dlib.nyu.edu/findingaids/html/fales/silverman.html 
+ new: http://dlib.nyu.edu/findingaids/html/fales/silverman 
+EADID: snider 
+ old: http://dlib.nyu.edu/findingaids/html/fales/snider.html 
+ new: http://dlib.nyu.edu/findingaids/html/fales/snider 
+EADID: spar 
+ old: http://dlib.nyu.edu/findingaids/html/fales/spar.html 
+ new: http://dlib.nyu.edu/findingaids/html/fales/spar 
+EADID: splitbritches 
+ old: http://dlib.nyu.edu/findingaids/html/fales/splitbritches.html 
+ new: http://dlib.nyu.edu/findingaids/html/fales/splitbritches 
+EADID: steves 
+ old: http://dlib.nyu.edu/findingaids/html/fales/steves.html 
+ new: http://dlib.nyu.edu/findingaids/html/fales/steves 
+EADID: straub 
+ old: http://dlib.nyu.edu/findingaids/html/fales/straub.html 
+ new: http://dlib.nyu.edu/findingaids/html/fales/straub 
+EADID: streeter2 
+ old: http://dlib.nyu.edu/findingaids/html/fales/streeter2.html 
+ new: http://dlib.nyu.edu/findingaids/html/fales/streeter2 
+EADID: strickland 
+ old: http://dlib.nyu.edu/findingaids/html/fales/strickland.html 
+ new: http://dlib.nyu.edu/findingaids/html/fales/strickland 
+EADID: sturken 
+ old: http://dlib.nyu.edu/findingaids/html/fales/sturken.html 
+ new: http://dlib.nyu.edu/findingaids/html/fales/sturken 
+EADID: sylvmanor 
+ old: http://dlib.nyu.edu/findingaids/html/fales/sylmanor.html 
+ new: http://dlib.nyu.edu/findingaids/html/fales/sylvmanor 
+EADID: sylmanor 
+ old: http://dlib.nyu.edu/findingaids/html/fales/sylvester.html 
+ new: http://dlib.nyu.edu/findingaids/html/fales/sylmanor 
+EADID: taggart 
+ old: http://dlib.nyu.edu/findingaids/html/fales/taggart.html 
+ new: http://dlib.nyu.edu/findingaids/html/fales/taggart 
+EADID: targ 
+ old: http://dlib.nyu.edu/findingaids/html/fales/targ.html 
+ new: http://dlib.nyu.edu/findingaids/html/fales/targ 
+EADID: thane 
+ old: http://dlib.nyu.edu/findingaids/html/fales/thane.html 
+ new: http://dlib.nyu.edu/findingaids/html/fales/thane 
+EADID: tillman 
+ old: http://dlib.nyu.edu/findingaids/html/fales/tillman.html 
+ new: http://dlib.nyu.edu/findingaids/html/fales/tillman 
+EADID: trinidad 
+ old: http://dlib.nyu.edu/findingaids/html/fales/trinidad.html 
+ new: http://dlib.nyu.edu/findingaids/html/fales/trinidad 
+EADID: ubu 
+ old: http://dlib.nyu.edu/findingaids/html/fales/ubu.html 
+ new: http://dlib.nyu.edu/findingaids/html/fales/ubu 
+EADID: vega 
+ old: http://dlib.nyu.edu/findingaids/html/fales/vega.html 
+ new: http://dlib.nyu.edu/findingaids/html/fales/vega 
+EADID: watts 
+ old: http://dlib.nyu.edu/findingaids/html/fales/watts.html 
+ new: http://dlib.nyu.edu/findingaids/html/fales/watts 
+EADID: wisberg 
+ old: http://dlib.nyu.edu/findingaids/html/fales/wisberg.html 
+ new: http://dlib.nyu.edu/findingaids/html/fales/wisberg 
+EADID: witz 
+ old: http://dlib.nyu.edu/findingaids/html/fales/witz.html 
+ new: http://dlib.nyu.edu/findingaids/html/fales/witz 
+EADID: woj 
+ old: http://dlib.nyu.edu/findingaids/html/fales/woj.html 
+ new: http://dlib.nyu.edu/findingaids/html/fales/woj 
+EADID: wong 
+ old: http://dlib.nyu.edu/findingaids/html/fales/wong.html 
+ new: http://dlib.nyu.edu/findingaids/html/fales/wong 
+EADID: wu 
+ old: http://dlib.nyu.edu/findingaids/html/fales/wu.html 
+ new: http://dlib.nyu.edu/findingaids/html/fales/wu 
+EADID: zackheim 
+ old: http://dlib.nyu.edu/findingaids/html/fales/zackheim.html 
+ new: http://dlib.nyu.edu/findingaids/html/fales/zackheim 
+EADID: zedd 
+ old: http://dlib.nyu.edu/findingaids/html/fales/zedd.html 
+ new: http://dlib.nyu.edu/findingaids/html/fales/zedd 
+EADID: zinsser 
+ old: http://dlib.nyu.edu/findingaids/html/fales/zinsser.html 
+ new: http://dlib.nyu.edu/findingaids/html/fales/zinsser 
+
+-----------
+ALL DONE
