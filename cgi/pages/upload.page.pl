@@ -5,27 +5,24 @@ use strict;
 
 my $dir = cwd();
 
-# add app common sub routines
-do $dir . '/../inc/common.pl';
-
 # load settings and configuration options
-# do 'inc/readConf.pl';
+do $dir . 'cgi/inc/readConf.pl';
 
 # cast loaded settings and configuration into a hash
-my %confHash = createHashConf("../conf/eadpublisher.conf");
+my %confHash = createHashConf('conf/eadpublisher.conf');
 
 sub uploadFile {
 	
-  my (%datasource) = @_;
+  my ($identifier) = @_;
   
   # collections look up
   my %collections = listOfCollections();
 
-  my $collections_output = "";
+  my $collections_output = '';
   
   # iterate collections and build the html to be render
   for (keys %collections) {
-  	if ($_ eq $datasource{'identifier'}) {
+  	if ($_ eq $identifier) {
   	  $collections_output .= '<option value="' . $_ . '" selected>' . $collections{$_} . '</option>';
   	}
   	else {
@@ -34,7 +31,14 @@ sub uploadFile {
   }
 
   my $uploadFile = qq#
-    <form id="upload-ead" method="post" action="$confHash{'PUBLISHER_URI'}/cgi/eadManager.upload.pl" enctype="multipart/form-data">
+    <div class="container msg"></div>
+    <div class="overlay">
+      <div id="panelContent">
+        <div class="yui3-widget-bd"></div>
+      </div>
+      <div id="nestedPanel"></div>
+    </div>
+    <form id="upload-ead" method="post" action="$confHash{'PUBLISHER_URI'}/upload" enctype="multipart/form-data">
       <div id="Upload">
         <h3>Upload file</h3>
         <select name="eaddir" id="eaddir">
@@ -42,6 +46,7 @@ sub uploadFile {
           $collections_output
 	    </select>
         <input type="file" name="eadfile" id="eadfile"/>
+        <input type="hidden" name="pjax" value="true"/>
         <p><input type="submit" value="Upload EAD"></input></p>
       </div>
     </form>
@@ -79,7 +84,7 @@ sub processUpload {
  
       # if file doesn't exist
       if (! -s $eadFile) {
-        $output .= '<h1>No contents in file. Please check file</h1>';
+        $output .= '<p>No contents in file. Please check file</p>';
       }
 
       # otherwise continue
@@ -126,7 +131,7 @@ sub processUpload {
 
       # Log an error if an <eadid> could not be extracted
       if (length($eadid) < 1){
-        $output .= 'You tried to upload a file that does not contain an &lt;eadid&gt; tag!';
+        $output .= '<p>You tried to upload a file that does not contain an &lt;eadid&gt; tag!</p>';
         return $output;
       }
 
@@ -140,135 +145,150 @@ sub processUpload {
         $eadFile = $eadid . '.xml';
       }
       else {
-        $output .= 'Error renaming uploaded file';
+        $output .= '<p>Error renaming uploaded file.</p>';
       }
  
       # testing to see if file has been written to the specified location 
       my $fileExist = $uploadDIR . '/' . $eadFile;
          
       # transforming xml into html and XML for SOLR
-      my($transform, $url, $transformError) = transformFile($origPath, $eadDir, $eadid);
+      my($transform, $url, $transformError, $msg) = transformFile($origPath, $eadDir, $eadid, '');
+        
+      $output .= '<p>origPath: ' . $origPath . '</p>';
+      
+      $output .= '<p>eadDir: ' . $eadDir . '</p>';
+      
+      $output .= '<p>eadid: ' . $eadid . '</p>';
         
       if (-e $fileExist) {
         
         chmod(0777, $fileExist);
         
-        $output .= "$oldFile has been successfully uploaded and renamed to $eadFile.";
+        $output .= '<p>' . $oldFile . ' has been successfully uploaded and renamed to ' . $eadFile . '.</p>';
         
         my $eadURL = $url;
         
         $eadURL =~ s/html.*/ead/; 
         
-        $eadURL .= "/$eadDir/$eadFile";
+        $eadURL .= '/' . $eadDir . '/' . $eadFile;
 
         # outputting link to xml EAD
-        $output .= '<p>Your EAD finding aid can be previewed here: <a href="$eadURL" target="_blank">$eadURL</a></p>';
+        $output .= '<p>Your EAD finding aid can be previewed here: <a href="'. $eadURL . '" target="_blank">' . $eadURL . '</a></p>';
       } 
       else {
-        $output .= "<p>$eadFile: Upload unsuccessful</p>";
+        $output .= '<p>Unable to upload ' . $eadFile . ' an error occur, please make sure you have a valid EAD and try again.</p>';
       }
       
       if ($transformError !~ /Error/) {
-        # outputting link to html finding aid 
-        $output .= '<p>Your HTML finding aid can be previewed here: <a href="$url" target="_blank">$url</a></p>';
+        # outputting link to html finding aid
+        
+        $output .= $transformError;
+         
+        $output .= '<p>Your HTML finding aid can be previewed here: <a href="' . $url . '" target="_blank">' . $url . '</a></p>';
       } 
       else {
         $output .= $transformError;
       }
     }
 	else {
-	  $output .= '<h1><b>Error! </b> $eadFile must be in lower case</h1>. <p>All files must be in lower case, rename your file into lower case, and upload them again</p>.';
+	  $output .= '<p><strong>Error!</strong> ' . $eadFile . ' must be in lower case. All files must be in lower case, rename your file into lower case, and upload them again.</p>';
     }
   }
 }
 
 sub transformFile {
-	
+
   my $error = '';
+  
+  my $msg = '';
 
   # grabbing source path, directory, and file
   my ($dataPath, $dir, $eadid) = @_;
 
   # getting the filename without the extension.
-  my $eadFile = "$eadid.xml";
+  my $eadFile = $eadid . '.xml';
 
-  #setting output dir
-  my $output = "$confHash{'CONTENT_STAGING_PATH'}/html";
-  my $htmlDIR = "$output/$dir";
+  # setting output dir
+  my $output = $confHash{'CONTENT_STAGING_PATH'} . '/html';
+  
+  my $htmlDIR = $output . '/' . $dir;
   
   # ensure that the solr directories exist
-  my $solr1DIR = "$confHash{'CONTENT_STAGING_PATH'}/solr1/$dir";
-  my $solr2DIR = "$confHash{'CONTENT_STAGING_PATH'}/solr2/$dir";
+  my $solr1DIR = $confHash{'CONTENT_STAGING_PATH'} . '/solr1/' . $dir;
   
-  # Staging URL for the HTML finding aid:
-  my $url = "$confHash{'CONTENT_STAGING_URI'}/html/$dir/$eadid";
+  my $solr2DIR = $confHash{'CONTENT_STAGING_PATH'} . '/solr2/' . $dir;
   
-  # Stagin PATH for the HTML finding aid:
-  my $path = "$confHash{'CONTENT_STAGING_PATH'}/html/$dir/$eadid";
+  # staging URL for the HTML finding aid:
+  my $url = $confHash{'CONTENT_STAGING_URI'} . '/html/' . $dir . '/' . $eadid;
+  
+  # stagin PATH for the HTML finding aid:
+  my $path = $confHash{'CONTENT_STAGING_PATH'} . '/html/' . $dir . '/' . $eadid;
 
-  #ensure that output dirs exists
+  # ensure that output dirs exists
   if (! -d $htmlDIR) {
     mkdir($htmlDIR);
-    chmod(0777,$htmlDIR);
-  }
-  if (! -d $solr1DIR){
-	  mkdir($solr1DIR);
-	  chmod(0777,$solr1DIR);
-  }
-  if (! -d $solr2DIR) {
-	  mkdir($solr2DIR);
-	  chmod(0777,$solr2DIR);
+    chmod(0777, $htmlDIR);
   }
   
-  #Transform and write the HTML mini-site for the finding aid
-  my $cmd = "$confHash{'APP_PATH'}/bin/do-ead-transforms.bash $dir/$eadid";
-  # printLOG("RUNNING COMMAND: $cmd\n");
-	my $transform = `$cmd`;
-	print $transform;
-	
-	if ($transform =~ /<eadid>(.*)<\/eadid>/) {
-  	  if (! $eadid == $1){
-  	    # printLOG("WARNING: Mismatched eadid values. Was expecting $eadid and got $1 from the transformer");
-	  }
-	} 
-	else {
-	  # printLOG("Error - no eadid returned by the transformer");
-	}
+  if (! -d $solr1DIR) {
+    mkdir($solr1DIR);
+    chmod(0777, $solr1DIR);
+  }
+  
+  if (! -d $solr2DIR) {
+	mkdir($solr2DIR);
+	chmod(0777, $solr2DIR);
+  }  
 
-    if ($transform =~ /rror/) {
+  # transform and write the HTML mini-site for the finding aid
+  my $cmd = $confHash{'APP_PATH'} . '/bin/do-ead-transforms.bash ' . $dir . '/' . $eadid;
+  
+  $msg .= 'RUNNING COMMAND: ' . $cmd;
+  
+  my $transform = `$cmd`;
+  
+  if ($transform =~ /<eadid>(.*)<\/eadid>/) {
+    if (! $eadid == $1){
+  	  $error .= 'WARNING: Mismatched eadid values. Was expecting ' . $eadid . ' and got ' . $1 . ' from the transformer.';
+	}
+  }
+  else {
+    print 'Error - no eadid returned by the transformer';
+  }
+
+  if ($transform =~ /rror/) {
       $transform =~ s/.*?(Err.*)/$1/is;
-      $error .= "<p><b>Transform Error for $eadid:</b> $transform</p>";
+      $error .= 'Transform Error for ' . $eadid . ' : ' . $transform;
     }
 
     # Make the finding aid files group (apache) writeable - sometimes we want to rewrite these from the CLI
     if ( -d $path) {
-	  chmod(0777,$path);
+	  chmod(0777, $path);
 	  opendir (DIR, $path);
 	  while (my $file = readdir(DIR)) {
 	    if ($file =~/\.h?[tx]ml/) {
-		  chmod(0775,"$path/$file");
+		  chmod(0775, $path . '/' . $file);
 		}
 	  }
 	  closedir(DIR);
   }
 
-  #Transform and write the SOLR input files
-  $cmd = "$confHash{'APP_PATH'}/bin/do-solr.bash $dir/$eadid";
-  # printLOG("RUNNING COMMAND: $cmd\n");
+  # Transform and write the SOLR input files
+  $cmd = $confHash{'APP_PATH'} . '/bin/do-solr.bash ' . $dir .'/' . $eadid;
+  
+  $msg .= 'RUNNING COMMAND: ' . $cmd;
+  
   my $transform2 = `$cmd`;
+  
   my $solrFile = '';
-  print $transform2;
+  
   if ($transform2 =~ /<solrFile>(.*)<\/solrFile>/) {
     $solrFile = $1;
-    # printLOG("Solr File: $solrFile\n");
-  } else {
-    # printLOG("Error - no Solr file returned by the transformer");
+    $msg .= 'Solr File: ' . $solrFile;
+  }
+  else {
+    $error .= "Error - no Solr file returned by the transformer";
   }  
 
-  return ($transform,$url,$error);
-}
-
-sub printErr {
-  my $err = shift;
-  print $err;
+  return ($transform, $url, $error, $msg);
 }

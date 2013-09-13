@@ -1,12 +1,15 @@
 #!/usr/bin/perl
 
+use Cwd;
 use strict;
 
+my $dir = cwd();
+
 # load settings and configuration options
-do 'inc/readConf.pl';
+do $dir . 'cgi/inc/readConf.pl';
 
 # cast loaded settings and configuration into a hash
-my %confHash = createHashConf("../conf/eadpublisher.conf");
+my %confHash = createHashConf("conf/eadpublisher.conf");
 
 sub lsFiles {
 
@@ -39,9 +42,7 @@ sub outputFiles {
   
   my $previewDir = "$confHash{'CONTENT_STAGING_PATH'}/html";
   
-  # my @pendingEAD = `ls $previewDir/$dir/`;
-  
-  my @pendingEAD = `ls $confHash{'CONTENT_STAGING_PATH'}/ead/$dir`;
+  my @pendingEAD = `ls $previewDir/$dir/`;
   
   my $tbody = "";
   
@@ -52,8 +53,8 @@ sub outputFiles {
       my $id = "$dir\_$_";
       $tbody .= "<tr>";
       $tbody .= "<td>$_</td>";
-      $tbody .= "<td><a href=\"$confHash{'CONTENT_STAGING_URI'}/ead/$dir/$_.xml\">EAD</a></td>";
-      $tbody .= "<td><a href=\"$confHash{'CONTENT_STAGING_URI'}/ead/$dir/$_.xml\">HTML</a></td>";      
+      $tbody .= '<td><a href="' . $confHash{'CONTENT_STAGING_URI'} . '/ead/' . $dir . '/' . $_ . '.xml">EAD</a></td>';
+      $tbody .= "<td><a href=\"$confHash{'CONTENT_STAGING_URI'}/html/$dir/$_\">HTML</a></td>";
       $tbody .= "<td><a href=\"#$id\" data-eadid=\"$id\" data-action=\"publish\">Publish</a></td>";
       $tbody .= "<td><a href=\"#$id\" data-eadid=\"$id\" data-action=\"remove\">Remove</a></td>";
       $tbody .= "</tr>";

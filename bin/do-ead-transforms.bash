@@ -1,6 +1,7 @@
 #!/bin/bash
 
-. ../conf/eadpublisher.conf
+#. ../conf/eadpublisher.conf
+. conf/eadpublisher.conf
 
 # Die if there is more than one argument
 if [ $# -gt 1 ]; then

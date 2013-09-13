@@ -27,7 +27,7 @@ sub lsFiles {
   # iterate collections and build the html to be render
   for (keys %collections) {
     
-    $collections_tab .= '<li class="archive-' . $_ . '"><a href="#' . $_ . '" class="tab archive-' . $_ . '" data-id="' . $_ . '" data-uri="' . $confHash{'PUBLISHER_URI'} . '/cgi/eadManager.publish.pl?identifier=' . $_ . '">' . $collections{$_} . '</a></li>';
+    $collections_tab .= '<li class="archive-' . $_ . ($_ eq $identifier ? ' selected' : '') . '"><a href="#' . $_ . '" class="tab archive-' . $_ . '" data-id="' . $_ . '" data-uri="' . $confHash{'PUBLISHER_URI'} . '/publish/' . $_ . '">' . $collections{$_} . '</a></li>';
     
     if ( defined($identifier) && ($_ eq $identifier) ) {
       $collections_output .= '<div id="' . $_ . '">' . outputFiles($_, $collections{$_}) . '</div>';
@@ -67,7 +67,7 @@ sub outputFiles {
       my $id = "$dir\_$_";
       $tbody .= "<tr>";
       $tbody .= "<td>$_</td>";
-      $tbody .= "<td><a href=\"$confHash{'CONTENT_STAGING_URI'}/ead/$dir/$_.xml\">EAD</a></td>";
+      $tbody .= '<td><a href="' . $confHash{'CONTENT_STAGING_URI'} . '/ead/' . $dir . '/' . $_ . '>EAD</a></td>';
       $tbody .= "<td><a href=\"$confHash{'CONTENT_STAGING_URI'}/ead/$dir/$_.xml\">HTML</a></td>";      
       $tbody .= "<td><a href=\"#$id\" data-eadid=\"$id\" data-action=\"publish\">Publish</a></td>";
       $tbody .= "<td><a href=\"#$id\" data-eadid=\"$id\" data-action=\"remove\">Remove</a></td>";

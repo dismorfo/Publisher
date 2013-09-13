@@ -21,8 +21,9 @@ else {
   require 'cgi/pages/publish.page.pl';
 }
 
-#parameter in the form of {repository}_{finding aid id}
-my $identifier = param("identifier");
+my @route = getRoute();
+
+my $identifier = ($#route > 2) ? @route[$#route] : param("identifier");
 
 # In order to render a HTML is require to pass a data source hash with: pid, title and content
 my ($datasource) = {	
@@ -38,7 +39,7 @@ my ($datasource) = {
   'scripts' => ['ui.menu.js', 'ui.publish.js'],
     
   # scripts size
- 'scripts_size' => 2,
+ 'scripts_size' => 1,
     
  # main content of the page
  'content' => lsFiles($identifier)

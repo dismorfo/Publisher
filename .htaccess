@@ -9,11 +9,14 @@ Options -Indexes
 # Follow symbolic links in this directory.
 Options +FollowSymLinks
 
-# Make Drupal handle any 404 errors.
-# ErrorDocument 404 /index.php
-
 # Set the default handler.
 DirectoryIndex index.pl index.html index.htm
+
+# AddType application/x-httpd-php .php
+
+# AddHandler server-parsed .php
+
+# Options +Includes
 
 # Requires mod_expires to be enabled.
 <IfModule mod_expires.c>
@@ -24,7 +27,7 @@ DirectoryIndex index.pl index.html index.htm
   ExpiresDefault A1209600
 
   <FilesMatch \.pl$>
-    # Do not allow PHP scripts to be cached unless they explicitly send cache
+    # Do not allow pl scripts to be cached unless they explicitly send cache
     # headers themselves. Otherwise all scripts would have to overwrite the
     # headers set by mod_expires if they want another caching behavior. This may
     # fail if an error occurs early in the bootstrap process, and it may cause
@@ -80,7 +83,7 @@ DirectoryIndex index.pl index.html index.htm
   # VirtualDocumentRoot and the rewrite rules are not working properly.
   # For example if your site is at http://example.com/drupal uncomment and
   # modify the following line:
-  # RewriteBase /drupal
+  # RewriteBase /example
   #
   # If your site is running in a VirtualDocumentRoot at http://example.com/,
   # uncomment the following line:
