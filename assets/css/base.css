@@ -189,3 +189,24 @@ table {
 #overallProgress {
     float: right;
 }
+
+h3.title {
+  border-bottom: 1px solid #e5e5e5;
+  padding: .3em 0;
+}
+
+
+.cu {
+  background: #F5F5F5;
+  border-radius: 5px;
+  border-color: #999;
+  padding: 2.5em 1.5em;  
+}
+
+.archive-table {
+  margin-top: 1em;
+}
+
+#nofiles {
+	background-color: #fff;
+}

@@ -95,10 +95,113 @@ YUI().use('node', 'event', 'tabview', 'pjax', 'panel', 'io', 'dd-plugin', 'uploa
     	  id = selected.getAttribute('data-id');
     	  node = Y.one("#" + id );
     	  if (node) {
-    	    Y.one("#" + id ).removeClass("io-loading").set("innerHTML", t.responseText);	
+    	    Y.one("#" + id).removeClass("io-loading").set("innerHTML", t.responseText);
     	  }
         }
-    }    
+    }
+
+        Y.one("#overallProgress").set("text", "Uploader type: " + Y.Uploader.TYPE);
+    
+        if (Y.Uploader.TYPE != "none" && !Y.UA.ios) {
+    	
+    	    var uploadDone = false;
+    	    
+    	    if (uploader) {
+    	    	uploader.destroy();
+    	    }
+    	
+            var uploader = new Y.Uploader({
+        	    width: "250px",
+        	    fileFieldName: 'eadfile',
+                height: "35px",
+                multipleFiles: true,
+                swfURL: "http://yui.yahooapis.com/3.12.0/build/uploader/assets/flashuploader.swf?t=" + Math.random(),
+                simLimit: 2,
+                withCredentials: false
+            });
+        
+            uploader.render("#selectFilesButtonContainer");
+
+            uploader.after("fileselect", function (event) {
+
+                var fileList = event.fileList
+                  , fileTable = Y.one("#filenames tbody");
+             
+                if (fileList.length > 0 && Y.one("#nofiles")) {
+                    Y.one("#nofiles").remove();
+                }
+
+                if (uploadDone) {
+                    uploadDone = false;
+                    fileTable.setHTML("");
+                }
+
+                Y.each(fileList, function (fileInstance) {
+                    fileTable.append("<tr id='" + fileInstance.get("id") + "_row" + "'>" +
+                                     "<td class='filename'>" + fileInstance.get("name") + "</td>" +
+                                     "<td class='percentdone'>Hasn't started yet</td>");
+                });
+            });
+
+            uploader.on("uploadprogress", function (event) {
+                var fileRow = Y.one("#" + event.file.get("id") + "_row");
+                
+                if (event.percentLoaded < 100) {
+                    fileRow.one(".percentdone").set("text", event.percentLoaded + "%");
+                }
+                else {
+                	fileRow.one(".percentdone").set("text", "Running transformations");
+                }
+            });
+
+            uploader.on("uploadstart", function (event) {
+            
+                uploader.set("enabled", false);
+
+                Y.one("#uploadFilesButton").addClass("pure-button-disabled");
+            
+                Y.one("#uploadFilesButton").detach("click");
+
+            });
+
+            uploader.on("uploadcomplete", function (event) {
+                var fileRow = Y.one("#" + event.file.get("id") + "_row");
+                    fileRow.one(".percentdone").set("text", "Finished!");
+            });
+
+            uploader.on("totaluploadprogress", function (event) {
+                Y.one("#overallProgress").setHTML("Total uploaded: <strong>" + event.percentLoaded + "%" + "</strong>");
+            });
+
+            uploader.on("alluploadscomplete", function (event) {
+                
+                uploader.set("enabled", true);
+                
+                uploader.set("fileList", []);
+                
+                Y.one("#uploadFilesButton").removeClass("pure-button-disabled");
+                
+                Y.one("#uploadFilesButton").on("click", function () {
+                    if (!uploadDone && uploader.get("fileList").length > 0) {
+                        uploader.uploadAll();
+                    }
+                });
+                
+                Y.one("#overallProgress").set("text", "Uploads complete!");
+                
+                uploadDone = true;
+                
+            });
+
+            Y.one("#uploadFilesButton").on("click", function () {
+                if (!uploadDone && uploader.get("fileList").length > 0) {
+                    uploader.uploadAll();
+                }
+            });
+        }
+        else {
+            Y.one("#uploaderContainer").set("text", "We are sorry, but to use the uploader, you either need a browser that support HTML5 or have the Flash player installed on your computer.");
+        }    
 
     function onPublish(e) {
 
@@ -117,7 +220,6 @@ YUI().use('node', 'event', 'tabview', 'pjax', 'panel', 'io', 'dd-plugin', 'uploa
         var panel_body = Y.one('#panelContent .yui3-widget-bd');
         
         function onStart(id, result, a) {
-            Y.log('start');
             panel_body.set('innerHTML', 'Making sure that the magic happen, this can take up to few minutes, please wait.');
             panel.show();
         }
@@ -126,19 +228,12 @@ YUI().use('node', 'event', 'tabview', 'pjax', 'panel', 'io', 'dd-plugin', 'uploa
         }
         
         function onComplete(id, result) {
-
             panel_body.set('innerHTML',  result.responseText);
-
             panel.show();
-
             if ( currentTarget.getAttribute('data-action') === 'delete') {
               currentTarget.get('parentNode').get('parentNode').remove(true);  
             }
-
-            else if ( currentTarget.getAttribute('data-action') === 'publish') {
-            
-            }
-          
+            else if ( currentTarget.getAttribute('data-action') === 'publish') {}
         }
         
         if ( currentTarget.getAttribute('data-action') === 'delete') {
@@ -174,7 +269,21 @@ YUI().use('node', 'event', 'tabview', 'pjax', 'panel', 'io', 'dd-plugin', 'uploa
     }
     
     function onTabClick(e) {
-      this.navigate(e.currentTarget.getAttribute('data-uri'));
+        
+        var name = e.currentTarget.getAttribute('data-name');
+        
+        var collection = e.currentTarget.getAttribute('data-id');
+        
+        this.navigate(e.currentTarget.getAttribute('data-uri'));
+        
+        Y.all('span.archive').each(function() {
+            this.set('innerHTML', name);	  
+        });
+        
+        uploader.set("postVarsPerFile", {eaddir: collection, pjax: 1});
+        
+        uploader.set("uploadURL", e.currentTarget.getAttribute('data-upload'));
+        
     }
 
     tabview.after('render', function() {
@@ -186,11 +295,17 @@ YUI().use('node', 'event', 'tabview', 'pjax', 'panel', 'io', 'dd-plugin', 'uploa
         
         uri = selected.getAttribute('data-uri');
         
+        collection = selected.getAttribute('data-id');
+        
         // get the index of the active node
         activeIndex = selected ? Y.all('#collections > ul > li').indexOf(liSelected) : 0;
     	
+        uploader.set("postVarsPerFile", {eaddir: collection, pjax: 1});
+        
+        uploader.set("uploadURL", selected.getAttribute('data-upload'));    	
+    	
         tabview.selectChild(activeIndex);
-
+        
     });
     
     pjax.on('load', onPjaxLoad);
@@ -206,102 +321,5 @@ YUI().use('node', 'event', 'tabview', 'pjax', 'panel', 'io', 'dd-plugin', 'uploa
     body.delegate('click', onTabClick, 'a.tab', pjax);
 
     tabview.render();
-
-    Y.one("#overallProgress").set("text", "Uploader type: " + Y.Uploader.TYPE);
-    
-    if (Y.Uploader.TYPE != "none" && !Y.UA.ios) {
-    	
-    	var uploadDone = false;
-    	
-        var uploader = new Y.Uploader({
-        	width: "250px",
-        	fileFieldName: 'eadfile',
-            height: "35px",
-            multipleFiles: true,
-            swfURL: "http://yui.yahooapis.com/3.12.0/build/uploader/assets/flashuploader.swf?t=" + Math.random(),
-            uploadURL: "http://localhost/publisher/upload/tamwag",
-            simLimit: 2,
-            withCredentials: false
-        });
-        
-        uploader.set("postVarsPerFile", {eaddir: 'tamwag'});
-
-        uploader.render("#selectFilesButtonContainer");
-
-        uploader.after("fileselect", function (event) {
-
-            var fileList = event.fileList
-              , fileTable = Y.one("#filenames tbody");
-             
-            if (fileList.length > 0 && Y.one("#nofiles")) {
-                Y.one("#nofiles").remove();
-            }
-
-            if (uploadDone) {
-                uploadDone = false;
-                fileTable.setHTML("");
-            }
-
-            Y.each(fileList, function (fileInstance) {
-                fileTable.append("<tr id='" + fileInstance.get("id") + "_row" + "'>" +
-                                 "<td class='filename'>" + fileInstance.get("name") + "</td>" +
-                                 "<td class='filesize'>" + fileInstance.get("size") + "</td>" +
-                                "<td class='percentdone'>Hasn't started yet</td>");
-            });
-        });
-
-        uploader.on("uploadprogress", function (event) {
-            var fileRow = Y.one("#" + event.file.get("id") + "_row");
-                fileRow.one(".percentdone").set("text", event.percentLoaded + "%");
-        });
-
-        uploader.on("uploadstart", function (event) {
-            
-            uploader.set("enabled", false);
-            
-            Y.one("#uploadFilesButton").addClass("pure-button-disabled");
-            
-            Y.one("#uploadFilesButton").detach("click");
-
-        });
-
-        uploader.on("uploadcomplete", function (event) {
-            var fileRow = Y.one("#" + event.file.get("id") + "_row");
-                fileRow.one(".percentdone").set("text", "Finished!");
-        });
-
-        uploader.on("totaluploadprogress", function (event) {
-            Y.one("#overallProgress").setHTML("Total uploaded: <strong>" + event.percentLoaded + "%" + "</strong>");
-        });
-
-        uploader.on("alluploadscomplete", function (event) {
-                
-            uploader.set("enabled", true);
-                
-            uploader.set("fileList", []);
-                
-            Y.one("#uploadFilesButton").removeClass("pure-button-disabled");
-                
-            Y.one("#uploadFilesButton").on("click", function () {
-                if (!uploadDone && uploader.get("fileList").length > 0) {
-                    uploader.uploadAll();
-                }
-            });
-                
-            Y.one("#overallProgress").set("text", "Uploads complete!");
-                
-            uploadDone = true;
-                
-        });
-
-        Y.one("#uploadFilesButton").on("click", function () {
-            if (!uploadDone && uploader.get("fileList").length > 0) {
-                uploader.uploadAll();
-            }
-        });
-    }
-    else {
-        Y.one("#uploaderContainer").set("text", "We are sorry, but to use the uploader, you either need a browser that support HTML5 or have the Flash player installed on your computer.");
-    }
     
 });

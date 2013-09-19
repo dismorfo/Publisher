@@ -57,13 +57,12 @@ sub outputFiles {
       $tbody .= '<td><a href="' . $confHash{'CONTENT_STAGING_URI'} . '/solr1/' . $dir . '/' . $_ . '.solr.xml" target="_blank">Inner</a></td>';
       $tbody .= '<td><a href="' . $confHash{'CONTENT_STAGING_URI'} . '/solr2/' . $dir . '/' . $_ . '.solr.xml" target="_blank">Outer</a></td>';
       $tbody .= '<td><a href="#' . $id . '" data-action="publish" data-eadid="' . $id . '" data-repo="'. $dir . '" class="publish">Publish</a></td>';
-      $tbody .= '<td><a href="#' . $id . '" data-action="remove" data-eadid="' . $id . '" data-repo="'. $dir . '" class="remove">Remove</a></td>';
+      $tbody .= '<td><a href="#' . $id . '" data-action="delete" data-eadid="' . $id . '" data-repo="'. $dir . '" class="remove">Remove</a></td>';
       $tbody .= '</tr>';
     }
   }
 
   my $body = qq#
-    <h3 class="title">$heading</h3>
     <table class='tab-table pure-table pure-table-bordered pure-table-striped'>
       <thead>
         <tr>
@@ -75,6 +74,7 @@ sub outputFiles {
       </thead>
       <tbody>$tbody</tbody>
     </table>
+
   #;
 
   return $body;

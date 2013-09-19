@@ -26,39 +26,54 @@ sub lsFiles {
 
   # iterate collections and build the html to be render
   for (keys %collections) {
-    
-    $collections_tab .= '<li class="archive-' . $_ . ($_ eq $identifier ? ' selected' : '') . '"><a href="#' . $_ . '" class="tab archive-' . $_ . '" data-id="' . $_ . '" data-uri="' . $confHash{'PUBLISHER_URI'} . '/publish/' . $_ . '">' . $collections{$_} . '</a></li>';
-    
+    $collections_tab .= '<li class="archive-' . $_ . ($_ eq $identifier ? ' selected' : '') . '"><a href="#' . $_ . '" class="tab archive-' . $_ . '" data-id="' . $_ . '" data-upload="' . $confHash{'PUBLISHER_URI'} . '/upload/' . $_ .'" data-name="' . $collections{$_} . '" data-uri="' . $confHash{'PUBLISHER_URI'} . '/publish/' . $_ . '">' . $collections{$_} . '</a></li>';
     if ( defined($identifier) && ($_ eq $identifier) ) {
       $collections_output .= '<div id="' . $_ . '">' . outputFiles($_, $collections{$_}) . '</div>';
     }
     else {
       $collections_output .= '<div id="' . $_ . '"></div>';
     }
-    
   }
 
   my $body = qq#
-      
-      <div class="container msg"></div>
-      
-      <div class="overlay">
-        <div id="panelContent">
-          <div class="yui3-widget-bd"></div>
-        </div>
-        <div id="nestedPanel"></div>
+    <div class="container msg"></div>
+    <div class="overlay">
+      <div id="panelContent">
+        <div class="yui3-widget-bd"></div>
       </div>
-      
-      <form name="publish" class="pure-form pure-form-stacked">
-        <fieldset>
-          <legend>Preview / publish pending finding aids archive</legend>
-        </fieldset>
-        <div id="collections">
-          <ul>$collections_tab</ul>
-          <div>$collections_output</div>
+      <div id="nestedPanel"></div>
+    </div>
+    <h3 class="title">Upload <span class="archive">$collections{$identifier}</span> archive</h3>
+    <div class="cu">
+      <div id="uploaderContainer">
+        <div id="selectFilesButtonContainer"></div>
+        <div id="uploadFilesButtonContainer">
+          <button type="button" id="uploadFilesButton" class="yui3-button" style="width:250px; height:35px;">Upload Files</button>
         </div>
-      </form>
-
+        <div id="overallProgress"></div>
+      </div>
+      <div id="filelist">
+        <table id="filenames" class="tab-table pure-table pure-table-bordered pure-table-striped">
+          <thead>
+            <tr><th>File name</th>
+            <th>Percent uploaded</th></tr>
+            <tr id="nofiles">
+              <td colspan="2">No files have been selected.</td>
+            </tr>
+          </thead>
+          <tbody></tbody>
+        </table>
+      </div>
+    </div>
+    <form name="publish" class="archive-table pure-form pure-form-stacked">
+      <fieldset>
+        <legend>Preview / publish pending <span class="archive">$collections{$identifier}</span> archive</legend>
+      </fieldset>
+      <div id="collections">
+        <ul>$collections_tab</ul>
+        <div>$collections_output</div>
+      </div>
+    </form>
   #;
   
   return $body;
@@ -92,26 +107,6 @@ sub outputFiles {
   }  
 
   my $body = qq#
-    <h3 class="title">Upload $heading archive</h3>
-    <div id="uploaderContainer">
-      <div id="selectFilesButtonContainer"></div>
-      <div id="uploadFilesButtonContainer">
-        <button type="button" id="uploadFilesButton" class="yui3-button" style="width:250px; height:35px;">Upload Files</button>
-      </div>
-      <div id="overallProgress"></div>
-    </div>
-    <div id="filelist">
-      <table id="filenames" class="tab-table pure-table pure-table-bordered pure-table-striped">
-        <thead>
-          <tr><th>File name</th><th>File size</th><th>Percent uploaded</th></tr>
-          <tr id="nofiles">
-            <td colspan="3">No files have been selected.</td>
-          </tr>
-        </thead>
-        <tbody></tbody>
-      </table>
-    </div>
-    <h3 class="title">Preview / publish pending $heading</h3>
     <table class='tab-table pure-table pure-table-bordered pure-table-striped'>
       <thead>
         <tr>
