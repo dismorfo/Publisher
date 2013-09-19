@@ -18,40 +18,28 @@ given($route) {
   when('/publisher') {
   	do 'cgi/eadManager.index.pl';
   }
-  
+
   # help
   when('/publisher/help') {
-  	do 'cgi/eadManager.index.pl';
+  	do 'cgi/eadManager.help.pl';
   }
 
-  when('/publisher/upload') {
-  	do 'cgi/eadManager.upload.pl';
-  }
-    
-  when(/^\/publisher\/upload\/([a-z])+/) {
-    do 'cgi/eadManager.upload.pl';
-  }
-
-  when('/publisher/publish') {
-    do 'cgi/eadManager.publish.pl'; 
-  }
-  
   when(/^\/publisher\/publish\/([a-z])+/) {
     do 'cgi/eadManager.publish.pl';
   }
 
-  when('/publisher/published') {
-  	do 'cgi/eadManager.published.pl';
-  }
-  
   when(/^\/publisher\/published\/([a-z])+/) {
     do 'cgi/eadManager.published.pl';
   }
-  
+
+  when(/^\/publisher\/upload\/([a-z])+/ && ($ENV{'REQUEST_METHOD'} eq 'POST') ) {
+    do 'cgi/eadManager.upload.pl';
+  }
+
   when('/publisher/action/publish') {
   	do 'cgi/publish.pl';
   }
-  
+
   when(/^\/publisher\/delete\/[a-z]+\/\w+/ && ($ENV{'REQUEST_METHOD'} eq 'POST') ) {  	
     do 'cgi/eadManager.delete.pl';
   }  

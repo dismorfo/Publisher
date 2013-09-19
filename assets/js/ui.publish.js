@@ -253,7 +253,7 @@ YUI().use('node', 'event', 'tabview', 'pjax', 'panel', 'io', 'dd-plugin', 'uploa
         dialog.callback = function() {        	
             Y.io(action, {
                 method: 'POST',
-                data: 'eadId=' + eadId + '&eadRepo=' + eadRepo,
+                data: 'eadId=' + eadId + '&eadRepo=' + eadRepo + '&pjax=1',
                 headers: {
                     'PJAX': 'true',
                 },

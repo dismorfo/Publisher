@@ -12,49 +12,6 @@ do $dir . 'cgi/inc/readConf.pl';
 # cast loaded settings and configuration into a hash
 my %confHash = createHashConf('conf/eadpublisher.conf');
 
-sub uploadFile {
-	
-  my ($identifier) = @_;
-  
-  # collections look up
-  my %collections = listOfCollections();
-
-  my $collections_output = '';
-  
-  # iterate collections and build the html to be render
-  for (keys %collections) {
-  	if ($_ eq $identifier) {
-  	  $collections_output .= '<option value="' . $_ . '" selected>' . $collections{$_} . '</option>';
-  	}
-  	else {
-  	  $collections_output .= '<option value="' . $_ . '">' . $collections{$_} . '</option>';	
-  	}
-  }
-
-  my $uploadFile = qq#
-    <div class="container msg"></div>
-    <div class="overlay">
-      <div id="panelContent">
-        <div class="yui3-widget-bd"></div>
-      </div>
-      <div id="nestedPanel"></div>
-    </div>
-    <form id="upload-ead" method="post" action="$confHash{'PUBLISHER_URI'}/upload" enctype="multipart/form-data">
-      <div id="Upload">
-        <h3>Upload file</h3>
-        <select name="eaddir" id="eaddir">
-          <option value="select">Please select archive:</option>
-          $collections_output
-	    </select>
-        <input type="file" name="eadfile" id="eadfile"/>
-        <input type="hidden" name="pjax" value="true"/>
-        <p><input type="submit" value="Upload EAD"></input></p>
-      </div>
-    </form>
-  #;
-  return $uploadFile;
-}
-
 sub processUpload {
 
   my $output = '';

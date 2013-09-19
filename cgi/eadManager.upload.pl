@@ -31,7 +31,7 @@ my ($datasource) = {
   'scripts_size' => 1,
   
  # main content of the page
- 'content' =>  ($ENV{'REQUEST_METHOD'} eq 'POST') ? processUpload() : uploadFile($identifier),
+ 'content' =>  processUpload(),
  
   'route' => @route,
 

@@ -13,12 +13,19 @@ require 'cgi/common.pl';
 my %confHash = createHashConf('conf/eadpublisher.conf');
 
 sub publish {
+	
+  my @route = getRoute();
+
+  my $identifier = ($#route > 2) ? @route[$#route] : param("identifier");
 
   my $status;
   
   my $deploy = '';
 
-  my $eadId = param("eadId");
+  my $eadId = $identifier;
+  
+  # grabbing file dir
+  my $eadDir =  param("eaddir");
   
   my $eadRepo = param("eadRepo");
 
@@ -38,13 +45,13 @@ sub publish {
   my $published = "$confHash{'CONTENT_PATH'}/html/$repo/$faid";
   my $publishedURL = "$confHash{'CONTENT_URI'}/html/$repo/$faid\/";
     
-  print header;
-  
   # Ensure that target repository directories exist
   my $eadDIR = "$confHash{'CONTENT_PATH'}/ead/$repo";
-  my $htmlDIR = "$confHash{'CONTENT_PATH'}/html/$repo";    
+  my $htmlDIR = "$confHash{'CONTENT_PATH'}/html/$repo";
   
-  if (! -d $eadDIR){
+  print header;
+  
+  if (! -d $eadDIR) {
     mkdir($eadDIR);
     chmod(0777, $eadDIR);
   }
@@ -76,7 +83,7 @@ sub publish {
     exit();
   }
 
-  if (-e $published && $deploy == 0){ 
+  if (-e $published && $deploy == 0) { 
     print "<a href=\"$publishedURL\">$publishedURL</a> has been successfully published";
     my $eadPublished = "$confHash{'CONTENT_PATH'}/ead/$repo/$faid".".xml";
   }

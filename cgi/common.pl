@@ -137,6 +137,7 @@ sub publisher_navigation {
           <a href="$confHash{'PUBLISHER_URI'}/cgi/upload_csv.html">Process accessions report</a>
         </li>
         -->
+        <li><a href="$confHash{'PUBLISHER_URI'}/help">Help</a></li>
     </ul>
   </div>
   #;

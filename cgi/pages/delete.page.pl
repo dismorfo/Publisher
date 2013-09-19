@@ -33,6 +33,6 @@ sub delete_ead {
  
   my $transform = `$cmd`;
   
-  return $transform;  
+  return $transform;
 
 }

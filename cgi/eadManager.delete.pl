@@ -24,13 +24,6 @@ my ($datasource) = {
 
   # title of the page
   'title' => 'Delete EAD',
-  
-  # scripts
-  'scripts' => ['ui.menu.js'],
-    
-  # scripts size
- 'scripts_size' => 0,
-  
 
   # main content of the page
   'content' =>  delete_ead(@route),
