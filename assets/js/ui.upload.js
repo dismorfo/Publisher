@@ -102,7 +102,7 @@ YUI().use('node', 'event', 'transition', 'io', "json-parse", 'io-queue', 'querys
         
       if (valid) {
           // set the content you want in the message
-          Y.one('#dialog .message').set('className', 'message icon-question').setHTML('Are you sure you want to upload <strong>' + eadFile.split(/(\\|\/)/g).pop()  + '</strong> file as part of <strong>' + eadDir + '</strong> archives?');
+          Y.one('#dialog .message').set('className', 'message icon-question').set('innerHTML', 'Are you sure you want to upload <strong>' + eadFile.split(/(\\|\/)/g).pop()  + '</strong> file as part of <strong>' + eadDir + '</strong> archives?</p>');
     
           // set the callback to reference a function
           dialog.callback = onSubmit;      
@@ -133,20 +133,16 @@ YUI().use('node', 'event', 'transition', 'io', "json-parse", 'io-queue', 'querys
             on: {
                	start: function(id, result) {
                		Y.one('#upload-ead').hide();
-               	    panel_body.set('innerHTML', 'Making sure that the magic happen, this can take up to few minutes, please wait.');
+               	    panel_body.set('innerHTML', '<p>Making sure that the magic happen, this can take up to few minutes, please wait.</p>');
                	    panel.show();
                	},
                	end: function(id, result) {
                	    Y.one('#upload-ead').show();
                	},
                	complete: function(id, result) {
-               		               	    	
                     panel_body.set('innerHTML',  result.responseText);
-                   
                     Y.one('#eadfile').set('value', '');
-                    
-                    panel.show();               	    
-               	                   	        
+                    panel.show();
                	}
             }
         });

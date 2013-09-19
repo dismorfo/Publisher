@@ -31,9 +31,7 @@
 	<xsl:param name="collPage"/>
 	<xsl:param name="contentType"/>
 	<!-- Finding aid id, should be established in AT export, but if not it will be pulled form the filename -->
-	
 	<xsl:output name="toc-format" method="xhtml" indent="yes" omit-xml-declaration="yes"/>
-
 	<xsl:variable name="id">
 		<xsl:choose>
 			<xsl:when test="/ead/eadheader/eadid">
@@ -85,8 +83,6 @@
              </xsl:variable>
              <xsl:value-of select="$cc_count"/>
        </xsl:template>
-
-
         <xsl:template name="count_types">
            <xsl:param name="id"/>
             <xsl:variable name="type">
@@ -99,9 +95,7 @@
                   <node label="{@label}"><xsl:value-of select="count(current-group())"/></node>
               </xsl:for-each-group>
            </xsl:variable>
-
            <xsl:value-of select="count($count_type/*)"/>
-
         </xsl:template>
         <xsl:template name="container_headers">
            <xsl:param name="i"/>
@@ -188,7 +182,7 @@
 				<xsl:with-param name="templateName">controlaccess</xsl:with-param>
 			</xsl:call-template>
 		</xsl:if>
-		<xsl:if test="archdesc/custodhist or archdesc/prefercite or archdesc/accruals or archdesc/altformavail or archdesc/acqinfo or              archdesc/processinfo or archdesc/appraisal or archdesc/originalsloc             or archdesc/userestrict or archdesc/accessrestrict or archdesc/relatedmaterial             or archdesc/separatedmaterial">
+		<xsl:if test="archdesc/custodhist or archdesc/prefercite or archdesc/accruals or archdesc/altformavail or archdesc/acqinfo or archdesc/processinfo or archdesc/appraisal or archdesc/originalsloc or archdesc/userestrict or archdesc/accessrestrict or archdesc/relatedmaterial or archdesc/separatedmaterial">
 			<xsl:call-template name="html">
 				<xsl:with-param name="templateName">admininfo</xsl:with-param>
 			</xsl:call-template>
@@ -257,55 +251,45 @@
 						<xsl:value-of select="$titleProper"/>
 					</title>
 					<!--<xsl:call-template name="metadata"/>-->
-					<link rel="stylesheet" type="text/css" href="{$contentURI}/css/nyuEAD.css"/>
+					<link rel="stylesheet" type="text/css" href="{$contentURI}/assets/css/nyuEAD.css"/>
 					<!--Load the Colorbox CSS if we're going to be dealing with service images-->
 					<xsl:if test="descendant::dao[@ns2:role = 'Image-Service']">
-						<link rel="stylesheet" type="text/css" href="{$contentURI}/css/colorbox.css"/>
+						<link rel="stylesheet" type="text/css" href="{$contentURI}/assets/css/colorbox.css"/>
 					</xsl:if>
 					<!--Favicon, if applicable-->
 					<xsl:choose>
-						<xsl:when test="$collectionName = 'nyhs'">
-							<link rel="icon" 
-							      type="image/png" 
-							      href="{$contentURI}/images/nyhs_icon.ico" />
+					  <xsl:when test="$collectionName = 'nyhs'">
+						<link rel="icon" type="image/png" href="{$contentURI}/assets/images/nyhs_icon.ico" />
 						</xsl:when>
 					</xsl:choose>
-				        <xsl:variable name="analytic_js">
-				            <xsl:choose>
-                                               <xsl:when test="$collectionName = 'tamwag'">
-                                                   <xsl:value-of select="concat($contentURI, '/js/tam_wag_google_analytics.js')"/>
-                                               </xsl:when>
-                                               <xsl:when test="$collectionName = 'fales'">
-                                                   <xsl:value-of select="concat($contentURI, '/js/fales_google_analytics.js')"/>
-                                               </xsl:when>
-                                            </xsl:choose>
-                                        </xsl:variable>	
-					<script type="text/javascript" src="{$analytic_js}"> </script>
-					<script type="text/javascript" src="{$contentURI}/js/jquery-1.7.1.min.js"> </script>
-					<script type="text/javascript" src="{$contentURI}/js/jquery-lazyload.js"> </script>
-					<script type="text/javascript" src="{$contentURI}/js/jquery-scrollTo.js"> </script>
-					<script type="text/javascript" src="{$contentURI}/js/jquery-hashchange.min.js"> </script>
-					<script type="text/javascript" src="{$contentURI}/js/nyuEAD.js"> </script>
-					<script type="text/javascript" src="{$contentURI}/js/jquery.cookies.2.2.0.min.js"> </script>
+				    <xsl:variable name="analytic_js">
+				      <xsl:choose>
+                        <xsl:when test="$collectionName = 'tamwag'">
+                          <xsl:value-of select="concat($contentURI, '/assets/js/tam_wag_google_analytics.js')"/>
+                        </xsl:when>
+                        <xsl:when test="$collectionName = 'fales'">
+                          <xsl:value-of select="concat($contentURI, '/assets/js/fales_google_analytics.js')"/>
+                        </xsl:when>
+                      </xsl:choose>
+                    </xsl:variable>	
+					<script type="text/javascript" src="{$analytic_js}"></script>
+					<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+					<script type="text/javascript" src="{$contentURI}/assets/js/jquery-lazyload.js"></script>
+					<script type="text/javascript" src="{$contentURI}/assets/js/jquery-scrollTo.js"></script>
+					<script type="text/javascript" src="{$contentURI}/assets/js/jquery-hashchange.min.js"></script>
+					<script type="text/javascript" src="{$contentURI}/assets/js/nyuEAD.js"> </script>
+					<script type="text/javascript" src="{$contentURI}/assets/js/jquery.cookies.2.2.0.min.js"> </script>
 					<!--Load the Colorbox JS if we're going to be dealing with service images-->
 					<xsl:if test="descendant::dao[@ns2:role = 'Image-Service']">
-						<script type="text/javascript" src="{$contentURI}/js/jquery.colorbox-min.js"> </script>
+						<script type="text/javascript" src="{$contentURI}/assets/js/jquery.colorbox-min.js"> </script>
 					</xsl:if>
 				</head>
 				<!--Onload functions only if we're going to be dealing with service images-->
 				<xsl:if test="descendant::dao[@ns2:role = 'Image-Service']">
-					<script>
-							jQuery(document).ready(function () {
-			                jQuery('a.daoLink').colorbox({iframe:true, width:"80%", height:"90%"});
-			            });
-					</script>
+				  <script>jQuery(document).ready(function () { jQuery('a.daoLink').colorbox({iframe:true, width:"80%", height:"90%"}); });</script>
 				</xsl:if>	
 				<xsl:if test="descendant::dao[contains(@ns2:role,'humb')]">
-			            <script>
-					jQuery(document).ready(function () {
-			                   $("img.lazy").lazyload();
-			            });
-			            </script>
+			      <script>jQuery(document).ready(function () { $("img.lazy").lazyload(); });</script>
 				</xsl:if>	
 				<body class="{$collectionName}">
 					<div id="main">
@@ -314,7 +298,7 @@
 							<div id="toc">
 								<a href="http://dlib.nyu.edu/findingaids/search/?q=&amp;collectionId={$collectionName}" class="display">See all finding aids in this repository</a>
 								<h3>Table of Contents</h3>
-							<xsl:comment>#include virtual="../../../php/toc.php?collectionName=<xsl:value-of select="$collectionName" />&amp;findingAidId=<xsl:value-of select="$id"/>" </xsl:comment>
+							<xsl:comment>#include virtual="toc.php?collectionName=<xsl:value-of select="$collectionName" />&amp;findingAidId=<xsl:value-of select="$id"/>" </xsl:comment>
 							<!--<xsl:call-template name="toc"/>-->
 							</div>
 						</div>
@@ -445,35 +429,26 @@
 						<xsl:value-of select="$titleProper"/>
 					</title>
 					<!--<xsl:call-template name="metadata"/>-->
-					<link rel="stylesheet" type="text/css" href="http://dlib.nyu.edu/findingaids/css/nyuEAD.css"/>
-                                        <link rel="stylesheet" type="text/css" href="http://dlib.nyu.edu/findingaids/css/colorbox.css" />
-					<script type="text/javascript" src="http://dlib.nyu.edu/findingaids/js/jquery-1.7.1.min.js"/>
-					<script type="text/javascript" src="{$contentURI}/js/jquery-lazyload.js"> </script>
-					<script type="text/javascript" src="http://dlib.nyu.edu/findingaids/js/jquery-scrollTo.js"/>
-					<script type="text/javascript" src="http://dlib.nyu.edu/findingaids/js/jquery-hashchange.min.js"/>
-					<script type="text/javascript" src="http://dlib.nyu.edu/findingaids/js/nyuEAD.js"/>
-					<script type="text/javascript" src="http://dlib.nyu.edu/findingaids/js/jquery.cookies.2.2.0.min.js" />
+					<link rel="stylesheet" type="text/css" href="{$contentURI}/assets/css/nyuEAD.css"/>
+                    <link rel="stylesheet" type="text/css" href="{$contentURI}/assets/css/colorbox.css" />
+					<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+					<script type="text/javascript" src="{$contentURI}/assets/js/jquery-lazyload.js"> </script>
+					<script type="text/javascript" src="{$contentURI}/assets/js/jquery-scrollTo.js"/>
+					<script type="text/javascript" src="{$contentURI}/assets/js/jquery-hashchange.min.js"/>
+					<script type="text/javascript" src="{$contentURI}/assets/js/nyuEAD.js"/>
+					<script type="text/javascript" src="{$contentURI}/assets/js/jquery.cookies.2.2.0.min.js" />
 					<!--Load the Colorbox JS if we're going to be dealing with service images-->
 					<xsl:if test="descendant::dao[@ns2:role = 'Image-Service']">
-						<script type="text/javascript" src="{$contentURI}/js/jquery.colorbox-min.js"> </script>
+						<script type="text/javascript" src="{$contentURI}/assets/js/jquery.colorbox-min.js"> </script>
 					</xsl:if>
 				</head>
 				<!--Onload functions only if we're going to be dealing with service images-->
 				<xsl:if test="descendant::dao[@ns2:role = 'Image-Service']">
-					<script>
-							jQuery(document).ready(function () {
-			                jQuery('a.daoLink').colorbox({iframe:true, width:"80%", height:"90%"});
-			            });
-					</script>
+					<script>jQuery(document).ready(function () { jQuery('a.daoLink').colorbox({iframe:true, width:"80%", height:"90%"}); });</script>
 				</xsl:if>	
 				<xsl:if test="descendant::dao[contains(@ns2:role,'humb')]">
-			            <script>
-					jQuery(document).ready(function () {
-			                   $("img.lazy").lazyload();
-			            });
-			            </script>
-				</xsl:if>	
-					 
+			      <script>jQuery(document).ready(function () { $("img.lazy").lazyload(); });</script>
+				</xsl:if>
 				<body>
 					<div id="main">
 				       <p id="toc"/>

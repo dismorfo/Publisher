@@ -1,27 +1,32 @@
 #!/bin/bash
 
-# deploy-ead.bash
-# shell script to deploy ead html files from staging to production; also post solr file to solr service
+# find the path of this file
 
-# Read the conf file
-. ../conf/eadpublisher.conf
+SOURCE="${BASH_SOURCE[0]}"
 
+while [ -h "$SOURCE" ]; do # resolve $SOURCE until the file is no longer a symlink
+  DIR="$( cd -P "$( dirname "$SOURCE" )" && pwd )"
+  SOURCE="$(readlink "$SOURCE")"
+  [[ $SOURCE != /* ]] && SOURCE="$DIR/$SOURCE" # if $SOURCE was a relative symlink, we need to resolve it relative to the path where the symlink file was located
+done
 
+DIR="$( cd -P "$( dirname "$SOURCE" )" && pwd )"
 
-# Die if there is more than one argument
-if [ $# -gt 1 ]; then
-	echo 1>&2 Usage: $0 EADDIR/EADID or $0
-	exit 127
+PARENT_DIR="$(dirname "$DIR")"
+
+# Add Publisher configurations
+. $PARENT_DIR/conf/eadpublisher.conf
+
+if [ $# -gt 1 ]; then # Die if there is more than one argument
+  echo 1>&2 Usage: $0 EADID or $0
+  exit 127 
 fi
 
-
 COLL=`expr "$*" : '\(.*/\)' | sed "s/\///"`
+
 FAID=`expr "$*" : '.*\(/.*\)' | sed "s/\///"`
 
 SOLRID=`expr "$*" | sed "s/\//_/"`
-
-echo $SOLRID
-
 
 EAD=$CONTENT_PATH/ead/$COLL/$FAID.xml
 HTML=$CONTENT_PATH/html/$COLL/$FAID.html
@@ -48,10 +53,10 @@ URL2=$SOLR2_URI/update
 
 
 SOLR1COM="<delete><id>${SOLRID}</id></delete>"
+
 SOLR2COM="<delete><query>id:${SOLRID}*</query></delete>"
 
 echo $SOLR2COM
-
 
 for s in $SOLR1S; do
 	if [[ ${s} == *${*}* ]]; then
@@ -61,9 +66,8 @@ for s in $SOLR1S; do
 	fi
 done
 
-#send the commit command to make sure all the changes are flushed and visible
+# send the commit command to make sure all the changes are flushed and visible
 curl $URL1 --data-binary '<commit/>'
-
 
 for s in $SOLR2S; do
 	if [[ ${s} == *${*}* ]]; then
@@ -72,8 +76,5 @@ for s in $SOLR2S; do
 	fi
 done
 
-#send the commit command to make sure all the changes are flushed and visible
- curl $URL2 --data-binary '<commit/>'
-
-
-
+# send the commit command to make sure all the changes are flushed and visible
+curl $URL2 --data-binary '<commit/>'

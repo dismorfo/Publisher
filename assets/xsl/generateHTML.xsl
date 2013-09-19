@@ -68,12 +68,6 @@
     <br />
   </xsl:template>
 
-
-
-
-
-
-
   <!-- The following templates format the display of various RENDER attributes. -->
   
   <xsl:template match="*/title">
@@ -133,18 +127,14 @@
       </xsl:otherwise>
     </xsl:choose>
   </xsl:template>
-  
   <!--generates html equivalent of line break(lb)-->
   <xsl:template match="lb">
     <br/>
   </xsl:template>
-  
   <xsl:template match="num">
     <xsl:value-of select="." />
   </xsl:template>
-  
   <!-- This template converts a Ref element into an HTML anchor. -->
-  
   <xsl:template match="archdesc//ref | archdesc//extref">
     <xsl:choose>
       <xsl:when test="@href|@ns2:href">
@@ -154,18 +144,14 @@
       </xsl:when>
       <xsl:otherwise>
 	<xsl:value-of select="."/>
-
       </xsl:otherwise>
     </xsl:choose>
-  </xsl:template>
-  
+  </xsl:template> 
   <!-- Converts an ID attribute into the name attribute of an HTML anchor to form the target of a Ref element. -->
-  
   <xsl:template match="*[@id]">
     <a name="{@id}"/>
     <xsl:value-of select="."/>
   </xsl:template>
-  
   <!--This template rule formats a list element. -->
   <xsl:template match="*/list">
     <xsl:for-each select="item">
@@ -174,7 +160,6 @@
       </p>
     </xsl:for-each>
   </xsl:template>
-  
   <!--Formats a simple table. The width of each column is defined by the colwidth attribute in a colspec element. -->
   <xsl:template match="*/table">
     <xsl:for-each select="tgroup">
@@ -194,7 +179,6 @@
 	    </tr>
 	  </xsl:for-each>
 	</xsl:for-each>
-	
 	<xsl:for-each select="tbody">
 	  <xsl:for-each select="row">
 	    <tr>
@@ -207,8 +191,4 @@
       </table>
     </xsl:for-each>
   </xsl:template>
-  
-
-  
-  
 </xsl:stylesheet>

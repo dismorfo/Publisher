@@ -39,15 +39,26 @@ sub lsFiles {
   }
 
   my $body = qq#
+      
+      <div class="container msg"></div>
+      
+      <div class="overlay">
+        <div id="panelContent">
+          <div class="yui3-widget-bd"></div>
+        </div>
+        <div id="nestedPanel"></div>
+      </div>
+      
       <form name="publish" class="pure-form pure-form-stacked">
         <fieldset>
-          <legend>Preview / publish pending finding aids</legend>
+          <legend>Preview / publish pending finding aids archive</legend>
         </fieldset>
         <div id="collections">
           <ul>$collections_tab</ul>
           <div>$collections_output</div>
         </div>
       </form>
+
   #;
   
   return $body;
@@ -65,23 +76,48 @@ sub outputFiles {
       chop($_);
       $_ =~ s/.*\/(.*).html/$1/;
       my $id = "$dir\_$_";
-      $tbody .= "<tr>";
-      $tbody .= "<td>$_</td>";
-      $tbody .= '<td><a href="' . $confHash{'CONTENT_STAGING_URI'} . '/ead/' . $dir . '/' . $_ . '>EAD</a></td>';
-      $tbody .= "<td><a href=\"$confHash{'CONTENT_STAGING_URI'}/ead/$dir/$_.xml\">HTML</a></td>";      
-      $tbody .= "<td><a href=\"#$id\" data-eadid=\"$id\" data-action=\"publish\">Publish</a></td>";
-      $tbody .= "<td><a href=\"#$id\" data-eadid=\"$id\" data-action=\"remove\">Remove</a></td>";
-      $tbody .= "</tr>";
+      $tbody .= '<tr>';
+      $tbody .= '<td>' . $_ . '</td>';
+      $tbody .= '<td><a href="' . $confHash{'CONTENT_STAGING_URI'} . '/ead/' . $dir . '/' . $_ . '.xml" target="_blank">EAD</a></td>';
+      $tbody .= '<td><a href="' . $confHash{'CONTENT_STAGING_URI'} . '/html/' . $dir . '/' . $_ . '" target="_blank">HTML</a></td>';
+      $tbody .= '<td><a href="' . $confHash{'CONTENT_STAGING_URI'} . '/solr1/' . $dir . '/' . $_ . '.solr.xml" target="_blank">Inner</a></td>';
+      $tbody .= '<td><a href="' . $confHash{'CONTENT_STAGING_URI'} . '/solr2/' . $dir . '/' . $_ . '.solr.xml" target="_blank">Outer</a></td>';
+      $tbody .= '<td><a href="#' . $id . '" data-action="publish" data-eadid="' . $id . '" data-repo="'. $dir . '" class="publish">Publish</a></td>';
+      $tbody .= '<td><a href="' . $confHash{'PUBLISHER_URI'} . '/delete/' . $dir . '/' . $_ . '" data-action="delete" data-eadid="' . $id . '" data-repo="'. $dir . '" class="remove">Remove</a></td>';
+      
+      #
+      
+      $tbody .= '</tr>';
     }
   }  
 
   my $body = qq#
-    <h3 class="title hidden">$heading</h3>
+    <h3 class="title">Upload $heading archive</h3>
+    <div id="uploaderContainer">
+      <div id="selectFilesButtonContainer"></div>
+      <div id="uploadFilesButtonContainer">
+        <button type="button" id="uploadFilesButton" class="yui3-button" style="width:250px; height:35px;">Upload Files</button>
+      </div>
+      <div id="overallProgress"></div>
+    </div>
+    <div id="filelist">
+      <table id="filenames" class="tab-table pure-table pure-table-bordered pure-table-striped">
+        <thead>
+          <tr><th>File name</th><th>File size</th><th>Percent uploaded</th></tr>
+          <tr id="nofiles">
+            <td colspan="3">No files have been selected.</td>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+    </div>
+    <h3 class="title">Preview / publish pending $heading</h3>
     <table class='tab-table pure-table pure-table-bordered pure-table-striped'>
       <thead>
         <tr>
           <th>Identifier</th>
           <th colspan="2" class="preview">Preview</th>
+          <th colspan="2" class="solr">Solr</th>
           <th colspan="2" class="actions">Actions</th>
         </tr>
       </thead>

@@ -1,0 +1,1547 @@
+Writing html version for file /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/cues.xml
+archive: tamwag
+Writing html version for file /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/sellers.xml
+archive: tamwag
+Writing html version for file /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/photographer.xml
+archive: tamwag
+Writing html version for file /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/photographer.xml
+archive: tamwag
+Running: cp /Users/albertoortizflores/tools/projects/publisher/files/shared/assets/php/toc.php /Users/albertoortizflores/tools/projects/publisher/files/preview/html/tamwag/tamwag/toc.php
+Writing html version for file /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/yaffafoundling.xml
+archive: tamwag
+Running: cp /Users/albertoortizflores/tools/projects/publisher/files/shared/assets/php/toc.php /Users/albertoortizflores/tools/projects/publisher/files/preview/html/tamwag/yaffafoundling/toc.php
+Writing html version for file /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/tam_359.xml
+archive: tamwag
+Running: cp /Users/albertoortizflores/tools/projects/publisher/files/shared/assets/php/toc.php /Users/albertoortizflores/tools/projects/publisher/files/preview/html/tamwag/tam_359/toc.php
+Writing html version for file /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/aia_030.xml
+archive: tamwag
+Running: cp /Users/albertoortizflores/tools/projects/publisher/files/shared/assets/php/toc.php /Users/albertoortizflores/tools/projects/publisher/files/preview/html/tamwag/aia_030/toc.php
+Writing html version for file /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/arc_174_brooklyn_newsletters.xml
+archive: tamwag
+Running: cp /Users/albertoortizflores/tools/projects/publisher/files/shared/assets/php/toc.php /Users/albertoortizflores/tools/projects/publisher/files/preview/html/tamwag/arc_174_brooklyn_newsletters/toc.php
+Writing html version for file /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/fateman.xml
+archive: tamwag
+
+Writing html version for file /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/arms_1985_016_young_peoples_baptist_union.xml
+archive: tamwag
+/Users/albertoortizflores/tools/projects/publisher
+Writing html version for file /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/horton.xml
+archive: tamwag
+/Users/albertoortizflores/tools/projects/publisher/files/preview/html/tamwag/horton/toc.php
+Writing html version for file /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/artistsspace.xml
+archive: tamwag
+/Users/albertoortizflores/tools/projects/publisher/files/preview/html/tamwag/artistsspace/toc.php
+Writing html version for file /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/arms_1978_096_mudgley.xml
+archive: tamwag
+/Users/albertoortizflores/tools/projects/publisher/files/preview/html/tamwag/arms_1978_096_mudgley/toc.php
+/Users/albertoortizflores/tools/projects/publisher/files/shared/assets/php/toc.php
+Writing html version for file /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/arms_1990_002_roberts.xml
+archive: tamwag
+Writing html version for file /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/aia_030.xml
+archive: tamwag
+Writing html version for file /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/arc_250_1922_account_book.xml
+archive: tamwag
+Writing html version for file /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/aia_030.xml
+archive: tamwag
+Writing html version for file /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/arms_1987_017_brooklyn_hotel.xml
+archive: tamwag
+Writing html version for file /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/artistsspace.xml
+archive: tamwag
+Writing html version for file /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/bregman.xml
+archive: tamwag
+Writing html version for file /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/album.xml
+archive: tamwag
+Writing HTML version for file /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/cues.xml
+archive: tamwag
+Writing HTML version for file /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/djohnson.xml
+archive: tamwag
+Executing /Users/albertoortizflores/tools/projects/publisher/bin/do-ead-transforms.bash
+Writing HTML version for file /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/photos_044.xml
+archive: tamwag
+Executing file /Users/albertoortizflores/tools/projects/publisher/bin/do-ead-transforms.bash
+Writing HTML version for file /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/wag_057.xml
+archive: tamwag
+Executing file /Users/albertoortizflores/tools/projects/publisher/bin/do-ead-transforms.bash
+Writing HTML version for file /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/highrisk.xml
+archive: tamwag
+Executing file /Users/albertoortizflores/tools/projects/publisher/bin/do-solr.bash with argument /Users/albertoortizflores/tools/projects/publisher/bin/do-solr.bash
+Executing file /Users/albertoortizflores/tools/projects/publisher/bin/do-ead-transforms.bash
+Writing HTML version for file /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/tillman.xml
+archive: tamwag
+Executing file /Users/albertoortizflores/tools/projects/publisher/bin/do-solr.bash with argument tamwag and tillman
+Executing file /Users/albertoortizflores/tools/projects/publisher/bin/do-ead-transforms.bash
+Writing HTML version for file /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/wag_275.xml
+archive: tamwag
+Executing file /Users/albertoortizflores/tools/projects/publisher/bin/do-solr.bash with argument tamwag and wag_275
+
+
+Executing file /Users/albertoortizflores/tools/projects/publisher/bin/do-ead-transforms.bash
+Writing HTML version for file /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/djohnson.xml
+archive: tamwag
+Executing file /Users/albertoortizflores/tools/projects/publisher/bin/do-solr.bash with argument tamwag and djohnson
+Writing solr index file for /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/djohnson.xml
+Solr 1: Attempting to transform /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/djohnson.xml into djohnson.solr.xml
+
+Solr 2: Attempting to transform /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/djohnson.xml into djohnson.solr.xml
+
+Executing file /Users/albertoortizflores/tools/projects/publisher/bin/do-ead-transforms.bash
+Writing HTML version for file /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/wag_084.xml
+archive: tamwag
+Executing file /Users/albertoortizflores/tools/projects/publisher/bin/do-solr.bash with argument tamwag and wag_084
+Writing solr index file for /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/wag_084.xml
+Solr 1: Attempting to transform /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/wag_084.xml into wag_084.solr.xml
+
+Solr 2: Attempting to transform /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/wag_084.xml into wag_084.solr.xml
+
+Executing file /Users/albertoortizflores/tools/projects/publisher/bin/do-ead-transforms.bash
+Writing HTML version for file /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/photos_020.xml
+archive: tamwag
+Executing file /Users/albertoortizflores/tools/projects/publisher/bin/do-solr.bash with argument tamwag and photos_020
+Writing solr index file for /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/photos_020.xml
+Solr 1: Attempting to transform /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/photos_020.xml into photos_020.solr.xml
+
+Solr 2: Attempting to transform /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/photos_020.xml into photos_020.solr.xml
+
+SOLR: /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/photos_020.xml was successfully into photos_020.solr.xml
+Executing file /Users/albertoortizflores/tools/projects/publisher/bin/do-ead-transforms.bash
+Writing HTML version for file /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/cues.xml
+archive: tamwag
+Executing file /Users/albertoortizflores/tools/projects/publisher/bin/do-solr.bash with argument tamwag and cues
+Writing solr index file for /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/cues.xml
+Solr 1: Attempting to transform /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/cues.xml into cues.solr.xml
+
+Solr 2: Attempting to transform /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/cues.xml into cues.solr.xml
+
+SOLR 1: /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/cues.xml was successfully into /Users/albertoortizflores/tools/projects/publisher/files/preview/solr1/cues.solr.xml
+SOLR 2: /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/cues.xml was successfully into /Users/albertoortizflores/tools/projects/publisher/files/preview/solr2/cues.solr.xml
+Executing file /Users/albertoortizflores/tools/projects/publisher/bin/do-ead-transforms.bash
+Writing HTML version for file /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/photos_024.xml
+archive: tamwag
+Executing file /Users/albertoortizflores/tools/projects/publisher/bin/do-solr.bash with argument tamwag and photos_024
+Writing solr index file for /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/photos_024.xml
+Solr 1: Attempting to transform /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/photos_024.xml into photos_024.solr.xml
+
+Solr 2: Attempting to transform /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/photos_024.xml into photos_024.solr.xml
+
+SOLR 1: /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/photos_024.xml was successfully transformed into /Users/albertoortizflores/tools/projects/publisher/files/preview/solr1/tamwag/photos_024.solr.xml
+SOLR 2: /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/photos_024.xml was successfully transformed into /Users/albertoortizflores/tools/projects/publisher/files/preview/solr2/tamwag/photos_024.solr.xml
+Removing EAD file (album.xml) from /Users/albertoortizflores/tools/projects/publisher/files/prod/ead/tamwag/album.xml
+Removing album HTML folder ()
+Removing album Solr 1 ()
+Removing album Solr 2 ()
+Removing EAD file (album.xml) from /Users/albertoortizflores/tools/projects/publisher/files/prod/ead/tamwag/album.xml
+Removing album HTML folder ()
+Removing album Solr 1 ()
+Removing album Solr 2 ()
+Removing EAD file (album.xml) from /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/album.xml
+Removing album HTML folder ()
+Removing album Solr 1 ()
+Removing album Solr 2 ()
+Removing EAD file (cues.xml) from /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/cues.xml
+Removing cues HTML folder ()
+Removing cues Solr 1 ()
+Removing cues Solr 2 ()
+Removing EAD file (djohnson.xml) from /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/djohnson.xml
+Removing djohnson HTML folder ()
+Removing djohnson Solr 1 ()
+Removing djohnson Solr 2 ()
+Removing EAD file (highrisk.xml) from /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/highrisk.xml
+Removing highrisk HTML folder ()
+Removing highrisk Solr 1 ()
+Removing highrisk Solr 2 ()
+Removing EAD file (photos_020.xml) from /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/photos_020.xml
+Removing photos_020 HTML folder ()
+Removing photos_020 Solr 1 ()
+Removing photos_020 Solr 2 ()
+Removing EAD file (photos_024.xml) from /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/photos_024.xml
+Removing photos_024 HTML folder ()
+Removing photos_024 Solr 1 ()
+Removing photos_024 Solr 2 ()
+Removing EAD file (photos_044.xml) from /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/photos_044.xml
+Removing photos_044 HTML folder ()
+Removing photos_044 Solr 1 ()
+Removing photos_044 Solr 2 ()
+Removing EAD file (tillman.xml) from /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/tillman.xml
+Removing tillman HTML folder ()
+Removing tillman Solr 1 ()
+Removing tillman Solr 2 ()
+Removing EAD file (wag_057.xml) from /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/wag_057.xml
+Removing wag_057 HTML folder ()
+Removing wag_057 Solr 1 ()
+Removing wag_057 Solr 2 ()
+Removing EAD file (wag_084.xml) from /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/wag_084.xml
+Removing wag_084 HTML folder ()
+Removing wag_084 Solr 1 ()
+Removing wag_084 Solr 2 ()
+Removing EAD file (wag_275.xml) from /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/wag_275.xml
+Removing wag_275 HTML folder ()
+Removing wag_275 Solr 1 ()
+Removing wag_275 Solr 2 ()
+Executing file /Users/albertoortizflores/tools/projects/publisher/bin/do-ead-transforms.bash
+Writing HTML version for file /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/arms_1978_135.xml
+archive: tamwag
+Executing file /Users/albertoortizflores/tools/projects/publisher/bin/do-solr.bash with argument tamwag and arms_1978_135
+Writing solr index file for /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/arms_1978_135.xml
+Solr 1: Attempting to transform /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/arms_1978_135.xml into arms_1978_135.solr.xml
+
+Solr 2: Attempting to transform /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/arms_1978_135.xml into arms_1978_135.solr.xml
+
+SOLR 1: /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/arms_1978_135.xml was successfully transformed into /Users/albertoortizflores/tools/projects/publisher/files/preview/solr1/tamwag/arms_1978_135.solr.xml
+SOLR 2: /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/arms_1978_135.xml was successfully transformed into /Users/albertoortizflores/tools/projects/publisher/files/preview/solr2/tamwag/arms_1978_135.solr.xml
+Executing file /Users/albertoortizflores/tools/projects/publisher/bin/do-ead-transforms.bash
+Writing HTML version for file /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/astorfamily.xml
+archive: tamwag
+Executing file /Users/albertoortizflores/tools/projects/publisher/bin/do-solr.bash with argument tamwag and astorfamily
+Writing solr index file for /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/astorfamily.xml
+Solr 1: Attempting to transform /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/astorfamily.xml into astorfamily.solr.xml
+
+Solr 2: Attempting to transform /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/astorfamily.xml into astorfamily.solr.xml
+
+SOLR 1: /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/astorfamily.xml was successfully transformed into /Users/albertoortizflores/tools/projects/publisher/files/preview/solr1/tamwag/astorfamily.solr.xml
+SOLR 2: /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/astorfamily.xml was successfully transformed into /Users/albertoortizflores/tools/projects/publisher/files/preview/solr2/tamwag/astorfamily.solr.xml
+Executing file /Users/albertoortizflores/tools/projects/publisher/bin/do-ead-transforms.bash
+Writing HTML version for file /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/ruben.xml
+archive: tamwag
+Executing file /Users/albertoortizflores/tools/projects/publisher/bin/do-solr.bash with argument tamwag and ruben
+Writing solr index file for /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/ruben.xml
+Solr 1: Attempting to transform /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/ruben.xml into ruben.solr.xml
+
+Solr 2: Attempting to transform /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/ruben.xml into ruben.solr.xml
+
+SOLR 1: /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/ruben.xml was successfully transformed into /Users/albertoortizflores/tools/projects/publisher/files/preview/solr1/tamwag/ruben.solr.xml
+SOLR 2: /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/ruben.xml was successfully transformed into /Users/albertoortizflores/tools/projects/publisher/files/preview/solr2/tamwag/ruben.solr.xml
+Executing file /Users/albertoortizflores/tools/projects/publisher/bin/do-ead-transforms.bash
+Writing HTML version for file /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/fateman.xml
+archive: tamwag
+Executing file /Users/albertoortizflores/tools/projects/publisher/bin/do-solr.bash with argument tamwag and fateman
+Writing solr index file for /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/fateman.xml
+Solr 1: Attempting to transform /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/fateman.xml into fateman.solr.xml
+
+Solr 2: Attempting to transform /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/fateman.xml into fateman.solr.xml
+
+SOLR 1: /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/fateman.xml was successfully transformed into /Users/albertoortizflores/tools/projects/publisher/files/preview/solr1/tamwag/fateman.solr.xml
+SOLR 2: /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/fateman.xml was successfully transformed into /Users/albertoortizflores/tools/projects/publisher/files/preview/solr2/tamwag/fateman.solr.xml
+Removing EAD file (fateman.xml) from /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/fateman.xml
+Removing fateman HTML folder ()
+Removing fateman Solr 1 ()
+Removing fateman Solr 2 ()
+Removing EAD file (arms_1978_135.xml) from /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/arms_1978_135.xml
+Removing arms_1978_135 HTML folder ()
+Removing arms_1978_135 Solr 1 ()
+Removing arms_1978_135 Solr 2 ()
+Removing EAD file (astorfamily.xml) from /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/astorfamily.xml
+Removing astorfamily HTML folder ()
+Removing astorfamily Solr 1 ()
+Removing astorfamily Solr 2 ()
+Removing EAD file (ruben.xml) from /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/ruben.xml
+Removing ruben HTML folder ()
+Removing ruben Solr 1 ()
+Removing ruben Solr 2 ()
+Executing file /Users/albertoortizflores/tools/projects/publisher/bin/do-ead-transforms.bash
+Writing HTML version for file /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/firehouse.xml
+archive: tamwag
+Executing file /Users/albertoortizflores/tools/projects/publisher/bin/do-solr.bash with argument tamwag and firehouse
+Writing solr index file for /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/firehouse.xml
+Solr 1: Attempting to transform /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/firehouse.xml into firehouse.solr.xml
+
+Solr 2: Attempting to transform /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/firehouse.xml into firehouse.solr.xml
+
+SOLR 1: /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/firehouse.xml was successfully transformed into /Users/albertoortizflores/tools/projects/publisher/files/preview/solr1/tamwag/firehouse.solr.xml
+SOLR 2: /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/firehouse.xml was successfully transformed into /Users/albertoortizflores/tools/projects/publisher/files/preview/solr2/tamwag/firehouse.solr.xml
+Executing file /Users/albertoortizflores/tools/projects/publisher/bin/do-ead-transforms.bash
+Writing HTML version for file /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/astorfamily.xml
+archive: tamwag
+Executing file /Users/albertoortizflores/tools/projects/publisher/bin/do-solr.bash with argument tamwag and astorfamily
+Writing solr index file for /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/astorfamily.xml
+Solr 1: Attempting to transform /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/astorfamily.xml into astorfamily.solr.xml
+
+Solr 2: Attempting to transform /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/astorfamily.xml into astorfamily.solr.xml
+
+SOLR 1: /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/astorfamily.xml was successfully transformed into /Users/albertoortizflores/tools/projects/publisher/files/preview/solr1/tamwag/astorfamily.solr.xml
+SOLR 2: /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/astorfamily.xml was successfully transformed into /Users/albertoortizflores/tools/projects/publisher/files/preview/solr2/tamwag/astorfamily.solr.xml
+Removing EAD file (astorfamily.xml) from /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/astorfamily.xml
+Removing astorfamily HTML folder ()
+Removing astorfamily Solr 1 ()
+Removing astorfamily Solr 2 ()
+Removing EAD file (firehouse.xml) from /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/firehouse.xml
+Removing firehouse HTML folder ()
+Removing firehouse Solr 1 ()
+Removing firehouse Solr 2 ()
+Executing file /Users/albertoortizflores/tools/projects/publisher/bin/do-ead-transforms.bash
+Writing HTML version for file /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/arc_250_1922_account_book.xml
+archive: tamwag
+Executing file /Users/albertoortizflores/tools/projects/publisher/bin/do-solr.bash with argument tamwag and arc_250_1922_account_book
+Writing solr index file for /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/arc_250_1922_account_book.xml
+Solr 1: Attempting to transform /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/arc_250_1922_account_book.xml into arc_250_1922_account_book.solr.xml
+
+Solr 2: Attempting to transform /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/arc_250_1922_account_book.xml into arc_250_1922_account_book.solr.xml
+
+SOLR 1: /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/arc_250_1922_account_book.xml was successfully transformed into /Users/albertoortizflores/tools/projects/publisher/files/preview/solr1/tamwag/arc_250_1922_account_book.solr.xml
+SOLR 2: /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/arc_250_1922_account_book.xml was successfully transformed into /Users/albertoortizflores/tools/projects/publisher/files/preview/solr2/tamwag/arc_250_1922_account_book.solr.xml
+Removing EAD file (arc_250_1922_account_book.xml) from /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/arc_250_1922_account_book.xml
+Removing arc_250_1922_account_book HTML folder ()
+Removing arc_250_1922_account_book Solr 1 ()
+Removing arc_250_1922_account_book Solr 2 ()
+Executing file /Users/albertoortizflores/tools/projects/publisher/bin/do-ead-transforms.bash
+Writing HTML version for file /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/fateman.xml
+archive: tamwag
+Executing file /Users/albertoortizflores/tools/projects/publisher/bin/do-solr.bash with argument tamwag and fateman
+Writing solr index file for /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/fateman.xml
+Solr 1: Attempting to transform /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/fateman.xml into fateman.solr.xml
+
+Solr 2: Attempting to transform /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/fateman.xml into fateman.solr.xml
+
+SOLR 1: /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/fateman.xml was successfully transformed into /Users/albertoortizflores/tools/projects/publisher/files/preview/solr1/tamwag/fateman.solr.xml
+SOLR 2: /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/fateman.xml was successfully transformed into /Users/albertoortizflores/tools/projects/publisher/files/preview/solr2/tamwag/fateman.solr.xml
+Removing EAD file (fateman.xml) from /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/fateman.xml
+Removing fateman HTML folder ()
+Removing fateman Solr 1 ()
+Removing fateman Solr 2 ()
+Executing file /Users/albertoortizflores/tools/projects/publisher/bin/do-ead-transforms.bash
+Writing HTML version for file /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/artistsspace.xml
+archive: tamwag
+Executing file /Users/albertoortizflores/tools/projects/publisher/bin/do-solr.bash with argument tamwag and artistsspace
+Writing solr index file for /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/artistsspace.xml
+Solr 1: Attempting to transform /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/artistsspace.xml into artistsspace.solr.xml
+
+Solr 2: Attempting to transform /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/artistsspace.xml into artistsspace.solr.xml
+
+SOLR 1: /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/artistsspace.xml was successfully transformed into /Users/albertoortizflores/tools/projects/publisher/files/preview/solr1/tamwag/artistsspace.solr.xml
+SOLR 2: /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/artistsspace.xml was successfully transformed into /Users/albertoortizflores/tools/projects/publisher/files/preview/solr2/tamwag/artistsspace.solr.xml
+Removing EAD file (artistsspace.xml) from /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/artistsspace.xml
+Removing artistsspace HTML folder ()
+Removing artistsspace Solr 1 ()
+Removing artistsspace Solr 2 ()
+Executing file /Users/albertoortizflores/tools/projects/publisher/bin/do-ead-transforms.bash
+Writing HTML version for file /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/arms_1985_016_young_peoples_baptist_union.xml
+archive: tamwag
+Executing file /Users/albertoortizflores/tools/projects/publisher/bin/do-solr.bash with argument tamwag and arms_1985_016_young_peoples_baptist_union
+Writing solr index file for /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/arms_1985_016_young_peoples_baptist_union.xml
+Solr 1: Attempting to transform /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/arms_1985_016_young_peoples_baptist_union.xml into arms_1985_016_young_peoples_baptist_union.solr.xml
+
+Solr 2: Attempting to transform /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/arms_1985_016_young_peoples_baptist_union.xml into arms_1985_016_young_peoples_baptist_union.solr.xml
+
+SOLR 1: /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/arms_1985_016_young_peoples_baptist_union.xml was successfully transformed into /Users/albertoortizflores/tools/projects/publisher/files/preview/solr1/tamwag/arms_1985_016_young_peoples_baptist_union.solr.xml
+SOLR 2: /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/arms_1985_016_young_peoples_baptist_union.xml was successfully transformed into /Users/albertoortizflores/tools/projects/publisher/files/preview/solr2/tamwag/arms_1985_016_young_peoples_baptist_union.solr.xml
+Removing EAD file (arms_1985_016_young_peoples_baptist_union.xml) from /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/arms_1985_016_young_peoples_baptist_union.xml
+Removing arms_1985_016_young_peoples_baptist_union HTML folder ()
+Removing arms_1985_016_young_peoples_baptist_union Solr 1 ()
+Removing arms_1985_016_young_peoples_baptist_union Solr 2 ()
+Executing file /Users/albertoortizflores/tools/projects/publisher/bin/do-ead-transforms.bash
+Writing HTML version for file /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/arms_1990_002_roberts.xml
+archive: tamwag
+Executing file /Users/albertoortizflores/tools/projects/publisher/bin/do-solr.bash with argument tamwag and arms_1990_002_roberts
+Writing solr index file for /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/arms_1990_002_roberts.xml
+Solr 1: Attempting to transform /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/arms_1990_002_roberts.xml into arms_1990_002_roberts.solr.xml
+
+Solr 2: Attempting to transform /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/arms_1990_002_roberts.xml into arms_1990_002_roberts.solr.xml
+
+SOLR 1: /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/arms_1990_002_roberts.xml was successfully transformed into /Users/albertoortizflores/tools/projects/publisher/files/preview/solr1/tamwag/arms_1990_002_roberts.solr.xml
+SOLR 2: /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/arms_1990_002_roberts.xml was successfully transformed into /Users/albertoortizflores/tools/projects/publisher/files/preview/solr2/tamwag/arms_1990_002_roberts.solr.xml
+Removing EAD file (arms_1990_002_roberts.xml) from /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/arms_1990_002_roberts.xml
+Removing arms_1990_002_roberts HTML folder ()
+Removing arms_1990_002_roberts Solr 1 ()
+Removing arms_1990_002_roberts Solr 2 ()
+Executing file /Users/albertoortizflores/tools/projects/publisher/bin/do-ead-transforms.bash
+Writing HTML version for file /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/arms_1978_096_mudgley.xml
+archive: tamwag
+Executing file /Users/albertoortizflores/tools/projects/publisher/bin/do-solr.bash with argument tamwag and arms_1978_096_mudgley
+Writing solr index file for /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/arms_1978_096_mudgley.xml
+Solr 1: Attempting to transform /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/arms_1978_096_mudgley.xml into arms_1978_096_mudgley.solr.xml
+
+Solr 2: Attempting to transform /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/arms_1978_096_mudgley.xml into arms_1978_096_mudgley.solr.xml
+
+SOLR 1: /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/arms_1978_096_mudgley.xml was successfully transformed into /Users/albertoortizflores/tools/projects/publisher/files/preview/solr1/tamwag/arms_1978_096_mudgley.solr.xml
+SOLR 2: /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/arms_1978_096_mudgley.xml was successfully transformed into /Users/albertoortizflores/tools/projects/publisher/files/preview/solr2/tamwag/arms_1978_096_mudgley.solr.xml
+Removing EAD file (arms_1978_096_mudgley.xml) from /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/arms_1978_096_mudgley.xml
+Removing arms_1978_096_mudgley HTML folder ()
+Removing arms_1978_096_mudgley Solr 1 ()
+Removing arms_1978_096_mudgley Solr 2 ()
+Executing file /Users/albertoortizflores/tools/projects/publisher/bin/do-ead-transforms.bash
+Writing HTML version for file /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/fales/arc_250_1922_account_book.xml
+archive: fales
+Executing file /Users/albertoortizflores/tools/projects/publisher/bin/do-solr.bash with argument fales and arc_250_1922_account_book
+Writing solr index file for /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/fales/arc_250_1922_account_book.xml
+Solr 1: Attempting to transform /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/fales/arc_250_1922_account_book.xml into arc_250_1922_account_book.solr.xml
+
+Solr 2: Attempting to transform /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/fales/arc_250_1922_account_book.xml into arc_250_1922_account_book.solr.xml
+
+SOLR 1: /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/fales/arc_250_1922_account_book.xml was successfully transformed into /Users/albertoortizflores/tools/projects/publisher/files/preview/solr1/fales/arc_250_1922_account_book.solr.xml
+SOLR 2: /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/fales/arc_250_1922_account_book.xml was successfully transformed into /Users/albertoortizflores/tools/projects/publisher/files/preview/solr2/fales/arc_250_1922_account_book.solr.xml
+Executing file /Users/albertoortizflores/tools/projects/publisher/bin/do-ead-transforms.bash
+Writing HTML version for file /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/photos_024.xml
+archive: tamwag
+Executing file /Users/albertoortizflores/tools/projects/publisher/bin/do-solr.bash with argument tamwag and photos_024
+Writing solr index file for /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/photos_024.xml
+Solr 1: Attempting to transform /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/photos_024.xml into photos_024.solr.xml
+
+Solr 2: Attempting to transform /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/photos_024.xml into photos_024.solr.xml
+
+SOLR 1: /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/photos_024.xml was successfully transformed into /Users/albertoortizflores/tools/projects/publisher/files/preview/solr1/tamwag/photos_024.solr.xml
+SOLR 2: /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/photos_024.xml was successfully transformed into /Users/albertoortizflores/tools/projects/publisher/files/preview/solr2/tamwag/photos_024.solr.xml
+Removing EAD file (photos_024.xml) from /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/photos_024.xml
+Removing photos_024 HTML folder ()
+Removing photos_024 Solr 1 ()
+Removing photos_024 Solr 2 ()
+Executing file /Users/albertoortizflores/tools/projects/publisher/bin/do-ead-transforms.bash
+Writing HTML version for file /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/album.xml
+archive: tamwag
+Executing file /Users/albertoortizflores/tools/projects/publisher/bin/do-solr.bash with argument tamwag and album
+Writing solr index file for /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/album.xml
+Solr 1: Attempting to transform /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/album.xml into album.solr.xml
+
+Solr 2: Attempting to transform /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/album.xml into album.solr.xml
+
+SOLR 1: /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/album.xml was successfully transformed into /Users/albertoortizflores/tools/projects/publisher/files/preview/solr1/tamwag/album.solr.xml
+SOLR 2: /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/album.xml was successfully transformed into /Users/albertoortizflores/tools/projects/publisher/files/preview/solr2/tamwag/album.solr.xml
+Removing EAD file (album.xml) from /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/album.xml
+Removing album HTML folder ()
+Removing album Solr 1 ()
+Removing album Solr 2 ()
+Executing file /Users/albertoortizflores/tools/projects/publisher/bin/do-ead-transforms.bash
+Writing HTML version for file /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/arms_1978_096_mudgley.xml
+archive: tamwag
+Executing file /Users/albertoortizflores/tools/projects/publisher/bin/do-solr.bash with argument tamwag and arms_1978_096_mudgley
+Writing solr index file for /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/arms_1978_096_mudgley.xml
+Solr 1: Attempting to transform /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/arms_1978_096_mudgley.xml into arms_1978_096_mudgley.solr.xml
+
+Solr 2: Attempting to transform /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/arms_1978_096_mudgley.xml into arms_1978_096_mudgley.solr.xml
+
+SOLR 1: /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/arms_1978_096_mudgley.xml was successfully transformed into /Users/albertoortizflores/tools/projects/publisher/files/preview/solr1/tamwag/arms_1978_096_mudgley.solr.xml
+SOLR 2: /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/arms_1978_096_mudgley.xml was successfully transformed into /Users/albertoortizflores/tools/projects/publisher/files/preview/solr2/tamwag/arms_1978_096_mudgley.solr.xml
+Executing file /Users/albertoortizflores/tools/projects/publisher/bin/do-ead-transforms.bash
+Writing HTML version for file /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/tam_158.xml
+archive: tamwag
+Executing file /Users/albertoortizflores/tools/projects/publisher/bin/do-solr.bash with argument tamwag and tam_158
+Writing solr index file for /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/tam_158.xml
+Solr 1: Attempting to transform /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/tam_158.xml into tam_158.solr.xml
+
+Solr 2: Attempting to transform /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/tam_158.xml into tam_158.solr.xml
+
+SOLR 1: /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/tam_158.xml was successfully transformed into /Users/albertoortizflores/tools/projects/publisher/files/preview/solr1/tamwag/tam_158.solr.xml
+SOLR 2: /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/tam_158.xml was successfully transformed into /Users/albertoortizflores/tools/projects/publisher/files/preview/solr2/tamwag/tam_158.solr.xml
+Executing file /Users/albertoortizflores/tools/projects/publisher/bin/do-ead-transforms.bash
+Writing HTML version for file /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/harmonie.xml
+archive: tamwag
+Executing file /Users/albertoortizflores/tools/projects/publisher/bin/do-solr.bash with argument tamwag and harmonie
+Writing solr index file for /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/harmonie.xml
+Solr 1: Attempting to transform /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/harmonie.xml into harmonie.solr.xml
+
+Solr 2: Attempting to transform /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/harmonie.xml into harmonie.solr.xml
+
+SOLR 1: /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/harmonie.xml was successfully transformed into /Users/albertoortizflores/tools/projects/publisher/files/preview/solr1/tamwag/harmonie.solr.xml
+SOLR 2: /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/harmonie.xml was successfully transformed into /Users/albertoortizflores/tools/projects/publisher/files/preview/solr2/tamwag/harmonie.solr.xml
+Executing file /Users/albertoortizflores/tools/projects/publisher/bin/do-ead-transforms.bash
+Writing HTML version for file /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/fateman.xml
+archive: tamwag
+Executing file /Users/albertoortizflores/tools/projects/publisher/bin/do-solr.bash with argument tamwag and fateman
+Writing solr index file for /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/fateman.xml
+Solr 1: Attempting to transform /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/fateman.xml into fateman.solr.xml
+
+Solr 2: Attempting to transform /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/fateman.xml into fateman.solr.xml
+
+SOLR 1: /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/fateman.xml was successfully transformed into /Users/albertoortizflores/tools/projects/publisher/files/preview/solr1/tamwag/fateman.solr.xml
+SOLR 2: /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/fateman.xml was successfully transformed into /Users/albertoortizflores/tools/projects/publisher/files/preview/solr2/tamwag/fateman.solr.xml
+Removing EAD file (harmonie.xml) from /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/harmonie.xml
+Removing harmonie HTML folder ()
+Removing harmonie Solr 1 ()
+Removing harmonie Solr 2 ()
+Removing EAD file (arms_1978_096_mudgley.xml) from /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/arms_1978_096_mudgley.xml
+Removing arms_1978_096_mudgley HTML folder ()
+Removing arms_1978_096_mudgley Solr 1 ()
+Removing arms_1978_096_mudgley Solr 2 ()
+Removing EAD file (tam_158.xml) from /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/tam_158.xml
+Removing tam_158 HTML folder ()
+Removing tam_158 Solr 1 ()
+Removing tam_158 Solr 2 ()
+Removing EAD file (fateman.xml) from /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/fateman.xml
+Removing fateman HTML folder ()
+Removing fateman Solr 1 ()
+Removing fateman Solr 2 ()
+Executing file /Users/albertoortizflores/tools/projects/publisher/bin/do-ead-transforms.bash
+Writing HTML version for file /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/arms_1978_096_mudgley.xml
+archive: tamwag
+Executing file /Users/albertoortizflores/tools/projects/publisher/bin/do-solr.bash with argument tamwag and arms_1978_096_mudgley
+Writing solr index file for /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/arms_1978_096_mudgley.xml
+Solr 1: Attempting to transform /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/arms_1978_096_mudgley.xml into arms_1978_096_mudgley.solr.xml
+
+Solr 2: Attempting to transform /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/arms_1978_096_mudgley.xml into arms_1978_096_mudgley.solr.xml
+
+SOLR 1: /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/arms_1978_096_mudgley.xml was successfully transformed into /Users/albertoortizflores/tools/projects/publisher/files/preview/solr1/tamwag/arms_1978_096_mudgley.solr.xml
+SOLR 2: /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/arms_1978_096_mudgley.xml was successfully transformed into /Users/albertoortizflores/tools/projects/publisher/files/preview/solr2/tamwag/arms_1978_096_mudgley.solr.xml
+Executing file /Users/albertoortizflores/tools/projects/publisher/bin/do-ead-transforms.bash
+Writing HTML version for file /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/arms_1978_135.xml
+archive: tamwag
+Executing file /Users/albertoortizflores/tools/projects/publisher/bin/do-solr.bash with argument tamwag and arms_1978_135
+Writing solr index file for /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/arms_1978_135.xml
+Solr 1: Attempting to transform /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/arms_1978_135.xml into arms_1978_135.solr.xml
+
+Solr 2: Attempting to transform /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/arms_1978_135.xml into arms_1978_135.solr.xml
+
+SOLR 1: /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/arms_1978_135.xml was successfully transformed into /Users/albertoortizflores/tools/projects/publisher/files/preview/solr1/tamwag/arms_1978_135.solr.xml
+SOLR 2: /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/arms_1978_135.xml was successfully transformed into /Users/albertoortizflores/tools/projects/publisher/files/preview/solr2/tamwag/arms_1978_135.solr.xml
+Executing file /Users/albertoortizflores/tools/projects/publisher/bin/do-ead-transforms.bash
+Executing file /Users/albertoortizflores/tools/projects/publisher/bin/do-ead-transforms.bash
+Writing HTML version for file /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/arc_250_1922_account_book.xml
+archive: tamwag
+Writing HTML version for file /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/arms_1990_002_roberts.xml
+archive: tamwag
+Executing file /Users/albertoortizflores/tools/projects/publisher/bin/do-solr.bash with argument tamwag and arc_250_1922_account_book
+Writing solr index file for /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/arc_250_1922_account_book.xml
+Executing file /Users/albertoortizflores/tools/projects/publisher/bin/do-solr.bash with argument tamwag and arms_1990_002_roberts
+Writing solr index file for /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/arms_1990_002_roberts.xml
+Solr 1: Attempting to transform /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/arc_250_1922_account_book.xml into arc_250_1922_account_book.solr.xml
+
+Solr 1: Attempting to transform /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/arms_1990_002_roberts.xml into arms_1990_002_roberts.solr.xml
+
+Solr 2: Attempting to transform /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/arc_250_1922_account_book.xml into arc_250_1922_account_book.solr.xml
+
+SOLR 1: /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/arc_250_1922_account_book.xml was successfully transformed into /Users/albertoortizflores/tools/projects/publisher/files/preview/solr1/tamwag/arc_250_1922_account_book.solr.xml
+SOLR 2: /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/arc_250_1922_account_book.xml was successfully transformed into /Users/albertoortizflores/tools/projects/publisher/files/preview/solr2/tamwag/arc_250_1922_account_book.solr.xml
+Solr 2: Attempting to transform /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/arms_1990_002_roberts.xml into arms_1990_002_roberts.solr.xml
+
+SOLR 1: /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/arms_1990_002_roberts.xml was successfully transformed into /Users/albertoortizflores/tools/projects/publisher/files/preview/solr1/tamwag/arms_1990_002_roberts.solr.xml
+SOLR 2: /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/arms_1990_002_roberts.xml was successfully transformed into /Users/albertoortizflores/tools/projects/publisher/files/preview/solr2/tamwag/arms_1990_002_roberts.solr.xml
+Executing file /Users/albertoortizflores/tools/projects/publisher/bin/do-ead-transforms.bash
+Writing HTML version for file /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/astorfamily.xml
+archive: tamwag
+Executing file /Users/albertoortizflores/tools/projects/publisher/bin/do-ead-transforms.bash
+Writing HTML version for file /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/artistsspace.xml
+archive: tamwag
+Executing file /Users/albertoortizflores/tools/projects/publisher/bin/do-solr.bash with argument tamwag and astorfamily
+Writing solr index file for /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/astorfamily.xml
+Solr 1: Attempting to transform /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/astorfamily.xml into astorfamily.solr.xml
+
+Solr 2: Attempting to transform /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/astorfamily.xml into astorfamily.solr.xml
+
+SOLR 1: /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/astorfamily.xml was successfully transformed into /Users/albertoortizflores/tools/projects/publisher/files/preview/solr1/tamwag/astorfamily.solr.xml
+SOLR 2: /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/astorfamily.xml was successfully transformed into /Users/albertoortizflores/tools/projects/publisher/files/preview/solr2/tamwag/astorfamily.solr.xml
+Executing file /Users/albertoortizflores/tools/projects/publisher/bin/do-ead-transforms.bash
+Writing HTML version for file /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/bregman.xml
+archive: tamwag
+Executing file /Users/albertoortizflores/tools/projects/publisher/bin/do-solr.bash with argument tamwag and bregman
+Writing solr index file for /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/bregman.xml
+Solr 1: Attempting to transform /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/bregman.xml into bregman.solr.xml
+
+Solr 2: Attempting to transform /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/bregman.xml into bregman.solr.xml
+
+SOLR 1: /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/bregman.xml was successfully transformed into /Users/albertoortizflores/tools/projects/publisher/files/preview/solr1/tamwag/bregman.solr.xml
+SOLR 2: /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/bregman.xml was successfully transformed into /Users/albertoortizflores/tools/projects/publisher/files/preview/solr2/tamwag/bregman.solr.xml
+Executing file /Users/albertoortizflores/tools/projects/publisher/bin/do-ead-transforms.bash
+Writing HTML version for file /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/bugliarello_chancellor.xml
+archive: tamwag
+Executing file /Users/albertoortizflores/tools/projects/publisher/bin/do-solr.bash with argument tamwag and artistsspace
+Writing solr index file for /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/artistsspace.xml
+Solr 1: Attempting to transform /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/artistsspace.xml into artistsspace.solr.xml
+
+Solr 2: Attempting to transform /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/artistsspace.xml into artistsspace.solr.xml
+
+SOLR 1: /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/artistsspace.xml was successfully transformed into /Users/albertoortizflores/tools/projects/publisher/files/preview/solr1/tamwag/artistsspace.solr.xml
+SOLR 2: /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/artistsspace.xml was successfully transformed into /Users/albertoortizflores/tools/projects/publisher/files/preview/solr2/tamwag/artistsspace.solr.xml
+Executing file /Users/albertoortizflores/tools/projects/publisher/bin/do-ead-transforms.bash
+Writing HTML version for file /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/cues.xml
+archive: tamwag
+Executing file /Users/albertoortizflores/tools/projects/publisher/bin/do-solr.bash with argument tamwag and cues
+Writing solr index file for /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/cues.xml
+Solr 1: Attempting to transform /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/cues.xml into cues.solr.xml
+
+Solr 2: Attempting to transform /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/cues.xml into cues.solr.xml
+
+SOLR 1: /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/cues.xml was successfully transformed into /Users/albertoortizflores/tools/projects/publisher/files/preview/solr1/tamwag/cues.solr.xml
+SOLR 2: /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/cues.xml was successfully transformed into /Users/albertoortizflores/tools/projects/publisher/files/preview/solr2/tamwag/cues.solr.xml
+Executing file /Users/albertoortizflores/tools/projects/publisher/bin/do-ead-transforms.bash
+Writing HTML version for file /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/darcangelo.xml
+archive: tamwag
+Executing file /Users/albertoortizflores/tools/projects/publisher/bin/do-solr.bash with argument tamwag and bugliarello_chancellor
+Writing solr index file for /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/bugliarello_chancellor.xml
+Solr 1: Attempting to transform /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/bugliarello_chancellor.xml into bugliarello_chancellor.solr.xml
+
+Executing file /Users/albertoortizflores/tools/projects/publisher/bin/do-solr.bash with argument tamwag and darcangelo
+Writing solr index file for /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/darcangelo.xml
+Solr 1: Attempting to transform /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/darcangelo.xml into darcangelo.solr.xml
+
+Solr 2: Attempting to transform /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/bugliarello_chancellor.xml into bugliarello_chancellor.solr.xml
+
+SOLR 1: /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/bugliarello_chancellor.xml was successfully transformed into /Users/albertoortizflores/tools/projects/publisher/files/preview/solr1/tamwag/bugliarello_chancellor.solr.xml
+SOLR 2: /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/bugliarello_chancellor.xml was successfully transformed into /Users/albertoortizflores/tools/projects/publisher/files/preview/solr2/tamwag/bugliarello_chancellor.solr.xml
+Executing file /Users/albertoortizflores/tools/projects/publisher/bin/do-ead-transforms.bash
+Writing HTML version for file /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/djohnson.xml
+archive: tamwag
+Solr 2: Attempting to transform /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/darcangelo.xml into darcangelo.solr.xml
+
+SOLR 1: /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/darcangelo.xml was successfully transformed into /Users/albertoortizflores/tools/projects/publisher/files/preview/solr1/tamwag/darcangelo.solr.xml
+SOLR 2: /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/darcangelo.xml was successfully transformed into /Users/albertoortizflores/tools/projects/publisher/files/preview/solr2/tamwag/darcangelo.solr.xml
+Executing file /Users/albertoortizflores/tools/projects/publisher/bin/do-ead-transforms.bash
+Writing HTML version for file /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/fales_events.xml
+archive: tamwag
+Executing file /Users/albertoortizflores/tools/projects/publisher/bin/do-solr.bash with argument tamwag and djohnson
+Writing solr index file for /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/djohnson.xml
+Executing file /Users/albertoortizflores/tools/projects/publisher/bin/do-solr.bash with argument tamwag and fales_events
+Writing solr index file for /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/fales_events.xml
+Solr 1: Attempting to transform /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/djohnson.xml into djohnson.solr.xml
+
+Solr 1: Attempting to transform /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/fales_events.xml into fales_events.solr.xml
+
+Solr 2: Attempting to transform /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/djohnson.xml into djohnson.solr.xml
+
+SOLR 1: /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/djohnson.xml was successfully transformed into /Users/albertoortizflores/tools/projects/publisher/files/preview/solr1/tamwag/djohnson.solr.xml
+SOLR 2: /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/djohnson.xml was successfully transformed into /Users/albertoortizflores/tools/projects/publisher/files/preview/solr2/tamwag/djohnson.solr.xml
+Executing file /Users/albertoortizflores/tools/projects/publisher/bin/do-ead-transforms.bash
+Writing HTML version for file /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/fateman.xml
+archive: tamwag
+Solr 2: Attempting to transform /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/fales_events.xml into fales_events.solr.xml
+
+SOLR 1: /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/fales_events.xml was successfully transformed into /Users/albertoortizflores/tools/projects/publisher/files/preview/solr1/tamwag/fales_events.solr.xml
+SOLR 2: /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/fales_events.xml was successfully transformed into /Users/albertoortizflores/tools/projects/publisher/files/preview/solr2/tamwag/fales_events.solr.xml
+Executing file /Users/albertoortizflores/tools/projects/publisher/bin/do-ead-transforms.bash
+Writing HTML version for file /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/firehouse.xml
+archive: tamwag
+Executing file /Users/albertoortizflores/tools/projects/publisher/bin/do-solr.bash with argument tamwag and fateman
+Writing solr index file for /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/fateman.xml
+Executing file /Users/albertoortizflores/tools/projects/publisher/bin/do-solr.bash with argument tamwag and firehouse
+Writing solr index file for /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/firehouse.xml
+Solr 1: Attempting to transform /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/fateman.xml into fateman.solr.xml
+
+Solr 1: Attempting to transform /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/firehouse.xml into firehouse.solr.xml
+
+Solr 2: Attempting to transform /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/fateman.xml into fateman.solr.xml
+
+SOLR 1: /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/fateman.xml was successfully transformed into /Users/albertoortizflores/tools/projects/publisher/files/preview/solr1/tamwag/fateman.solr.xml
+SOLR 2: /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/fateman.xml was successfully transformed into /Users/albertoortizflores/tools/projects/publisher/files/preview/solr2/tamwag/fateman.solr.xml
+Executing file /Users/albertoortizflores/tools/projects/publisher/bin/do-ead-transforms.bash
+Writing HTML version for file /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/foundling.xml
+archive: tamwag
+Solr 2: Attempting to transform /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/firehouse.xml into firehouse.solr.xml
+
+SOLR 1: /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/firehouse.xml was successfully transformed into /Users/albertoortizflores/tools/projects/publisher/files/preview/solr1/tamwag/firehouse.solr.xml
+SOLR 2: /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/firehouse.xml was successfully transformed into /Users/albertoortizflores/tools/projects/publisher/files/preview/solr2/tamwag/firehouse.solr.xml
+Executing file /Users/albertoortizflores/tools/projects/publisher/bin/do-ead-transforms.bash
+Writing HTML version for file /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/gaycable.xml
+archive: tamwag
+Executing file /Users/albertoortizflores/tools/projects/publisher/bin/do-solr.bash with argument tamwag and foundling
+Writing solr index file for /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/foundling.xml
+Solr 1: Attempting to transform /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/foundling.xml into foundling.solr.xml
+
+Executing file /Users/albertoortizflores/tools/projects/publisher/bin/do-solr.bash with argument tamwag and gaycable
+Writing solr index file for /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/gaycable.xml
+Solr 2: Attempting to transform /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/foundling.xml into foundling.solr.xml
+
+SOLR 1: /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/foundling.xml was successfully transformed into /Users/albertoortizflores/tools/projects/publisher/files/preview/solr1/tamwag/foundling.solr.xml
+SOLR 2: /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/foundling.xml was successfully transformed into /Users/albertoortizflores/tools/projects/publisher/files/preview/solr2/tamwag/foundling.solr.xml
+Solr 1: Attempting to transform /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/gaycable.xml into gaycable.solr.xml
+
+Solr 2: Attempting to transform /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/gaycable.xml into gaycable.solr.xml
+
+SOLR 1: /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/gaycable.xml was successfully transformed into /Users/albertoortizflores/tools/projects/publisher/files/preview/solr1/tamwag/gaycable.solr.xml
+SOLR 2: /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/gaycable.xml was successfully transformed into /Users/albertoortizflores/tools/projects/publisher/files/preview/solr2/tamwag/gaycable.solr.xml
+Executing file /Users/albertoortizflores/tools/projects/publisher/bin/do-ead-transforms.bash
+Executing file /Users/albertoortizflores/tools/projects/publisher/bin/do-ead-transforms.bash
+Writing HTML version for file /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/alba_074.xml
+archive: tamwag
+Writing HTML version for file /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/aia_030.xml
+archive: tamwag
+Executing file /Users/albertoortizflores/tools/projects/publisher/bin/do-solr.bash with argument tamwag and alba_074
+Writing solr index file for /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/alba_074.xml
+Executing file /Users/albertoortizflores/tools/projects/publisher/bin/do-solr.bash with argument tamwag and aia_030
+Writing solr index file for /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/aia_030.xml
+Solr 1: Attempting to transform /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/alba_074.xml into alba_074.solr.xml
+
+Solr 2: Attempting to transform /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/alba_074.xml into alba_074.solr.xml
+
+SOLR 1: /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/alba_074.xml was successfully transformed into /Users/albertoortizflores/tools/projects/publisher/files/preview/solr1/tamwag/alba_074.solr.xml
+SOLR 2: /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/alba_074.xml was successfully transformed into /Users/albertoortizflores/tools/projects/publisher/files/preview/solr2/tamwag/alba_074.solr.xml
+Solr 1: Attempting to transform /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/aia_030.xml into aia_030.solr.xml
+
+Executing file /Users/albertoortizflores/tools/projects/publisher/bin/do-ead-transforms.bash
+Writing HTML version for file /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/album.xml
+archive: tamwag
+Solr 2: Attempting to transform /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/aia_030.xml into aia_030.solr.xml
+
+SOLR 1: /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/aia_030.xml was successfully transformed into /Users/albertoortizflores/tools/projects/publisher/files/preview/solr1/tamwag/aia_030.solr.xml
+SOLR 2: /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/aia_030.xml was successfully transformed into /Users/albertoortizflores/tools/projects/publisher/files/preview/solr2/tamwag/aia_030.solr.xml
+Executing file /Users/albertoortizflores/tools/projects/publisher/bin/do-ead-transforms.bash
+Writing HTML version for file /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/arc_174_brooklyn_newsletters.xml
+archive: tamwag
+Executing file /Users/albertoortizflores/tools/projects/publisher/bin/do-solr.bash with argument tamwag and arc_174_brooklyn_newsletters
+Writing solr index file for /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/arc_174_brooklyn_newsletters.xml
+Solr 1: Attempting to transform /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/arc_174_brooklyn_newsletters.xml into arc_174_brooklyn_newsletters.solr.xml
+
+Executing file /Users/albertoortizflores/tools/projects/publisher/bin/do-solr.bash with argument tamwag and album
+Writing solr index file for /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/album.xml
+Solr 2: Attempting to transform /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/arc_174_brooklyn_newsletters.xml into arc_174_brooklyn_newsletters.solr.xml
+
+SOLR 1: /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/arc_174_brooklyn_newsletters.xml was successfully transformed into /Users/albertoortizflores/tools/projects/publisher/files/preview/solr1/tamwag/arc_174_brooklyn_newsletters.solr.xml
+SOLR 2: /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/arc_174_brooklyn_newsletters.xml was successfully transformed into /Users/albertoortizflores/tools/projects/publisher/files/preview/solr2/tamwag/arc_174_brooklyn_newsletters.solr.xml
+Executing file /Users/albertoortizflores/tools/projects/publisher/bin/do-ead-transforms.bash
+Writing HTML version for file /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/arc_250_1922_account_book.xml
+archive: tamwag
+Solr 1: Attempting to transform /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/album.xml into album.solr.xml
+
+Solr 2: Attempting to transform /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/album.xml into album.solr.xml
+
+SOLR 1: /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/album.xml was successfully transformed into /Users/albertoortizflores/tools/projects/publisher/files/preview/solr1/tamwag/album.solr.xml
+SOLR 2: /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/album.xml was successfully transformed into /Users/albertoortizflores/tools/projects/publisher/files/preview/solr2/tamwag/album.solr.xml
+Executing file /Users/albertoortizflores/tools/projects/publisher/bin/do-solr.bash with argument tamwag and arc_250_1922_account_book
+Writing solr index file for /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/arc_250_1922_account_book.xml
+Executing file /Users/albertoortizflores/tools/projects/publisher/bin/do-ead-transforms.bash
+Writing HTML version for file /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/arms_1978_096_mudgley.xml
+archive: tamwag
+Solr 1: Attempting to transform /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/arc_250_1922_account_book.xml into arc_250_1922_account_book.solr.xml
+
+Executing file /Users/albertoortizflores/tools/projects/publisher/bin/do-solr.bash with argument tamwag and arms_1978_096_mudgley
+Writing solr index file for /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/arms_1978_096_mudgley.xml
+Solr 2: Attempting to transform /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/arc_250_1922_account_book.xml into arc_250_1922_account_book.solr.xml
+
+SOLR 1: /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/arc_250_1922_account_book.xml was successfully transformed into /Users/albertoortizflores/tools/projects/publisher/files/preview/solr1/tamwag/arc_250_1922_account_book.solr.xml
+SOLR 2: /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/arc_250_1922_account_book.xml was successfully transformed into /Users/albertoortizflores/tools/projects/publisher/files/preview/solr2/tamwag/arc_250_1922_account_book.solr.xml
+Executing file /Users/albertoortizflores/tools/projects/publisher/bin/do-ead-transforms.bash
+Writing HTML version for file /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/arms_1978_135.xml
+archive: tamwag
+Solr 1: Attempting to transform /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/arms_1978_096_mudgley.xml into arms_1978_096_mudgley.solr.xml
+
+Solr 2: Attempting to transform /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/arms_1978_096_mudgley.xml into arms_1978_096_mudgley.solr.xml
+
+SOLR 1: /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/arms_1978_096_mudgley.xml was successfully transformed into /Users/albertoortizflores/tools/projects/publisher/files/preview/solr1/tamwag/arms_1978_096_mudgley.solr.xml
+SOLR 2: /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/arms_1978_096_mudgley.xml was successfully transformed into /Users/albertoortizflores/tools/projects/publisher/files/preview/solr2/tamwag/arms_1978_096_mudgley.solr.xml
+Executing file /Users/albertoortizflores/tools/projects/publisher/bin/do-solr.bash with argument tamwag and arms_1978_135
+Writing solr index file for /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/arms_1978_135.xml
+Executing file /Users/albertoortizflores/tools/projects/publisher/bin/do-ead-transforms.bash
+Writing HTML version for file /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/arms_1978_136_shattuck_white.xml
+archive: tamwag
+Solr 1: Attempting to transform /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/arms_1978_135.xml into arms_1978_135.solr.xml
+
+Executing file /Users/albertoortizflores/tools/projects/publisher/bin/do-solr.bash with argument tamwag and arms_1978_136_shattuck_white
+Writing solr index file for /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/arms_1978_136_shattuck_white.xml
+Solr 2: Attempting to transform /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/arms_1978_135.xml into arms_1978_135.solr.xml
+
+SOLR 1: /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/arms_1978_135.xml was successfully transformed into /Users/albertoortizflores/tools/projects/publisher/files/preview/solr1/tamwag/arms_1978_135.solr.xml
+SOLR 2: /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/arms_1978_135.xml was successfully transformed into /Users/albertoortizflores/tools/projects/publisher/files/preview/solr2/tamwag/arms_1978_135.solr.xml
+Executing file /Users/albertoortizflores/tools/projects/publisher/bin/do-ead-transforms.bash
+Writing HTML version for file /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/arms_1985_016_young_peoples_baptist_union.xml
+archive: tamwag
+Solr 1: Attempting to transform /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/arms_1978_136_shattuck_white.xml into arms_1978_136_shattuck_white.solr.xml
+
+Solr 2: Attempting to transform /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/arms_1978_136_shattuck_white.xml into arms_1978_136_shattuck_white.solr.xml
+
+SOLR 1: /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/arms_1978_136_shattuck_white.xml was successfully transformed into /Users/albertoortizflores/tools/projects/publisher/files/preview/solr1/tamwag/arms_1978_136_shattuck_white.solr.xml
+SOLR 2: /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/arms_1978_136_shattuck_white.xml was successfully transformed into /Users/albertoortizflores/tools/projects/publisher/files/preview/solr2/tamwag/arms_1978_136_shattuck_white.solr.xml
+Executing file /Users/albertoortizflores/tools/projects/publisher/bin/do-ead-transforms.bash
+Writing HTML version for file /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/arms_1987_017_brooklyn_hotel.xml
+archive: tamwag
+Executing file /Users/albertoortizflores/tools/projects/publisher/bin/do-solr.bash with argument tamwag and arms_1985_016_young_peoples_baptist_union
+Writing solr index file for /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/arms_1985_016_young_peoples_baptist_union.xml
+Solr 1: Attempting to transform /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/arms_1985_016_young_peoples_baptist_union.xml into arms_1985_016_young_peoples_baptist_union.solr.xml
+
+Executing file /Users/albertoortizflores/tools/projects/publisher/bin/do-solr.bash with argument tamwag and arms_1987_017_brooklyn_hotel
+Writing solr index file for /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/arms_1987_017_brooklyn_hotel.xml
+Solr 2: Attempting to transform /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/arms_1985_016_young_peoples_baptist_union.xml into arms_1985_016_young_peoples_baptist_union.solr.xml
+
+SOLR 1: /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/arms_1985_016_young_peoples_baptist_union.xml was successfully transformed into /Users/albertoortizflores/tools/projects/publisher/files/preview/solr1/tamwag/arms_1985_016_young_peoples_baptist_union.solr.xml
+SOLR 2: /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/arms_1985_016_young_peoples_baptist_union.xml was successfully transformed into /Users/albertoortizflores/tools/projects/publisher/files/preview/solr2/tamwag/arms_1985_016_young_peoples_baptist_union.solr.xml
+Executing file /Users/albertoortizflores/tools/projects/publisher/bin/do-ead-transforms.bash
+Writing HTML version for file /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/arms_1990_002_roberts.xml
+archive: tamwag
+Solr 1: Attempting to transform /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/arms_1987_017_brooklyn_hotel.xml into arms_1987_017_brooklyn_hotel.solr.xml
+
+Solr 2: Attempting to transform /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/arms_1987_017_brooklyn_hotel.xml into arms_1987_017_brooklyn_hotel.solr.xml
+
+SOLR 1: /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/arms_1987_017_brooklyn_hotel.xml was successfully transformed into /Users/albertoortizflores/tools/projects/publisher/files/preview/solr1/tamwag/arms_1987_017_brooklyn_hotel.solr.xml
+SOLR 2: /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/arms_1987_017_brooklyn_hotel.xml was successfully transformed into /Users/albertoortizflores/tools/projects/publisher/files/preview/solr2/tamwag/arms_1987_017_brooklyn_hotel.solr.xml
+Executing file /Users/albertoortizflores/tools/projects/publisher/bin/do-ead-transforms.bash
+Writing HTML version for file /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/artistsspace.xml
+archive: tamwag
+Executing file /Users/albertoortizflores/tools/projects/publisher/bin/do-solr.bash with argument tamwag and arms_1990_002_roberts
+Writing solr index file for /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/arms_1990_002_roberts.xml
+Solr 1: Attempting to transform /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/arms_1990_002_roberts.xml into arms_1990_002_roberts.solr.xml
+
+Solr 2: Attempting to transform /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/arms_1990_002_roberts.xml into arms_1990_002_roberts.solr.xml
+
+SOLR 1: /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/arms_1990_002_roberts.xml was successfully transformed into /Users/albertoortizflores/tools/projects/publisher/files/preview/solr1/tamwag/arms_1990_002_roberts.solr.xml
+SOLR 2: /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/arms_1990_002_roberts.xml was successfully transformed into /Users/albertoortizflores/tools/projects/publisher/files/preview/solr2/tamwag/arms_1990_002_roberts.solr.xml
+Executing file /Users/albertoortizflores/tools/projects/publisher/bin/do-ead-transforms.bash
+Writing HTML version for file /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/astorfamily.xml
+archive: tamwag
+Executing file /Users/albertoortizflores/tools/projects/publisher/bin/do-solr.bash with argument tamwag and astorfamily
+Writing solr index file for /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/astorfamily.xml
+Solr 1: Attempting to transform /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/astorfamily.xml into astorfamily.solr.xml
+
+Solr 2: Attempting to transform /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/astorfamily.xml into astorfamily.solr.xml
+
+SOLR 1: /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/astorfamily.xml was successfully transformed into /Users/albertoortizflores/tools/projects/publisher/files/preview/solr1/tamwag/astorfamily.solr.xml
+SOLR 2: /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/astorfamily.xml was successfully transformed into /Users/albertoortizflores/tools/projects/publisher/files/preview/solr2/tamwag/astorfamily.solr.xml
+Executing file /Users/albertoortizflores/tools/projects/publisher/bin/do-ead-transforms.bash
+Writing HTML version for file /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/bregman.xml
+archive: tamwag
+Executing file /Users/albertoortizflores/tools/projects/publisher/bin/do-solr.bash with argument tamwag and bregman
+Writing solr index file for /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/bregman.xml
+Solr 1: Attempting to transform /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/bregman.xml into bregman.solr.xml
+
+Solr 2: Attempting to transform /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/bregman.xml into bregman.solr.xml
+
+SOLR 1: /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/bregman.xml was successfully transformed into /Users/albertoortizflores/tools/projects/publisher/files/preview/solr1/tamwag/bregman.solr.xml
+SOLR 2: /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/bregman.xml was successfully transformed into /Users/albertoortizflores/tools/projects/publisher/files/preview/solr2/tamwag/bregman.solr.xml
+Executing file /Users/albertoortizflores/tools/projects/publisher/bin/do-ead-transforms.bash
+Writing HTML version for file /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/bugliarello_chancellor.xml
+archive: tamwag
+Executing file /Users/albertoortizflores/tools/projects/publisher/bin/do-solr.bash with argument tamwag and artistsspace
+Writing solr index file for /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/artistsspace.xml
+Solr 1: Attempting to transform /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/artistsspace.xml into artistsspace.solr.xml
+
+Solr 2: Attempting to transform /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/artistsspace.xml into artistsspace.solr.xml
+
+SOLR 1: /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/artistsspace.xml was successfully transformed into /Users/albertoortizflores/tools/projects/publisher/files/preview/solr1/tamwag/artistsspace.solr.xml
+SOLR 2: /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/artistsspace.xml was successfully transformed into /Users/albertoortizflores/tools/projects/publisher/files/preview/solr2/tamwag/artistsspace.solr.xml
+Executing file /Users/albertoortizflores/tools/projects/publisher/bin/do-ead-transforms.bash
+Writing HTML version for file /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/cues.xml
+archive: tamwag
+Executing file /Users/albertoortizflores/tools/projects/publisher/bin/do-solr.bash with argument tamwag and cues
+Writing solr index file for /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/cues.xml
+Solr 1: Attempting to transform /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/cues.xml into cues.solr.xml
+
+Solr 2: Attempting to transform /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/cues.xml into cues.solr.xml
+
+SOLR 1: /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/cues.xml was successfully transformed into /Users/albertoortizflores/tools/projects/publisher/files/preview/solr1/tamwag/cues.solr.xml
+SOLR 2: /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/cues.xml was successfully transformed into /Users/albertoortizflores/tools/projects/publisher/files/preview/solr2/tamwag/cues.solr.xml
+Executing file /Users/albertoortizflores/tools/projects/publisher/bin/do-ead-transforms.bash
+Writing HTML version for file /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/darcangelo.xml
+archive: tamwag
+Executing file /Users/albertoortizflores/tools/projects/publisher/bin/do-solr.bash with argument tamwag and darcangelo
+Writing solr index file for /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/darcangelo.xml
+Executing file /Users/albertoortizflores/tools/projects/publisher/bin/do-solr.bash with argument tamwag and bugliarello_chancellor
+Writing solr index file for /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/bugliarello_chancellor.xml
+Solr 1: Attempting to transform /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/darcangelo.xml into darcangelo.solr.xml
+
+Solr 1: Attempting to transform /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/bugliarello_chancellor.xml into bugliarello_chancellor.solr.xml
+
+Solr 2: Attempting to transform /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/darcangelo.xml into darcangelo.solr.xml
+
+SOLR 1: /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/darcangelo.xml was successfully transformed into /Users/albertoortizflores/tools/projects/publisher/files/preview/solr1/tamwag/darcangelo.solr.xml
+SOLR 2: /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/darcangelo.xml was successfully transformed into /Users/albertoortizflores/tools/projects/publisher/files/preview/solr2/tamwag/darcangelo.solr.xml
+Executing file /Users/albertoortizflores/tools/projects/publisher/bin/do-ead-transforms.bash
+Writing HTML version for file /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/djohnson.xml
+archive: tamwag
+Solr 2: Attempting to transform /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/bugliarello_chancellor.xml into bugliarello_chancellor.solr.xml
+
+SOLR 1: /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/bugliarello_chancellor.xml was successfully transformed into /Users/albertoortizflores/tools/projects/publisher/files/preview/solr1/tamwag/bugliarello_chancellor.solr.xml
+SOLR 2: /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/bugliarello_chancellor.xml was successfully transformed into /Users/albertoortizflores/tools/projects/publisher/files/preview/solr2/tamwag/bugliarello_chancellor.solr.xml
+Executing file /Users/albertoortizflores/tools/projects/publisher/bin/do-ead-transforms.bash
+Writing HTML version for file /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/fales_events.xml
+archive: tamwag
+Executing file /Users/albertoortizflores/tools/projects/publisher/bin/do-solr.bash with argument tamwag and djohnson
+Writing solr index file for /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/djohnson.xml
+Solr 1: Attempting to transform /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/djohnson.xml into djohnson.solr.xml
+
+Executing file /Users/albertoortizflores/tools/projects/publisher/bin/do-solr.bash with argument tamwag and fales_events
+Writing solr index file for /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/fales_events.xml
+Solr 2: Attempting to transform /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/djohnson.xml into djohnson.solr.xml
+
+SOLR 1: /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/djohnson.xml was successfully transformed into /Users/albertoortizflores/tools/projects/publisher/files/preview/solr1/tamwag/djohnson.solr.xml
+SOLR 2: /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/djohnson.xml was successfully transformed into /Users/albertoortizflores/tools/projects/publisher/files/preview/solr2/tamwag/djohnson.solr.xml
+Executing file /Users/albertoortizflores/tools/projects/publisher/bin/do-ead-transforms.bash
+Writing HTML version for file /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/fateman.xml
+archive: tamwag
+Solr 1: Attempting to transform /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/fales_events.xml into fales_events.solr.xml
+
+Solr 2: Attempting to transform /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/fales_events.xml into fales_events.solr.xml
+
+SOLR 1: /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/fales_events.xml was successfully transformed into /Users/albertoortizflores/tools/projects/publisher/files/preview/solr1/tamwag/fales_events.solr.xml
+SOLR 2: /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/fales_events.xml was successfully transformed into /Users/albertoortizflores/tools/projects/publisher/files/preview/solr2/tamwag/fales_events.solr.xml
+Executing file /Users/albertoortizflores/tools/projects/publisher/bin/do-ead-transforms.bash
+Writing HTML version for file /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/firehouse.xml
+archive: tamwag
+Executing file /Users/albertoortizflores/tools/projects/publisher/bin/do-solr.bash with argument tamwag and fateman
+Writing solr index file for /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/fateman.xml
+Solr 1: Attempting to transform /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/fateman.xml into fateman.solr.xml
+
+Executing file /Users/albertoortizflores/tools/projects/publisher/bin/do-solr.bash with argument tamwag and firehouse
+Writing solr index file for /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/firehouse.xml
+Solr 2: Attempting to transform /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/fateman.xml into fateman.solr.xml
+
+SOLR 1: /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/fateman.xml was successfully transformed into /Users/albertoortizflores/tools/projects/publisher/files/preview/solr1/tamwag/fateman.solr.xml
+SOLR 2: /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/fateman.xml was successfully transformed into /Users/albertoortizflores/tools/projects/publisher/files/preview/solr2/tamwag/fateman.solr.xml
+Executing file /Users/albertoortizflores/tools/projects/publisher/bin/do-ead-transforms.bash
+Writing HTML version for file /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/foundling.xml
+archive: tamwag
+Solr 1: Attempting to transform /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/firehouse.xml into firehouse.solr.xml
+
+Solr 2: Attempting to transform /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/firehouse.xml into firehouse.solr.xml
+
+SOLR 1: /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/firehouse.xml was successfully transformed into /Users/albertoortizflores/tools/projects/publisher/files/preview/solr1/tamwag/firehouse.solr.xml
+SOLR 2: /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/firehouse.xml was successfully transformed into /Users/albertoortizflores/tools/projects/publisher/files/preview/solr2/tamwag/firehouse.solr.xml
+Executing file /Users/albertoortizflores/tools/projects/publisher/bin/do-ead-transforms.bash
+Writing HTML version for file /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/gaycable.xml
+archive: tamwag
+Executing file /Users/albertoortizflores/tools/projects/publisher/bin/do-solr.bash with argument tamwag and foundling
+Writing solr index file for /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/foundling.xml
+Solr 1: Attempting to transform /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/foundling.xml into foundling.solr.xml
+
+Executing file /Users/albertoortizflores/tools/projects/publisher/bin/do-solr.bash with argument tamwag and gaycable
+Solr 2: Attempting to transform /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/foundling.xml into foundling.solr.xml
+
+SOLR 1: /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/foundling.xml was successfully transformed into /Users/albertoortizflores/tools/projects/publisher/files/preview/solr1/tamwag/foundling.solr.xml
+SOLR 2: /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/foundling.xml was successfully transformed into /Users/albertoortizflores/tools/projects/publisher/files/preview/solr2/tamwag/foundling.solr.xml
+Writing solr index file for /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/gaycable.xml
+Executing file /Users/albertoortizflores/tools/projects/publisher/bin/do-ead-transforms.bash
+Writing HTML version for file /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/gibbs.xml
+archive: tamwag
+Solr 1: Attempting to transform /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/gaycable.xml into gaycable.solr.xml
+
+Executing file /Users/albertoortizflores/tools/projects/publisher/bin/do-solr.bash with argument tamwag and gibbs
+Writing solr index file for /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/gibbs.xml
+Solr 2: Attempting to transform /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/gaycable.xml into gaycable.solr.xml
+
+SOLR 1: /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/gaycable.xml was successfully transformed into /Users/albertoortizflores/tools/projects/publisher/files/preview/solr1/tamwag/gaycable.solr.xml
+SOLR 2: /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/gaycable.xml was successfully transformed into /Users/albertoortizflores/tools/projects/publisher/files/preview/solr2/tamwag/gaycable.solr.xml
+Executing file /Users/albertoortizflores/tools/projects/publisher/bin/do-ead-transforms.bash
+Writing HTML version for file /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/gotfryd.xml
+archive: tamwag
+Solr 1: Attempting to transform /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/gibbs.xml into gibbs.solr.xml
+
+Solr 2: Attempting to transform /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/gibbs.xml into gibbs.solr.xml
+
+SOLR 1: /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/gibbs.xml was successfully transformed into /Users/albertoortizflores/tools/projects/publisher/files/preview/solr1/tamwag/gibbs.solr.xml
+SOLR 2: /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/gibbs.xml was successfully transformed into /Users/albertoortizflores/tools/projects/publisher/files/preview/solr2/tamwag/gibbs.solr.xml
+Executing file /Users/albertoortizflores/tools/projects/publisher/bin/do-ead-transforms.bash
+Writing HTML version for file /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/harmonie.xml
+archive: tamwag
+Executing file /Users/albertoortizflores/tools/projects/publisher/bin/do-solr.bash with argument tamwag and gotfryd
+Writing solr index file for /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/gotfryd.xml
+Solr 1: Attempting to transform /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/gotfryd.xml into gotfryd.solr.xml
+
+Executing file /Users/albertoortizflores/tools/projects/publisher/bin/do-solr.bash with argument tamwag and harmonie
+Writing solr index file for /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/harmonie.xml
+Solr 2: Attempting to transform /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/gotfryd.xml into gotfryd.solr.xml
+
+SOLR 1: /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/gotfryd.xml was successfully transformed into /Users/albertoortizflores/tools/projects/publisher/files/preview/solr1/tamwag/gotfryd.solr.xml
+SOLR 2: /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/gotfryd.xml was successfully transformed into /Users/albertoortizflores/tools/projects/publisher/files/preview/solr2/tamwag/gotfryd.solr.xml
+Solr 1: Attempting to transform /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/harmonie.xml into harmonie.solr.xml
+
+Executing file /Users/albertoortizflores/tools/projects/publisher/bin/do-ead-transforms.bash
+Writing HTML version for file /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/hester.xml
+archive: tamwag
+Solr 2: Attempting to transform /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/harmonie.xml into harmonie.solr.xml
+
+SOLR 1: /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/harmonie.xml was successfully transformed into /Users/albertoortizflores/tools/projects/publisher/files/preview/solr1/tamwag/harmonie.solr.xml
+SOLR 2: /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/harmonie.xml was successfully transformed into /Users/albertoortizflores/tools/projects/publisher/files/preview/solr2/tamwag/harmonie.solr.xml
+Executing file /Users/albertoortizflores/tools/projects/publisher/bin/do-ead-transforms.bash
+Writing HTML version for file /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/highrisk.xml
+archive: tamwag
+Executing file /Users/albertoortizflores/tools/projects/publisher/bin/do-solr.bash with argument tamwag and hester
+Writing solr index file for /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/hester.xml
+Solr 1: Attempting to transform /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/hester.xml into hester.solr.xml
+
+Executing file /Users/albertoortizflores/tools/projects/publisher/bin/do-solr.bash with argument tamwag and highrisk
+Writing solr index file for /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/highrisk.xml
+Solr 2: Attempting to transform /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/hester.xml into hester.solr.xml
+
+SOLR 1: /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/hester.xml was successfully transformed into /Users/albertoortizflores/tools/projects/publisher/files/preview/solr1/tamwag/hester.solr.xml
+SOLR 2: /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/hester.xml was successfully transformed into /Users/albertoortizflores/tools/projects/publisher/files/preview/solr2/tamwag/hester.solr.xml
+Executing file /Users/albertoortizflores/tools/projects/publisher/bin/do-ead-transforms.bash
+Writing HTML version for file /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/hirschhorn.xml
+archive: tamwag
+Solr 1: Attempting to transform /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/highrisk.xml into highrisk.solr.xml
+
+Executing file /Users/albertoortizflores/tools/projects/publisher/bin/do-solr.bash with argument tamwag and hirschhorn
+Writing solr index file for /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/hirschhorn.xml
+Solr 2: Attempting to transform /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/highrisk.xml into highrisk.solr.xml
+
+SOLR 1: /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/highrisk.xml was successfully transformed into /Users/albertoortizflores/tools/projects/publisher/files/preview/solr1/tamwag/highrisk.solr.xml
+SOLR 2: /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/highrisk.xml was successfully transformed into /Users/albertoortizflores/tools/projects/publisher/files/preview/solr2/tamwag/highrisk.solr.xml
+Executing file /Users/albertoortizflores/tools/projects/publisher/bin/do-ead-transforms.bash
+Writing HTML version for file /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/horton.xml
+archive: tamwag
+Solr 1: Attempting to transform /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/hirschhorn.xml into hirschhorn.solr.xml
+
+Solr 2: Attempting to transform /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/hirschhorn.xml into hirschhorn.solr.xml
+
+SOLR 1: /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/hirschhorn.xml was successfully transformed into /Users/albertoortizflores/tools/projects/publisher/files/preview/solr1/tamwag/hirschhorn.solr.xml
+SOLR 2: /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/hirschhorn.xml was successfully transformed into /Users/albertoortizflores/tools/projects/publisher/files/preview/solr2/tamwag/hirschhorn.solr.xml
+Executing file /Users/albertoortizflores/tools/projects/publisher/bin/do-ead-transforms.bash
+Writing HTML version for file /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/oh_015.xml
+archive: tamwag
+Executing file /Users/albertoortizflores/tools/projects/publisher/bin/do-solr.bash with argument tamwag and horton
+Writing solr index file for /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/horton.xml
+Solr 1: Attempting to transform /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/horton.xml into horton.solr.xml
+
+Executing file /Users/albertoortizflores/tools/projects/publisher/bin/do-solr.bash with argument tamwag and oh_015
+Writing solr index file for /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/oh_015.xml
+Solr 2: Attempting to transform /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/horton.xml into horton.solr.xml
+
+SOLR 1: /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/horton.xml was successfully transformed into /Users/albertoortizflores/tools/projects/publisher/files/preview/solr1/tamwag/horton.solr.xml
+SOLR 2: /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/horton.xml was successfully transformed into /Users/albertoortizflores/tools/projects/publisher/files/preview/solr2/tamwag/horton.solr.xml
+Executing file /Users/albertoortizflores/tools/projects/publisher/bin/do-ead-transforms.bash
+Writing HTML version for file /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/outpunk.xml
+archive: tamwag
+Solr 1: Attempting to transform /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/oh_015.xml into oh_015.solr.xml
+
+Solr 2: Attempting to transform /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/oh_015.xml into oh_015.solr.xml
+
+SOLR 1: /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/oh_015.xml was successfully transformed into /Users/albertoortizflores/tools/projects/publisher/files/preview/solr1/tamwag/oh_015.solr.xml
+SOLR 2: /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/oh_015.xml was successfully transformed into /Users/albertoortizflores/tools/projects/publisher/files/preview/solr2/tamwag/oh_015.solr.xml
+Executing file /Users/albertoortizflores/tools/projects/publisher/bin/do-ead-transforms.bash
+Writing HTML version for file /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/photographer.xml
+archive: tamwag
+Executing file /Users/albertoortizflores/tools/projects/publisher/bin/do-solr.bash with argument tamwag and outpunk
+Writing solr index file for /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/outpunk.xml
+Solr 1: Attempting to transform /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/outpunk.xml into outpunk.solr.xml
+
+Executing file /Users/albertoortizflores/tools/projects/publisher/bin/do-solr.bash with argument tamwag and photographer
+Writing solr index file for /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/photographer.xml
+Solr 2: Attempting to transform /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/outpunk.xml into outpunk.solr.xml
+
+SOLR 1: /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/outpunk.xml was successfully transformed into /Users/albertoortizflores/tools/projects/publisher/files/preview/solr1/tamwag/outpunk.solr.xml
+SOLR 2: /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/outpunk.xml was successfully transformed into /Users/albertoortizflores/tools/projects/publisher/files/preview/solr2/tamwag/outpunk.solr.xml
+Executing file /Users/albertoortizflores/tools/projects/publisher/bin/do-ead-transforms.bash
+Writing HTML version for file /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/photos_010.xml
+archive: tamwag
+Solr 1: Attempting to transform /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/photographer.xml into photographer.solr.xml
+
+Solr 2: Attempting to transform /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/photographer.xml into photographer.solr.xml
+
+SOLR 1: /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/photographer.xml was successfully transformed into /Users/albertoortizflores/tools/projects/publisher/files/preview/solr1/tamwag/photographer.solr.xml
+SOLR 2: /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/photographer.xml was successfully transformed into /Users/albertoortizflores/tools/projects/publisher/files/preview/solr2/tamwag/photographer.solr.xml
+Executing file /Users/albertoortizflores/tools/projects/publisher/bin/do-ead-transforms.bash
+Writing HTML version for file /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/photos_020.xml
+archive: tamwag
+Executing file /Users/albertoortizflores/tools/projects/publisher/bin/do-solr.bash with argument tamwag and photos_010
+Writing solr index file for /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/photos_010.xml
+Solr 1: Attempting to transform /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/photos_010.xml into photos_010.solr.xml
+
+Solr 2: Attempting to transform /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/photos_010.xml into photos_010.solr.xml
+
+SOLR 1: /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/photos_010.xml was successfully transformed into /Users/albertoortizflores/tools/projects/publisher/files/preview/solr1/tamwag/photos_010.solr.xml
+SOLR 2: /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/photos_010.xml was successfully transformed into /Users/albertoortizflores/tools/projects/publisher/files/preview/solr2/tamwag/photos_010.solr.xml
+Executing file /Users/albertoortizflores/tools/projects/publisher/bin/do-ead-transforms.bash
+Writing HTML version for file /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/photos_024.xml
+archive: tamwag
+Executing file /Users/albertoortizflores/tools/projects/publisher/bin/do-solr.bash with argument tamwag and photos_020
+Writing solr index file for /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/photos_020.xml
+Executing file /Users/albertoortizflores/tools/projects/publisher/bin/do-solr.bash with argument tamwag and photos_024
+Solr 1: Attempting to transform /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/photos_020.xml into photos_020.solr.xml
+
+Writing solr index file for /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/photos_024.xml
+Solr 1: Attempting to transform /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/photos_024.xml into photos_024.solr.xml
+
+Solr 2: Attempting to transform /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/photos_020.xml into photos_020.solr.xml
+
+SOLR 1: /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/photos_020.xml was successfully transformed into /Users/albertoortizflores/tools/projects/publisher/files/preview/solr1/tamwag/photos_020.solr.xml
+SOLR 2: /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/photos_020.xml was successfully transformed into /Users/albertoortizflores/tools/projects/publisher/files/preview/solr2/tamwag/photos_020.solr.xml
+Executing file /Users/albertoortizflores/tools/projects/publisher/bin/do-ead-transforms.bash
+Writing HTML version for file /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/photos_044.xml
+archive: tamwag
+Solr 2: Attempting to transform /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/photos_024.xml into photos_024.solr.xml
+
+SOLR 1: /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/photos_024.xml was successfully transformed into /Users/albertoortizflores/tools/projects/publisher/files/preview/solr1/tamwag/photos_024.solr.xml
+SOLR 2: /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/photos_024.xml was successfully transformed into /Users/albertoortizflores/tools/projects/publisher/files/preview/solr2/tamwag/photos_024.solr.xml
+Executing file /Users/albertoortizflores/tools/projects/publisher/bin/do-ead-transforms.bash
+Writing HTML version for file /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/repo.xml
+archive: tamwag
+Executing file /Users/albertoortizflores/tools/projects/publisher/bin/do-solr.bash with argument tamwag and photos_044
+Writing solr index file for /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/photos_044.xml
+Solr 1: Attempting to transform /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/photos_044.xml into photos_044.solr.xml
+
+Solr 2: Attempting to transform /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/photos_044.xml into photos_044.solr.xml
+
+SOLR 1: /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/photos_044.xml was successfully transformed into /Users/albertoortizflores/tools/projects/publisher/files/preview/solr1/tamwag/photos_044.solr.xml
+SOLR 2: /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/photos_044.xml was successfully transformed into /Users/albertoortizflores/tools/projects/publisher/files/preview/solr2/tamwag/photos_044.solr.xml
+Executing file /Users/albertoortizflores/tools/projects/publisher/bin/do-ead-transforms.bash
+Writing HTML version for file /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/ruben.xml
+archive: tamwag
+Executing file /Users/albertoortizflores/tools/projects/publisher/bin/do-solr.bash with argument tamwag and repo
+Writing solr index file for /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/repo.xml
+Solr 1: Attempting to transform /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/repo.xml into repo.solr.xml
+
+Executing file /Users/albertoortizflores/tools/projects/publisher/bin/do-solr.bash with argument tamwag and ruben
+Writing solr index file for /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/ruben.xml
+Solr 2: Attempting to transform /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/repo.xml into repo.solr.xml
+
+SOLR 1: /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/repo.xml was successfully transformed into /Users/albertoortizflores/tools/projects/publisher/files/preview/solr1/tamwag/repo.solr.xml
+SOLR 2: /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/repo.xml was successfully transformed into /Users/albertoortizflores/tools/projects/publisher/files/preview/solr2/tamwag/repo.solr.xml
+Executing file /Users/albertoortizflores/tools/projects/publisher/bin/do-ead-transforms.bash
+Writing HTML version for file /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/sellers.xml
+archive: tamwag
+Solr 1: Attempting to transform /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/ruben.xml into ruben.solr.xml
+
+Solr 2: Attempting to transform /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/ruben.xml into ruben.solr.xml
+
+SOLR 1: /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/ruben.xml was successfully transformed into /Users/albertoortizflores/tools/projects/publisher/files/preview/solr1/tamwag/ruben.solr.xml
+SOLR 2: /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/ruben.xml was successfully transformed into /Users/albertoortizflores/tools/projects/publisher/files/preview/solr2/tamwag/ruben.solr.xml
+Executing file /Users/albertoortizflores/tools/projects/publisher/bin/do-ead-transforms.bash
+Writing HTML version for file /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/silverberg.xml
+archive: tamwag
+Executing file /Users/albertoortizflores/tools/projects/publisher/bin/do-solr.bash with argument tamwag and sellers
+Writing solr index file for /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/sellers.xml
+Solr 1: Attempting to transform /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/sellers.xml into sellers.solr.xml
+
+Solr 2: Attempting to transform /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/sellers.xml into sellers.solr.xml
+
+SOLR 1: /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/sellers.xml was successfully transformed into /Users/albertoortizflores/tools/projects/publisher/files/preview/solr1/tamwag/sellers.solr.xml
+SOLR 2: /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/sellers.xml was successfully transformed into /Users/albertoortizflores/tools/projects/publisher/files/preview/solr2/tamwag/sellers.solr.xml
+Executing file /Users/albertoortizflores/tools/projects/publisher/bin/do-ead-transforms.bash
+Writing HTML version for file /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/sullivan.xml
+archive: tamwag
+Executing file /Users/albertoortizflores/tools/projects/publisher/bin/do-solr.bash with argument tamwag and sullivan
+Writing solr index file for /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/sullivan.xml
+Solr 1: Attempting to transform /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/sullivan.xml into sullivan.solr.xml
+
+Solr 2: Attempting to transform /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/sullivan.xml into sullivan.solr.xml
+
+SOLR 1: /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/sullivan.xml was successfully transformed into /Users/albertoortizflores/tools/projects/publisher/files/preview/solr1/tamwag/sullivan.solr.xml
+SOLR 2: /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/sullivan.xml was successfully transformed into /Users/albertoortizflores/tools/projects/publisher/files/preview/solr2/tamwag/sullivan.solr.xml
+Executing file /Users/albertoortizflores/tools/projects/publisher/bin/do-ead-transforms.bash
+Writing HTML version for file /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/tam_073.xml
+archive: tamwag
+Executing file /Users/albertoortizflores/tools/projects/publisher/bin/do-solr.bash with argument tamwag and tam_073
+Writing solr index file for /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/tam_073.xml
+Executing file /Users/albertoortizflores/tools/projects/publisher/bin/do-solr.bash with argument tamwag and silverberg
+Writing solr index file for /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/silverberg.xml
+Solr 1: Attempting to transform /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/tam_073.xml into tam_073.solr.xml
+
+Solr 1: Attempting to transform /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/silverberg.xml into silverberg.solr.xml
+
+Solr 2: Attempting to transform /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/tam_073.xml into tam_073.solr.xml
+
+SOLR 1: /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/tam_073.xml was successfully transformed into /Users/albertoortizflores/tools/projects/publisher/files/preview/solr1/tamwag/tam_073.solr.xml
+SOLR 2: /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/tam_073.xml was successfully transformed into /Users/albertoortizflores/tools/projects/publisher/files/preview/solr2/tamwag/tam_073.solr.xml
+Executing file /Users/albertoortizflores/tools/projects/publisher/bin/do-ead-transforms.bash
+Writing HTML version for file /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/tam_102.xml
+archive: tamwag
+Solr 2: Attempting to transform /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/silverberg.xml into silverberg.solr.xml
+
+SOLR 1: /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/silverberg.xml was successfully transformed into /Users/albertoortizflores/tools/projects/publisher/files/preview/solr1/tamwag/silverberg.solr.xml
+SOLR 2: /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/silverberg.xml was successfully transformed into /Users/albertoortizflores/tools/projects/publisher/files/preview/solr2/tamwag/silverberg.solr.xml
+Executing file /Users/albertoortizflores/tools/projects/publisher/bin/do-ead-transforms.bash
+Writing HTML version for file /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/tam_146.xml
+archive: tamwag
+Executing file /Users/albertoortizflores/tools/projects/publisher/bin/do-solr.bash with argument tamwag and tam_102
+Writing solr index file for /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/tam_102.xml
+Solr 1: Attempting to transform /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/tam_102.xml into tam_102.solr.xml
+
+Executing file /Users/albertoortizflores/tools/projects/publisher/bin/do-solr.bash with argument tamwag and tam_146
+Writing solr index file for /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/tam_146.xml
+Solr 2: Attempting to transform /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/tam_102.xml into tam_102.solr.xml
+
+SOLR 1: /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/tam_102.xml was successfully transformed into /Users/albertoortizflores/tools/projects/publisher/files/preview/solr1/tamwag/tam_102.solr.xml
+SOLR 2: /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/tam_102.xml was successfully transformed into /Users/albertoortizflores/tools/projects/publisher/files/preview/solr2/tamwag/tam_102.solr.xml
+Executing file /Users/albertoortizflores/tools/projects/publisher/bin/do-ead-transforms.bash
+Writing HTML version for file /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/tam_148.xml
+archive: tamwag
+Solr 1: Attempting to transform /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/tam_146.xml into tam_146.solr.xml
+
+Solr 2: Attempting to transform /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/tam_146.xml into tam_146.solr.xml
+
+SOLR 1: /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/tam_146.xml was successfully transformed into /Users/albertoortizflores/tools/projects/publisher/files/preview/solr1/tamwag/tam_146.solr.xml
+SOLR 2: /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/tam_146.xml was successfully transformed into /Users/albertoortizflores/tools/projects/publisher/files/preview/solr2/tamwag/tam_146.solr.xml
+Executing file /Users/albertoortizflores/tools/projects/publisher/bin/do-ead-transforms.bash
+Writing HTML version for file /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/tam_158.xml
+archive: tamwag
+Executing file /Users/albertoortizflores/tools/projects/publisher/bin/do-solr.bash with argument tamwag and tam_158
+Writing solr index file for /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/tam_158.xml
+Solr 1: Attempting to transform /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/tam_158.xml into tam_158.solr.xml
+
+Solr 2: Attempting to transform /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/tam_158.xml into tam_158.solr.xml
+
+SOLR 1: /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/tam_158.xml was successfully transformed into /Users/albertoortizflores/tools/projects/publisher/files/preview/solr1/tamwag/tam_158.solr.xml
+SOLR 2: /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/tam_158.xml was successfully transformed into /Users/albertoortizflores/tools/projects/publisher/files/preview/solr2/tamwag/tam_158.solr.xml
+Executing file /Users/albertoortizflores/tools/projects/publisher/bin/do-ead-transforms.bash
+Writing HTML version for file /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/tam_167.xml
+archive: tamwag
+Executing file /Users/albertoortizflores/tools/projects/publisher/bin/do-solr.bash with argument tamwag and tam_167
+Writing solr index file for /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/tam_167.xml
+Solr 1: Attempting to transform /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/tam_167.xml into tam_167.solr.xml
+
+Solr 2: Attempting to transform /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/tam_167.xml into tam_167.solr.xml
+
+SOLR 1: /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/tam_167.xml was successfully transformed into /Users/albertoortizflores/tools/projects/publisher/files/preview/solr1/tamwag/tam_167.solr.xml
+SOLR 2: /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/tam_167.xml was successfully transformed into /Users/albertoortizflores/tools/projects/publisher/files/preview/solr2/tamwag/tam_167.solr.xml
+Executing file /Users/albertoortizflores/tools/projects/publisher/bin/do-ead-transforms.bash
+Writing HTML version for file /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/tam_275.xml
+archive: tamwag
+Executing file /Users/albertoortizflores/tools/projects/publisher/bin/do-solr.bash with argument tamwag and tam_275
+Writing solr index file for /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/tam_275.xml
+Executing file /Users/albertoortizflores/tools/projects/publisher/bin/do-solr.bash with argument tamwag and tam_148
+Writing solr index file for /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/tam_148.xml
+Solr 1: Attempting to transform /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/tam_275.xml into tam_275.solr.xml
+
+Solr 2: Attempting to transform /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/tam_275.xml into tam_275.solr.xml
+
+SOLR 1: /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/tam_275.xml was successfully transformed into /Users/albertoortizflores/tools/projects/publisher/files/preview/solr1/tamwag/tam_275.solr.xml
+SOLR 2: /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/tam_275.xml was successfully transformed into /Users/albertoortizflores/tools/projects/publisher/files/preview/solr2/tamwag/tam_275.solr.xml
+Executing file /Users/albertoortizflores/tools/projects/publisher/bin/do-ead-transforms.bash
+Writing HTML version for file /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/tam_359.xml
+archive: tamwag
+Solr 1: Attempting to transform /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/tam_148.xml into tam_148.solr.xml
+
+Executing file /Users/albertoortizflores/tools/projects/publisher/bin/do-solr.bash with argument tamwag and tam_359
+Writing solr index file for /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/tam_359.xml
+Solr 2: Attempting to transform /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/tam_148.xml into tam_148.solr.xml
+
+SOLR 1: /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/tam_148.xml was successfully transformed into /Users/albertoortizflores/tools/projects/publisher/files/preview/solr1/tamwag/tam_148.solr.xml
+SOLR 2: /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/tam_148.xml was successfully transformed into /Users/albertoortizflores/tools/projects/publisher/files/preview/solr2/tamwag/tam_148.solr.xml
+Executing file /Users/albertoortizflores/tools/projects/publisher/bin/do-ead-transforms.bash
+Writing HTML version for file /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/tam_374.xml
+archive: tamwag
+Solr 1: Attempting to transform /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/tam_359.xml into tam_359.solr.xml
+
+Solr 2: Attempting to transform /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/tam_359.xml into tam_359.solr.xml
+
+SOLR 1: /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/tam_359.xml was successfully transformed into /Users/albertoortizflores/tools/projects/publisher/files/preview/solr1/tamwag/tam_359.solr.xml
+SOLR 2: /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/tam_359.xml was successfully transformed into /Users/albertoortizflores/tools/projects/publisher/files/preview/solr2/tamwag/tam_359.solr.xml
+Executing file /Users/albertoortizflores/tools/projects/publisher/bin/do-ead-transforms.bash
+Writing HTML version for file /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/tam_408.xml
+archive: tamwag
+Executing file /Users/albertoortizflores/tools/projects/publisher/bin/do-solr.bash with argument tamwag and tam_374
+Writing solr index file for /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/tam_374.xml
+Executing file /Users/albertoortizflores/tools/projects/publisher/bin/do-solr.bash with argument tamwag and tam_408
+Writing solr index file for /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/tam_408.xml
+Solr 1: Attempting to transform /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/tam_374.xml into tam_374.solr.xml
+
+Solr 1: Attempting to transform /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/tam_408.xml into tam_408.solr.xml
+
+Solr 2: Attempting to transform /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/tam_408.xml into tam_408.solr.xml
+
+SOLR 1: /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/tam_408.xml was successfully transformed into /Users/albertoortizflores/tools/projects/publisher/files/preview/solr1/tamwag/tam_408.solr.xml
+SOLR 2: /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/tam_408.xml was successfully transformed into /Users/albertoortizflores/tools/projects/publisher/files/preview/solr2/tamwag/tam_408.solr.xml
+Executing file /Users/albertoortizflores/tools/projects/publisher/bin/do-ead-transforms.bash
+Writing HTML version for file /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/tam_426.xml
+archive: tamwag
+Solr 2: Attempting to transform /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/tam_374.xml into tam_374.solr.xml
+
+SOLR 1: /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/tam_374.xml was successfully transformed into /Users/albertoortizflores/tools/projects/publisher/files/preview/solr1/tamwag/tam_374.solr.xml
+SOLR 2: /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/tam_374.xml was successfully transformed into /Users/albertoortizflores/tools/projects/publisher/files/preview/solr2/tamwag/tam_374.solr.xml
+Executing file /Users/albertoortizflores/tools/projects/publisher/bin/do-ead-transforms.bash
+Writing HTML version for file /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/tam_471.xml
+archive: tamwag
+Executing file /Users/albertoortizflores/tools/projects/publisher/bin/do-solr.bash with argument tamwag and tam_426
+Writing solr index file for /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/tam_426.xml
+Executing file /Users/albertoortizflores/tools/projects/publisher/bin/do-solr.bash with argument tamwag and tam_471
+Writing solr index file for /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/tam_471.xml
+Solr 1: Attempting to transform /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/tam_426.xml into tam_426.solr.xml
+
+Solr 1: Attempting to transform /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/tam_471.xml into tam_471.solr.xml
+
+Solr 2: Attempting to transform /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/tam_426.xml into tam_426.solr.xml
+
+SOLR 1: /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/tam_426.xml was successfully transformed into /Users/albertoortizflores/tools/projects/publisher/files/preview/solr1/tamwag/tam_426.solr.xml
+SOLR 2: /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/tam_426.xml was successfully transformed into /Users/albertoortizflores/tools/projects/publisher/files/preview/solr2/tamwag/tam_426.solr.xml
+Executing file /Users/albertoortizflores/tools/projects/publisher/bin/do-ead-transforms.bash
+Writing HTML version for file /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/tam_522.xml
+archive: tamwag
+Solr 2: Attempting to transform /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/tam_471.xml into tam_471.solr.xml
+
+SOLR 1: /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/tam_471.xml was successfully transformed into /Users/albertoortizflores/tools/projects/publisher/files/preview/solr1/tamwag/tam_471.solr.xml
+SOLR 2: /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/tam_471.xml was successfully transformed into /Users/albertoortizflores/tools/projects/publisher/files/preview/solr2/tamwag/tam_471.solr.xml
+Executing file /Users/albertoortizflores/tools/projects/publisher/bin/do-ead-transforms.bash
+Writing HTML version for file /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/tam_542.xml
+archive: tamwag
+Executing file /Users/albertoortizflores/tools/projects/publisher/bin/do-solr.bash with argument tamwag and tam_522
+Writing solr index file for /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/tam_522.xml
+Solr 1: Attempting to transform /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/tam_522.xml into tam_522.solr.xml
+
+Solr 2: Attempting to transform /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/tam_522.xml into tam_522.solr.xml
+
+SOLR 1: /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/tam_522.xml was successfully transformed into /Users/albertoortizflores/tools/projects/publisher/files/preview/solr1/tamwag/tam_522.solr.xml
+SOLR 2: /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/tam_522.xml was successfully transformed into /Users/albertoortizflores/tools/projects/publisher/files/preview/solr2/tamwag/tam_522.solr.xml
+Executing file /Users/albertoortizflores/tools/projects/publisher/bin/do-ead-transforms.bash
+Writing HTML version for file /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/tam_623.xml
+archive: tamwag
+Executing file /Users/albertoortizflores/tools/projects/publisher/bin/do-solr.bash with argument tamwag and tam_623
+Writing solr index file for /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/tam_623.xml
+Solr 1: Attempting to transform /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/tam_623.xml into tam_623.solr.xml
+
+Solr 2: Attempting to transform /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/tam_623.xml into tam_623.solr.xml
+
+SOLR 1: /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/tam_623.xml was successfully transformed into /Users/albertoortizflores/tools/projects/publisher/files/preview/solr1/tamwag/tam_623.solr.xml
+SOLR 2: /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/tam_623.xml was successfully transformed into /Users/albertoortizflores/tools/projects/publisher/files/preview/solr2/tamwag/tam_623.solr.xml
+Executing file /Users/albertoortizflores/tools/projects/publisher/bin/do-ead-transforms.bash
+Writing HTML version for file /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/test_998.xml
+archive: tamwag
+Executing file /Users/albertoortizflores/tools/projects/publisher/bin/do-solr.bash with argument tamwag and test_998
+Writing solr index file for /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/test_998.xml
+Solr 1: Attempting to transform /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/test_998.xml into test_998.solr.xml
+
+Solr 2: Attempting to transform /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/test_998.xml into test_998.solr.xml
+
+SOLR 1: /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/test_998.xml was successfully transformed into /Users/albertoortizflores/tools/projects/publisher/files/preview/solr1/tamwag/test_998.solr.xml
+SOLR 2: /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/test_998.xml was successfully transformed into /Users/albertoortizflores/tools/projects/publisher/files/preview/solr2/tamwag/test_998.solr.xml
+Executing file /Users/albertoortizflores/tools/projects/publisher/bin/do-ead-transforms.bash
+Writing HTML version for file /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/tillman.xml
+archive: tamwag
+Executing file /Users/albertoortizflores/tools/projects/publisher/bin/do-solr.bash with argument tamwag and tam_542
+Writing solr index file for /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/tam_542.xml
+Solr 1: Attempting to transform /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/tam_542.xml into tam_542.solr.xml
+
+Solr 2: Attempting to transform /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/tam_542.xml into tam_542.solr.xml
+
+SOLR 1: /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/tam_542.xml was successfully transformed into /Users/albertoortizflores/tools/projects/publisher/files/preview/solr1/tamwag/tam_542.solr.xml
+SOLR 2: /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/tam_542.xml was successfully transformed into /Users/albertoortizflores/tools/projects/publisher/files/preview/solr2/tamwag/tam_542.solr.xml
+Executing file /Users/albertoortizflores/tools/projects/publisher/bin/do-ead-transforms.bash
+Writing HTML version for file /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/wag_024.xml
+archive: tamwag
+Executing file /Users/albertoortizflores/tools/projects/publisher/bin/do-solr.bash with argument tamwag and wag_024
+Writing solr index file for /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/wag_024.xml
+Solr 1: Attempting to transform /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/wag_024.xml into wag_024.solr.xml
+
+Solr 2: Attempting to transform /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/wag_024.xml into wag_024.solr.xml
+
+SOLR 1: /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/wag_024.xml was successfully transformed into /Users/albertoortizflores/tools/projects/publisher/files/preview/solr1/tamwag/wag_024.solr.xml
+SOLR 2: /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/wag_024.xml was successfully transformed into /Users/albertoortizflores/tools/projects/publisher/files/preview/solr2/tamwag/wag_024.solr.xml
+Executing file /Users/albertoortizflores/tools/projects/publisher/bin/do-ead-transforms.bash
+Writing HTML version for file /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/wag_057.xml
+archive: tamwag
+Executing file /Users/albertoortizflores/tools/projects/publisher/bin/do-solr.bash with argument tamwag and wag_057
+Writing solr index file for /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/wag_057.xml
+Solr 1: Attempting to transform /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/wag_057.xml into wag_057.solr.xml
+
+Solr 2: Attempting to transform /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/wag_057.xml into wag_057.solr.xml
+
+SOLR 1: /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/wag_057.xml was successfully transformed into /Users/albertoortizflores/tools/projects/publisher/files/preview/solr1/tamwag/wag_057.solr.xml
+SOLR 2: /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/wag_057.xml was successfully transformed into /Users/albertoortizflores/tools/projects/publisher/files/preview/solr2/tamwag/wag_057.solr.xml
+Executing file /Users/albertoortizflores/tools/projects/publisher/bin/do-ead-transforms.bash
+Writing HTML version for file /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/wag_084.xml
+archive: tamwag
+Executing file /Users/albertoortizflores/tools/projects/publisher/bin/do-solr.bash with argument tamwag and wag_084
+Writing solr index file for /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/wag_084.xml
+Solr 1: Attempting to transform /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/wag_084.xml into wag_084.solr.xml
+
+Solr 2: Attempting to transform /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/wag_084.xml into wag_084.solr.xml
+
+SOLR 1: /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/wag_084.xml was successfully transformed into /Users/albertoortizflores/tools/projects/publisher/files/preview/solr1/tamwag/wag_084.solr.xml
+SOLR 2: /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/wag_084.xml was successfully transformed into /Users/albertoortizflores/tools/projects/publisher/files/preview/solr2/tamwag/wag_084.solr.xml
+Executing file /Users/albertoortizflores/tools/projects/publisher/bin/do-ead-transforms.bash
+Writing HTML version for file /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/wag_090.xml
+archive: tamwag
+Executing file /Users/albertoortizflores/tools/projects/publisher/bin/do-solr.bash with argument tamwag and wag_090
+Writing solr index file for /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/wag_090.xml
+Solr 1: Attempting to transform /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/wag_090.xml into wag_090.solr.xml
+
+Solr 2: Attempting to transform /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/wag_090.xml into wag_090.solr.xml
+
+SOLR 1: /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/wag_090.xml was successfully transformed into /Users/albertoortizflores/tools/projects/publisher/files/preview/solr1/tamwag/wag_090.solr.xml
+SOLR 2: /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/wag_090.xml was successfully transformed into /Users/albertoortizflores/tools/projects/publisher/files/preview/solr2/tamwag/wag_090.solr.xml
+Executing file /Users/albertoortizflores/tools/projects/publisher/bin/do-ead-transforms.bash
+Writing HTML version for file /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/wag_165.xml
+archive: tamwag
+Executing file /Users/albertoortizflores/tools/projects/publisher/bin/do-solr.bash with argument tamwag and wag_165
+Writing solr index file for /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/wag_165.xml
+Solr 1: Attempting to transform /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/wag_165.xml into wag_165.solr.xml
+
+Solr 2: Attempting to transform /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/wag_165.xml into wag_165.solr.xml
+
+SOLR 1: /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/wag_165.xml was successfully transformed into /Users/albertoortizflores/tools/projects/publisher/files/preview/solr1/tamwag/wag_165.solr.xml
+SOLR 2: /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/wag_165.xml was successfully transformed into /Users/albertoortizflores/tools/projects/publisher/files/preview/solr2/tamwag/wag_165.solr.xml
+Executing file /Users/albertoortizflores/tools/projects/publisher/bin/do-ead-transforms.bash
+Writing HTML version for file /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/wag_185.xml
+archive: tamwag
+Executing file /Users/albertoortizflores/tools/projects/publisher/bin/do-solr.bash with argument tamwag and wag_185
+Writing solr index file for /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/wag_185.xml
+Solr 1: Attempting to transform /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/wag_185.xml into wag_185.solr.xml
+
+Solr 2: Attempting to transform /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/wag_185.xml into wag_185.solr.xml
+
+SOLR 1: /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/wag_185.xml was successfully transformed into /Users/albertoortizflores/tools/projects/publisher/files/preview/solr1/tamwag/wag_185.solr.xml
+SOLR 2: /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/wag_185.xml was successfully transformed into /Users/albertoortizflores/tools/projects/publisher/files/preview/solr2/tamwag/wag_185.solr.xml
+Executing file /Users/albertoortizflores/tools/projects/publisher/bin/do-ead-transforms.bash
+Writing HTML version for file /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/wag_238.xml
+archive: tamwag
+Executing file /Users/albertoortizflores/tools/projects/publisher/bin/do-solr.bash with argument tamwag and wag_238
+Writing solr index file for /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/wag_238.xml
+Solr 1: Attempting to transform /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/wag_238.xml into wag_238.solr.xml
+
+Solr 2: Attempting to transform /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/wag_238.xml into wag_238.solr.xml
+
+SOLR 1: /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/wag_238.xml was successfully transformed into /Users/albertoortizflores/tools/projects/publisher/files/preview/solr1/tamwag/wag_238.solr.xml
+SOLR 2: /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/wag_238.xml was successfully transformed into /Users/albertoortizflores/tools/projects/publisher/files/preview/solr2/tamwag/wag_238.solr.xml
+Executing file /Users/albertoortizflores/tools/projects/publisher/bin/do-ead-transforms.bash
+Writing HTML version for file /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/wag_275.xml
+archive: tamwag
+Executing file /Users/albertoortizflores/tools/projects/publisher/bin/do-solr.bash with argument tamwag and wag_275
+Writing solr index file for /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/wag_275.xml
+Solr 1: Attempting to transform /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/wag_275.xml into wag_275.solr.xml
+
+Solr 2: Attempting to transform /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/wag_275.xml into wag_275.solr.xml
+
+SOLR 1: /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/wag_275.xml was successfully transformed into /Users/albertoortizflores/tools/projects/publisher/files/preview/solr1/tamwag/wag_275.solr.xml
+SOLR 2: /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/wag_275.xml was successfully transformed into /Users/albertoortizflores/tools/projects/publisher/files/preview/solr2/tamwag/wag_275.solr.xml
+Executing file /Users/albertoortizflores/tools/projects/publisher/bin/do-ead-transforms.bash
+Writing HTML version for file /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/wag_301.xml
+archive: tamwag
+Executing file /Users/albertoortizflores/tools/projects/publisher/bin/do-solr.bash with argument tamwag and wag_301
+Writing solr index file for /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/wag_301.xml
+Solr 1: Attempting to transform /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/wag_301.xml into wag_301.solr.xml
+
+Solr 2: Attempting to transform /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/wag_301.xml into wag_301.solr.xml
+
+SOLR 1: /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/wag_301.xml was successfully transformed into /Users/albertoortizflores/tools/projects/publisher/files/preview/solr1/tamwag/wag_301.solr.xml
+SOLR 2: /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/wag_301.xml was successfully transformed into /Users/albertoortizflores/tools/projects/publisher/files/preview/solr2/tamwag/wag_301.solr.xml
+Executing file /Users/albertoortizflores/tools/projects/publisher/bin/do-ead-transforms.bash
+Writing HTML version for file /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/wag_303.xml
+archive: tamwag
+Executing file /Users/albertoortizflores/tools/projects/publisher/bin/do-solr.bash with argument tamwag and tillman
+Writing solr index file for /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/tillman.xml
+Executing file /Users/albertoortizflores/tools/projects/publisher/bin/do-solr.bash with argument tamwag and wag_303
+Writing solr index file for /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/wag_303.xml
+Solr 1: Attempting to transform /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/wag_303.xml into wag_303.solr.xml
+
+Solr 1: Attempting to transform /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/tillman.xml into tillman.solr.xml
+
+Solr 2: Attempting to transform /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/wag_303.xml into wag_303.solr.xml
+
+SOLR 1: /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/wag_303.xml was successfully transformed into /Users/albertoortizflores/tools/projects/publisher/files/preview/solr1/tamwag/wag_303.solr.xml
+SOLR 2: /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/wag_303.xml was successfully transformed into /Users/albertoortizflores/tools/projects/publisher/files/preview/solr2/tamwag/wag_303.solr.xml
+Executing file /Users/albertoortizflores/tools/projects/publisher/bin/do-ead-transforms.bash
+Writing HTML version for file /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/wag_305.xml
+archive: tamwag
+Solr 2: Attempting to transform /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/tillman.xml into tillman.solr.xml
+
+SOLR 1: /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/tillman.xml was successfully transformed into /Users/albertoortizflores/tools/projects/publisher/files/preview/solr1/tamwag/tillman.solr.xml
+SOLR 2: /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/tillman.xml was successfully transformed into /Users/albertoortizflores/tools/projects/publisher/files/preview/solr2/tamwag/tillman.solr.xml
+Executing file /Users/albertoortizflores/tools/projects/publisher/bin/do-ead-transforms.bash
+Writing HTML version for file /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/wag_319.xml
+archive: tamwag
+Executing file /Users/albertoortizflores/tools/projects/publisher/bin/do-solr.bash with argument tamwag and wag_305
+Writing solr index file for /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/wag_305.xml
+Solr 1: Attempting to transform /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/wag_305.xml into wag_305.solr.xml
+
+Solr 2: Attempting to transform /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/wag_305.xml into wag_305.solr.xml
+
+SOLR 1: /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/wag_305.xml was successfully transformed into /Users/albertoortizflores/tools/projects/publisher/files/preview/solr1/tamwag/wag_305.solr.xml
+SOLR 2: /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/wag_305.xml was successfully transformed into /Users/albertoortizflores/tools/projects/publisher/files/preview/solr2/tamwag/wag_305.solr.xml
+Executing file /Users/albertoortizflores/tools/projects/publisher/bin/do-ead-transforms.bash
+Writing HTML version for file /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/wag_325.xml
+archive: tamwag
+Executing file /Users/albertoortizflores/tools/projects/publisher/bin/do-solr.bash with argument tamwag and wag_319
+Writing solr index file for /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/wag_319.xml
+Executing file /Users/albertoortizflores/tools/projects/publisher/bin/do-solr.bash with argument tamwag and wag_325
+Writing solr index file for /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/wag_325.xml
+Solr 1: Attempting to transform /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/wag_319.xml into wag_319.solr.xml
+
+Solr 1: Attempting to transform /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/wag_325.xml into wag_325.solr.xml
+
+Solr 2: Attempting to transform /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/wag_319.xml into wag_319.solr.xml
+
+SOLR 1: /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/wag_319.xml was successfully transformed into /Users/albertoortizflores/tools/projects/publisher/files/preview/solr1/tamwag/wag_319.solr.xml
+SOLR 2: /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/wag_319.xml was successfully transformed into /Users/albertoortizflores/tools/projects/publisher/files/preview/solr2/tamwag/wag_319.solr.xml
+Executing file /Users/albertoortizflores/tools/projects/publisher/bin/do-ead-transforms.bash
+Writing HTML version for file /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/womanslaw.xml
+archive: tamwag
+Solr 2: Attempting to transform /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/wag_325.xml into wag_325.solr.xml
+
+SOLR 1: /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/wag_325.xml was successfully transformed into /Users/albertoortizflores/tools/projects/publisher/files/preview/solr1/tamwag/wag_325.solr.xml
+SOLR 2: /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/wag_325.xml was successfully transformed into /Users/albertoortizflores/tools/projects/publisher/files/preview/solr2/tamwag/wag_325.solr.xml
+Executing file /Users/albertoortizflores/tools/projects/publisher/bin/do-ead-transforms.bash
+Writing HTML version for file /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/yaffa.xml
+archive: tamwag
+Executing file /Users/albertoortizflores/tools/projects/publisher/bin/do-solr.bash with argument tamwag and womanslaw
+Writing solr index file for /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/womanslaw.xml
+Executing file /Users/albertoortizflores/tools/projects/publisher/bin/do-solr.bash with argument tamwag and yaffa
+Writing solr index file for /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/yaffa.xml
+Solr 1: Attempting to transform /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/womanslaw.xml into womanslaw.solr.xml
+
+Solr 1: Attempting to transform /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/yaffa.xml into yaffa.solr.xml
+
+Solr 2: Attempting to transform /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/womanslaw.xml into womanslaw.solr.xml
+
+SOLR 1: /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/womanslaw.xml was successfully transformed into /Users/albertoortizflores/tools/projects/publisher/files/preview/solr1/tamwag/womanslaw.solr.xml
+SOLR 2: /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/womanslaw.xml was successfully transformed into /Users/albertoortizflores/tools/projects/publisher/files/preview/solr2/tamwag/womanslaw.solr.xml
+Executing file /Users/albertoortizflores/tools/projects/publisher/bin/do-ead-transforms.bash
+Writing HTML version for file /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/yaffafoundling.xml
+archive: tamwag
+Solr 2: Attempting to transform /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/yaffa.xml into yaffa.solr.xml
+
+SOLR 1: /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/yaffa.xml was successfully transformed into /Users/albertoortizflores/tools/projects/publisher/files/preview/solr1/tamwag/yaffa.solr.xml
+SOLR 2: /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/yaffa.xml was successfully transformed into /Users/albertoortizflores/tools/projects/publisher/files/preview/solr2/tamwag/yaffa.solr.xml
+Executing file /Users/albertoortizflores/tools/projects/publisher/bin/do-solr.bash with argument tamwag and yaffafoundling
+Writing solr index file for /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/yaffafoundling.xml
+Solr 1: Attempting to transform /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/yaffafoundling.xml into yaffafoundling.solr.xml
+
+Solr 2: Attempting to transform /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/yaffafoundling.xml into yaffafoundling.solr.xml
+
+SOLR 1: /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/yaffafoundling.xml was successfully transformed into /Users/albertoortizflores/tools/projects/publisher/files/preview/solr1/tamwag/yaffafoundling.solr.xml
+SOLR 2: /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/yaffafoundling.xml was successfully transformed into /Users/albertoortizflores/tools/projects/publisher/files/preview/solr2/tamwag/yaffafoundling.solr.xml
+Removing EAD file (aia_030.xml) from /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/aia_030.xml
+Removing aia_030 HTML folder ()
+Removing aia_030 Solr 1 ()
+Removing aia_030 Solr 2 ()
+Removing EAD file (alba_074.xml) from /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/alba_074.xml
+Removing alba_074 HTML folder ()
+Removing alba_074 Solr 1 ()
+Removing alba_074 Solr 2 ()
+Removing EAD file (album.xml) from /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/album.xml
+Removing album HTML folder ()
+Removing album Solr 1 ()
+Removing album Solr 2 ()
+Removing EAD file (arc_174_brooklyn_newsletters.xml) from /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/arc_174_brooklyn_newsletters.xml
+Removing arc_174_brooklyn_newsletters HTML folder ()
+Removing arc_174_brooklyn_newsletters Solr 1 ()
+Removing arc_174_brooklyn_newsletters Solr 2 ()
+Executing file /Users/albertoortizflores/tools/projects/publisher/bin/do-ead-transforms.bash
+Executing file /Users/albertoortizflores/tools/projects/publisher/bin/do-ead-transforms.bash
+Writing HTML version for file /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/alba_074.xml
+archive: tamwag
+Writing HTML version for file /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/aia_030.xml
+archive: tamwag
+Executing file /Users/albertoortizflores/tools/projects/publisher/bin/do-solr.bash with argument tamwag and alba_074
+Writing solr index file for /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/alba_074.xml
+Executing file /Users/albertoortizflores/tools/projects/publisher/bin/do-solr.bash with argument tamwag and aia_030
+Writing solr index file for /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/aia_030.xml
+Solr 1: Attempting to transform /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/alba_074.xml into alba_074.solr.xml
+
+Solr 2: Attempting to transform /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/alba_074.xml into alba_074.solr.xml
+
+SOLR 1: /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/alba_074.xml was successfully transformed into /Users/albertoortizflores/tools/projects/publisher/files/preview/solr1/tamwag/alba_074.solr.xml
+SOLR 2: /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/alba_074.xml was successfully transformed into /Users/albertoortizflores/tools/projects/publisher/files/preview/solr2/tamwag/alba_074.solr.xml
+Solr 1: Attempting to transform /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/aia_030.xml into aia_030.solr.xml
+
+Executing file /Users/albertoortizflores/tools/projects/publisher/bin/do-ead-transforms.bash
+Writing HTML version for file /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/album.xml
+archive: tamwag
+Solr 2: Attempting to transform /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/aia_030.xml into aia_030.solr.xml
+
+SOLR 1: /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/aia_030.xml was successfully transformed into /Users/albertoortizflores/tools/projects/publisher/files/preview/solr1/tamwag/aia_030.solr.xml
+SOLR 2: /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/aia_030.xml was successfully transformed into /Users/albertoortizflores/tools/projects/publisher/files/preview/solr2/tamwag/aia_030.solr.xml
+Executing file /Users/albertoortizflores/tools/projects/publisher/bin/do-ead-transforms.bash
+Writing HTML version for file /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/arc_174_brooklyn_newsletters.xml
+archive: tamwag
+Executing file /Users/albertoortizflores/tools/projects/publisher/bin/do-solr.bash with argument tamwag and arc_174_brooklyn_newsletters
+Writing solr index file for /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/arc_174_brooklyn_newsletters.xml
+Solr 1: Attempting to transform /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/arc_174_brooklyn_newsletters.xml into arc_174_brooklyn_newsletters.solr.xml
+
+Executing file /Users/albertoortizflores/tools/projects/publisher/bin/do-solr.bash with argument tamwag and album
+Writing solr index file for /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/album.xml
+Solr 2: Attempting to transform /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/arc_174_brooklyn_newsletters.xml into arc_174_brooklyn_newsletters.solr.xml
+
+SOLR 1: /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/arc_174_brooklyn_newsletters.xml was successfully transformed into /Users/albertoortizflores/tools/projects/publisher/files/preview/solr1/tamwag/arc_174_brooklyn_newsletters.solr.xml
+SOLR 2: /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/arc_174_brooklyn_newsletters.xml was successfully transformed into /Users/albertoortizflores/tools/projects/publisher/files/preview/solr2/tamwag/arc_174_brooklyn_newsletters.solr.xml
+Executing file /Users/albertoortizflores/tools/projects/publisher/bin/do-ead-transforms.bash
+Writing HTML version for file /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/arc_250_1922_account_book.xml
+archive: tamwag
+Solr 1: Attempting to transform /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/album.xml into album.solr.xml
+
+Executing file /Users/albertoortizflores/tools/projects/publisher/bin/do-solr.bash with argument tamwag and arc_250_1922_account_book
+Writing solr index file for /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/arc_250_1922_account_book.xml
+Solr 2: Attempting to transform /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/album.xml into album.solr.xml
+
+SOLR 1: /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/album.xml was successfully transformed into /Users/albertoortizflores/tools/projects/publisher/files/preview/solr1/tamwag/album.solr.xml
+SOLR 2: /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/album.xml was successfully transformed into /Users/albertoortizflores/tools/projects/publisher/files/preview/solr2/tamwag/album.solr.xml
+Solr 1: Attempting to transform /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/arc_250_1922_account_book.xml into arc_250_1922_account_book.solr.xml
+
+Solr 2: Attempting to transform /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/arc_250_1922_account_book.xml into arc_250_1922_account_book.solr.xml
+
+SOLR 1: /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/arc_250_1922_account_book.xml was successfully transformed into /Users/albertoortizflores/tools/projects/publisher/files/preview/solr1/tamwag/arc_250_1922_account_book.solr.xml
+SOLR 2: /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/arc_250_1922_account_book.xml was successfully transformed into /Users/albertoortizflores/tools/projects/publisher/files/preview/solr2/tamwag/arc_250_1922_account_book.solr.xml
+Executing file /Users/albertoortizflores/tools/projects/publisher/bin/do-ead-transforms.bash
+Writing HTML version for file /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/arms_1978_136_shattuck_white.xml
+archive: tamwag
+Executing file /Users/albertoortizflores/tools/projects/publisher/bin/do-solr.bash with argument tamwag and arms_1978_136_shattuck_white
+Writing solr index file for /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/arms_1978_136_shattuck_white.xml
+Solr 1: Attempting to transform /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/arms_1978_136_shattuck_white.xml into arms_1978_136_shattuck_white.solr.xml
+
+Solr 2: Attempting to transform /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/arms_1978_136_shattuck_white.xml into arms_1978_136_shattuck_white.solr.xml
+
+SOLR 1: /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/arms_1978_136_shattuck_white.xml was successfully transformed into /Users/albertoortizflores/tools/projects/publisher/files/preview/solr1/tamwag/arms_1978_136_shattuck_white.solr.xml
+SOLR 2: /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/arms_1978_136_shattuck_white.xml was successfully transformed into /Users/albertoortizflores/tools/projects/publisher/files/preview/solr2/tamwag/arms_1978_136_shattuck_white.solr.xml
+Removing EAD file (aia_030.xml) from /Users/albertoortizflores/tools/projects/publisher/files/preview/ead/tamwag/aia_030.xml
+Removing aia_030 HTML folder ()
+Removing aia_030 Solr 1 ()
+Removing aia_030 Solr 2 ()

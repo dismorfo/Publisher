@@ -1,4 +1,4 @@
-#!/usr/bin/perl
+#!/usr/bin/perl  
 
 use strict;
 use CGI ':standard';
@@ -7,43 +7,37 @@ use CGI::Carp qw(warningsToBrowser fatalsToBrowser);
 # add app common sub routines
 require 'cgi/common.pl';
 
-# request type
-my $pjax = param("pjax");
-
-my $q = CGI->new;
-
 # add specific page/content sub routines
-if (defined($pjax) ) {
-  require 'cgi/pages/publish.pjax.pl';
-}
-
-else {
-  require 'cgi/pages/publish.page.pl';
-}
+require 'cgi/pages/delete.page.pl';
 
 my @route = getRoute();
 
 my $identifier = ($#route > 2) ? @route[$#route] : param("identifier");
 
 # In order to render a HTML is require to pass a data source hash with: pid, title and content
-my ($datasource) = {	
+my ($datasource) = {
+  
   # page id
-  'pid' => 'page-publish',
+  'pid' => 'delete-upload',
   
   'identifier' => $identifier,
 
   # title of the page
-  'title' => 'Upload, Preview and publish pending finding aids',
-
+  'title' => 'Delete EAD',
+  
   # scripts
-  'scripts' => ['ui.menu.js', 'ui.publish.js'],
+  'scripts' => ['ui.menu.js'],
     
   # scripts size
- 'scripts_size' => 1,
-    
- # main content of the page
- 'content' => lsFiles($identifier)
+ 'scripts_size' => 0,
+  
+
+  # main content of the page
+  'content' =>  delete_ead(@route),
+ 
+  'route' => @route,
+
 };
-    
+
 # print HTML page
 outputHTML($datasource);

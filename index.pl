@@ -46,6 +46,14 @@ given($route) {
   
   when(/^\/publisher\/published\/([a-z])+/) {
     do 'cgi/eadManager.published.pl';
+  }
+  
+  when('/publisher/action/publish') {
+  	do 'cgi/publish.pl';
+  }
+  
+  when(/^\/publisher\/delete\/[a-z]+\/\w+/ && ($ENV{'REQUEST_METHOD'} eq 'POST') ) {  	
+    do 'cgi/eadManager.delete.pl';
   }  
 
   # this one should default to 404

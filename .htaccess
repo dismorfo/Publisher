@@ -12,11 +12,9 @@ Options +FollowSymLinks
 # Set the default handler.
 DirectoryIndex index.pl index.html index.htm
 
-# AddType application/x-httpd-php .php
+Options +Includes
 
-# AddHandler server-parsed .php
-
-# Options +Includes
+AddOutputFilter INCLUDES .html
 
 # Requires mod_expires to be enabled.
 <IfModule mod_expires.c>

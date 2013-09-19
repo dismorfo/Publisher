@@ -117,15 +117,7 @@ sub publisher_navigation {
       <ul id="std-menu-items">
         <li><a href="$confHash{'APP_URI'}/">Home</a></li>
         <li>
-          Upload EAD
-          <ul>
-            <li class="pure-menu-heading">Select archive</li>
-            <li class="pure-menu-separator"></li>
-            $archives_upload
-          </ul>
-        </li>
-        <li>
-          Preview / publish finding aids
+          Upload, preview or publish finding aids
           <ul>
             <li class="pure-menu-heading">Select archive</li>
             <li class="pure-menu-separator"></li>
@@ -144,7 +136,7 @@ sub publisher_navigation {
         <li>
           <a href="$confHash{'PUBLISHER_URI'}/cgi/upload_csv.html">Process accessions report</a>
         </li>
-        --!>
+        -->
     </ul>
   </div>
   #;
