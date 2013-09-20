@@ -36,7 +36,7 @@ given($route) {
     do 'cgi/eadManager.upload.pl';
   }
 
-  when('/publisher/action/publish') {
+  when(/^\/publisher\/publicate\/[a-z]+\/\w+/ && ($ENV{'REQUEST_METHOD'} eq 'POST') ) {
   	do 'cgi/publish.pl';
   }
 

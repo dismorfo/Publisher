@@ -97,11 +97,8 @@ sub outputFiles {
       $tbody .= '<td><a href="' . $confHash{'CONTENT_STAGING_URI'} . '/html/' . $dir . '/' . $_ . '" target="_blank">HTML</a></td>';
       $tbody .= '<td><a href="' . $confHash{'CONTENT_STAGING_URI'} . '/solr1/' . $dir . '/' . $_ . '.solr.xml" target="_blank">Inner</a></td>';
       $tbody .= '<td><a href="' . $confHash{'CONTENT_STAGING_URI'} . '/solr2/' . $dir . '/' . $_ . '.solr.xml" target="_blank">Outer</a></td>';
-      $tbody .= '<td><a href="#' . $id . '" data-action="publish" data-eadid="' . $id . '" data-repo="'. $dir . '" class="publish">Publish</a></td>';
-      $tbody .= '<td><a href="' . $confHash{'PUBLISHER_URI'} . '/delete/' . $dir . '/' . $_ . '" data-action="delete" data-eadid="' . $id . '" data-repo="'. $dir . '" class="remove">Remove</a></td>';
-      
-      #
-      
+      $tbody .= '<td><a href="' . $confHash{'PUBLISHER_URI'} . '/publicate/' . $dir . '/' . $_ . '" data-action="publicate" data-eadid="' . $_ . '" data-repo="'. $dir . '" class="publicate">Publish</a></td>';
+      $tbody .= '<td><a href="' . $confHash{'PUBLISHER_URI'} . '/delete/' . $dir . '/' . $_ . '" data-action="delete" data-eadid="' . $_ . '" data-repo="'. $dir . '" class="remove">Remove</a></td>';
       $tbody .= '</tr>';
     }
   }  

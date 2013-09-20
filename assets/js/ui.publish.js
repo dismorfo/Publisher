@@ -230,17 +230,14 @@ YUI().use('node', 'event', 'tabview', 'pjax', 'panel', 'io', 'dd-plugin', 'uploa
         function onComplete(id, result) {
             panel_body.set('innerHTML',  result.responseText);
             panel.show();
-            if ( currentTarget.getAttribute('data-action') === 'delete') {
-              currentTarget.get('parentNode').get('parentNode').remove(true);  
-            }
-            else if ( currentTarget.getAttribute('data-action') === 'publish') {}
+            currentTarget.get('parentNode').get('parentNode').remove(true);
         }
         
         if ( currentTarget.getAttribute('data-action') === 'delete') {
           msg = 'Are you sure you want to ' + currentTarget.getAttribute('data-action') + ' <strong>'+ eadId + '</strong>?';          
         };
         
-        if ( currentTarget.getAttribute('data-action') === 'publish') {
+        if ( currentTarget.getAttribute('data-action') === 'publicate') {
           msg = 'Are you sure you want to ' + currentTarget.getAttribute('data-action') + ' <strong>'+ eadId + '</strong> to <strong>production</strong> as part of <strong>' + eadRepo + '</strong> archives?';
         };
 
@@ -311,13 +308,13 @@ YUI().use('node', 'event', 'tabview', 'pjax', 'panel', 'io', 'dd-plugin', 'uploa
     pjax.on('load', onPjaxLoad);
 
     pjax.on('io:success', onSuccess);
-    
+
     Y.on('io:start', onStart);
-    
+
     body.delegate('click', onPublish, 'a.remove');
-    
-    body.delegate('click', onPublish, 'a.publish');
-    
+
+    body.delegate('click', onPublish, 'a.publicate');
+
     body.delegate('click', onTabClick, 'a.tab', pjax);
 
     tabview.render();

@@ -10,8 +10,6 @@ require 'cgi/common.pl';
 # request type
 my $pjax = param("pjax");
 
-my $q = CGI->new;
-
 # add specific page/content sub routines
 if (defined($pjax) ) {
   require 'cgi/pages/publish.pjax.pl';
