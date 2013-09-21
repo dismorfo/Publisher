@@ -16,12 +16,12 @@ given($route) {
 
   # home
   when('/publisher') {
-  	do 'cgi/home.pl';
+    do 'cgi/home.pl';
   }
 
   # help
   when('/publisher/help') {
-  	do 'cgi/help.pl';
+    do 'cgi/help.pl';
   }
 
   when(/^\/publisher\/publish\/[a-z]+/) {
@@ -37,7 +37,7 @@ given($route) {
   }
 
   when(/^\/publisher\/publicate\/[a-z]+\/\w+/ && ($ENV{'REQUEST_METHOD'} eq 'POST') ) {
-  	do 'cgi/publicate.pl';
+    do 'cgi/publicate.pl';
   }
 
   when(/^\/publisher\/delete\/[a-z]+\/\w+/ && ($ENV{'REQUEST_METHOD'} eq 'POST') ) {  	
