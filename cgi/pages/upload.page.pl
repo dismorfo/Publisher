@@ -121,11 +121,13 @@ sub processUpload {
       my $fileExist = $uploadDIR . '/' . $eadFile;
          
       # transforming xml into html and XML for SOLR
-      my ($transform, $url, $transformError, $output) = transformFile($origPath, $eadDir, $eadid, $output);
+      my ($transform, $url, $transformError) = transformFile($origPath, $eadDir, $eadid);
               
       if (-e $fileExist) {
 
         chmod(0777, $fileExist);
+        
+        $output .= '<p>EAD Id: <span class="eadid" data-eadid="' . $eadid .'" data-repo="' . $eadDir .'" data-publicate="" data-remove="" data-inner="" data-outer="">' . $eadid . '</a></p>';        
 
         $output .= '<p>' . $oldFile . ' has been successfully uploaded and renamed to ' . $eadFile . '.</p>';
         
@@ -134,9 +136,9 @@ sub processUpload {
         $eadURL =~ s/html.*/ead/; 
         
         $eadURL .= '/' . $eadDir . '/' . $eadFile;
-
+        
         # outputting link to xml EAD
-        $output .= '<p>Your EAD finding aid can be previewed here: <a href="'. $eadURL . '" target="_blank">' . $eadURL . '</a></p>';
+        $output .= '<p>Your EAD finding aid can be previewed here: <a class="ead" href="'. $eadURL . '" target="_blank">' . $eadURL . '</a></p>';
       } 
       else {
         $output .= '<p>Unable to upload ' . $eadFile . ' an error occur, please make sure you have a valid EAD and try again.</p>';
@@ -146,7 +148,7 @@ sub processUpload {
       
       # no error found
       if ($transformError !~ /Error/) {
-        $output .= '<p>Your HTML finding aid can be previewed here: <a href="' . $url . '" target="_blank">' . $url . '</a></p>';
+        $output .= '<p>Your HTML finding aid can be previewed here: <a class="html" href="' . $url . '" target="_blank">' . $url . '</a></p>';
       }
       # there was a error 
       else {
@@ -162,8 +164,6 @@ sub processUpload {
 sub transformFile {
 
   my $error = '';
-  
-  my $msg = '';
 
   # grabbing source path, directory, and file
   my ($dataPath, $dir, $eadid) = @_;
@@ -243,11 +243,10 @@ sub transformFile {
   
   if ($transform2 =~ /<solrFile>(.*)<\/solrFile>/) {
     $solrFile = $1;
-    $msg .= '<p>Solr File: ' . $solrFile . '</p>';
   }
   else {
     $error .= '<p>Error - no Solr file returned by the transformer</p>';
   }  
 
-  return ($transform, $url, $error, $msg);
+  return ($transform, $url, $error);
 }

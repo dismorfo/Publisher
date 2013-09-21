@@ -20,11 +20,11 @@ PARENT_DIR="$(dirname "$DIR")"
 
 # Die if there is more than one argument
 if [ $# -gt 1 ]; then
-	echo 1>&2 Usage: $0 EADID or $0
+	echo [`date`] 1>&2 Usage: $0 EADID or $0  >> $APP_PATH/log.out
 	exit 127
 fi
 
-echo Executing file $SOURCE >> $APP_PATH/log.out
+echo [`date`] Open file $SOURCE >> $APP_PATH/log.out
 
 COLL=`expr "$*" : '\(.*/\)' | sed "s/\///"`
 
@@ -39,12 +39,10 @@ fi
 for e in $EADS; do
   ARCHIVETYPE=`dirname $e | sed "s/\/.*\///"`
 
-  echo Writing HTML version for file $e >> $APP_PATH/log.out
+  echo [`date`] Writing HTML version for file $e >> $APP_PATH/log.out
   
-  echo archive: $ARCHIVETYPE >> $APP_PATH/log.out
+  echo [`date`] Archive: $ARCHIVETYPE >> $APP_PATH/log.out
   
-  # echo Running: copping $APP_PATH/files/shared/assets/php/toc.php $CONTENT_STAGING_PATH/html/$ARCHIVETYPE/$FAID/toc.php >> $APP_PATH/log.out
-  	
   newDir=`basename $e | sed "s/\.xml//"`
 
   # make the html file
@@ -54,30 +52,29 @@ for e in $EADS; do
   ns_check=`grep urn:isbn:1-931666-22-9 $e`
 	
   if [ ! ${#ns_check} -gt 0 ]; then
-    echo "EAD probably not exported from Archivists Toolkit. Exiting"
+    echo [`date`] EAD probably not exported from Archivists Toolkit. Exiting. >> $APP_PATH/log.out
     exit
   fi
 
-  echo Input EAD: $e
+  echo [`date`] Input EAD: $e >> $APP_PATH/log.out
   
-  echo Saxon Path: $SAXON_PATH
-
   if [ ${#eadid} -gt 0 ]; then
-    transform_output=$(java -jar $SAXON_PATH -s:$e -xsl:$APP_PATH/xsl/ead2html.xsl targetDir=$CONTENT_STAGING_PATH/html/$COLL collectionName=$ARCHIVETYPE searchURI=$SEARCH_URI contentURI=$CONTENT_URI collPage=$collPage 2>&1)
+    transform_output=$(java -jar $SAXON_PATH -s:$e -xsl:$APP_PATH/assets/xsl/ead2html.xsl targetDir=$CONTENT_STAGING_PATH/html/$COLL collectionName=$ARCHIVETYPE searchURI=$SEARCH_URI contentURI=$CONTENT_URI collPage=$collPage 2>&1)
   else
-    echo "No <eadid> value, no transform"
+    echo [`date`] No eadid value, no transform >> $APP_PATH/log.out
   fi
 
   if [[ $transform_output =~ "Error reported by XML" ]]; then
-    echo $transform_output
+    echo [`date`] $transform_output >> $APP_PATH/log.out
+    
   elif [[ $transform_output =~ "java.io.FileNotFoundException:" ]]; then
-    echo $transform_output
+    echo [`date`] $transform_output >> $APP_PATH/log.out
+    
   else
-    echo $transform_output
+    echo [`date`] $transform_output >> $APP_PATH/log.out
     echo \<eadid\>$eadid\</eadid\>			
   fi
   
   cp "$APP_PATH/files/shared/assets/php/toc.php" "$CONTENT_STAGING_PATH/html/$ARCHIVETYPE/$FAID/toc.php" >> $APP_PATH/log.out
-  
   
 done

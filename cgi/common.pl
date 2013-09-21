@@ -5,15 +5,8 @@ use strict;
 
 my $dir = cwd();
 
-# load settings and configuration options
-# require 'cgi/inc/readConf.pl';
-
 # cast loaded settings and configuration into a hash
 my %confHash = createHashConf('conf/eadpublisher.conf');
-
-# small routine to read in a conf file and parse it into a hash
-# used in two cgi programs:eadManager and ppublish
-# initial creation: edatta 8/21/07
 
 sub createHashConf {
   # text file to be specified
@@ -53,7 +46,6 @@ sub listOfCollections {
   $collections{'bhs'} = 'Brooklyn Historical Society';
   $collections{'poly'} = 'Poly Archives';
   return %collections;
-  
 }
 
 sub publisher_start_html {
@@ -77,7 +69,6 @@ sub publisher_head {
         <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.3.0/pure-min.css">
         <link href='http://fonts.googleapis.com/css?family=Droid+Sans' rel='stylesheet' type='text/css'>
         <link rel="stylesheet" href="$confHash{'PUBLISHER_URI'}/assets/css/base.css">
-        
       </head>
   #; 
   return $head;  
@@ -100,18 +91,16 @@ sub publisher_navigation {
   # collections look up
   my %collections = listOfCollections();
   
-  my $archives_upload = "";
-  
+  my $archives_upload  = "";
   my $archives_preview = "";
-  
-  my $archives_review = "";
+  my $archives_review  = "";
   
   for (keys %collections) {
-    $archives_upload .= '<li><a href="' . $confHash{"PUBLISHER_URI"} . '/upload/' . $_ . '">' . $collections{$_} . '</a></li>';
+    $archives_upload  .= '<li><a href="' . $confHash{"PUBLISHER_URI"} . '/upload/' . $_ . '">' . $collections{$_} . '</a></li>';
     $archives_preview .= '<li><a href="' . $confHash{"PUBLISHER_URI"} . '/publish/' . $_ . '">' . $collections{$_} . '</a></li>';
-    $archives_review .= '<li><a href="' . $confHash{'PUBLISHER_URI'} . '/cgi/eadManager.published.pl?identifier=' . $_ . '">' . $collections{$_} . '</a></li>';
+    $archives_review  .= '<li><a href="' . $confHash{'PUBLISHER_URI'} . '/published/' . $_ . '">' . $collections{$_} . '</a></li>';
   }
-	
+
   my $navigation = qq#
     <div id="horizontal-menu">
       <ul id="std-menu-items">
@@ -131,12 +120,7 @@ sub publisher_navigation {
             <li class="pure-menu-separator"></li>
             $archives_review
           </ul>
-        </li>        
-        <!--
-        <li>
-          <a href="$confHash{'PUBLISHER_URI'}/cgi/upload_csv.html">Process accessions report</a>
         </li>
-        -->
         <li><a href="$confHash{'PUBLISHER_URI'}/help">Help</a></li>
     </ul>
   </div>
@@ -161,9 +145,7 @@ sub publisher_scripts {
 }
 
 sub publisher_content {
-
   my ($content) = @_;
-
   my $output = qq#
     <div class="main">
       <div class="body">
@@ -171,9 +153,7 @@ sub publisher_content {
       </div>
     </div>
   #;
-  
   return $output;
-    
 }
 
 sub publisher_body {

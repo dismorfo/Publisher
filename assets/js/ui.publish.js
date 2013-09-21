@@ -100,7 +100,7 @@ YUI().use('node', 'event', 'tabview', 'pjax', 'panel', 'io', 'dd-plugin', 'uploa
         }
     }
 
-        Y.one("#overallProgress").set("text", "Uploader type: " + Y.Uploader.TYPE);
+    Y.one("#overallProgress").set("text", "Uploader type: " + Y.Uploader.TYPE);
     
         if (Y.Uploader.TYPE != "none" && !Y.UA.ios) {
     	
@@ -164,44 +164,58 @@ YUI().use('node', 'event', 'tabview', 'pjax', 'panel', 'io', 'dd-plugin', 'uploa
 
             });
 
-            uploader.on("uploadcomplete", function (event) {
-                var fileRow = Y.one("#" + event.file.get("id") + "_row");
-                    fileRow.one(".percentdone").set("text", "Finished!");
-            });
+        uploader.on("uploadcomplete", function (event) {
+        	
+            var panel_body = Y.one('#panelContent .yui3-widget-bd');
+                panel_body.set('innerHTML', event.data);
+                panel.show();
+                
+            var node = panel_body.one('.eadid');        	
+                
+                Y.log(
+                	panel_body.one('.eadid').get('text')
+                );
+                
+                Y.one('.yui3-tabview-content .tab-table tbody').append('<tr><td></td><td><a href="#" target="_blank">EAD</a></td><td><a href="#" target="_blank">HTML</a></td><td><a href="#" target="_blank">Inner</a></td><td><a href="#" target="_blank">Outer</a></td><td><a href="#" data-action="publicate" data-eadid="" data-repo="" class="publicate">Publish</a></td><td><a href="" data-action="delete" data-eadid="" data-repo="tamwag" class="remove">Remove</a></td></tr>');
 
-            uploader.on("totaluploadprogress", function (event) {
-                Y.one("#overallProgress").setHTML("Total uploaded: <strong>" + event.percentLoaded + "%" + "</strong>");
-            });
+            var fileRow = Y.one("#" + event.file.get("id") + "_row");
+                // fileRow.one(".percentdone").set("text", "Finished!");
+                fileRow.remove(true);
+        });
 
-            uploader.on("alluploadscomplete", function (event) {
-                
-                uploader.set("enabled", true);
-                
-                uploader.set("fileList", []);
-                
-                Y.one("#uploadFilesButton").removeClass("pure-button-disabled");
-                
-                Y.one("#uploadFilesButton").on("click", function () {
-                    if (!uploadDone && uploader.get("fileList").length > 0) {
-                        uploader.uploadAll();
-                    }
-                });
-                
-                Y.one("#overallProgress").set("text", "Uploads complete!");
-                
-                uploadDone = true;
-                
-            });
+        uploader.on("totaluploadprogress", function (event) {
+            Y.one("#overallProgress").setHTML("Total uploaded: <strong>" + event.percentLoaded + "%" + "</strong>");
+        });
 
+        uploader.on("alluploadscomplete", function (event) {
+                
+            uploader.set("enabled", true);
+                
+            uploader.set("fileList", []);
+                
+            Y.one("#uploadFilesButton").removeClass("pure-button-disabled");
+                
             Y.one("#uploadFilesButton").on("click", function () {
                 if (!uploadDone && uploader.get("fileList").length > 0) {
                     uploader.uploadAll();
                 }
             });
-        }
-        else {
-            Y.one("#uploaderContainer").set("text", "We are sorry, but to use the uploader, you either need a browser that support HTML5 or have the Flash player installed on your computer.");
-        }    
+                
+            Y.one("#overallProgress").set("text", "Uploads complete!");
+                
+            uploadDone = true;
+                
+        });
+
+        Y.one("#uploadFilesButton").on("click", function () {
+            if (!uploadDone && uploader.get("fileList").length > 0) {
+                uploader.uploadAll();
+            }
+        });
+    }
+    else {
+        Y.one("#uploaderContainer").set("text", "We are sorry, but to use the uploader, you either need a browser that support HTML5 or have the Flash player installed on your computer.");
+    }
 
     function onPublish(e) {
 

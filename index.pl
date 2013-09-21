@@ -16,37 +16,37 @@ given($route) {
 
   # home
   when('/publisher') {
-  	do 'cgi/eadManager.index.pl';
+  	do 'cgi/home.pl';
   }
 
   # help
   when('/publisher/help') {
-  	do 'cgi/eadManager.help.pl';
+  	do 'cgi/help.pl';
   }
 
-  when(/^\/publisher\/publish\/([a-z])+/) {
-    do 'cgi/eadManager.publish.pl';
+  when(/^\/publisher\/publish\/[a-z]+/) {
+    do 'cgi/publish.pl';
   }
 
-  when(/^\/publisher\/published\/([a-z])+/) {
-    do 'cgi/eadManager.published.pl';
+  when(/^\/publisher\/published\/[a-z]+/) {
+    do 'cgi/published.pl';
   }
 
-  when(/^\/publisher\/upload\/([a-z])+/ && ($ENV{'REQUEST_METHOD'} eq 'POST') ) {
-    do 'cgi/eadManager.upload.pl';
+  when(/^\/publisher\/upload\/[a-z]+/ && ($ENV{'REQUEST_METHOD'} eq 'POST') ) {
+    do 'cgi/upload.pl';
   }
 
   when(/^\/publisher\/publicate\/[a-z]+\/\w+/ && ($ENV{'REQUEST_METHOD'} eq 'POST') ) {
-  	do 'cgi/publish.pl';
+  	do 'cgi/publicate.pl';
   }
 
   when(/^\/publisher\/delete\/[a-z]+\/\w+/ && ($ENV{'REQUEST_METHOD'} eq 'POST') ) {  	
-    do 'cgi/eadManager.delete.pl';
+    do 'cgi/delete.pl';
   }  
 
-  # this one should default to 404
+  # 404 or error
   default {
-    do 'cgi/eadManager.index.pl';
+    do 'cgi/error.pl';
   }
 
 }

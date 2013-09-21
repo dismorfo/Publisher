@@ -5,9 +5,9 @@ use CGI ':standard';
 use CGI::Carp qw(warningsToBrowser fatalsToBrowser);
 
 # add app common sub routines
-require 'cgi/common.pl';
+do 'cgi/common.pl';
 
-require 'cgi/pages/index.page.pl';
+do 'cgi/pages/error.page.pl';
 
 # in order to render a HTML is require to pass a data source 
 # hash with: pid, title and content
@@ -17,10 +17,10 @@ require 'cgi/pages/index.page.pl';
 my ($datasource) = {
 
   # page id
-  'pid' => 'page-index',
+  'pid' => 'page-help',
 
   # title of the page
-  'title' => 'Home',
+  'title' => 'Error',
 
   # scripts
   'scripts' => ['ui.menu.js'],

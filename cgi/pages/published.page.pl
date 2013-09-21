@@ -10,40 +10,45 @@ my %confHash = createHashConf("../conf/eadpublisher.conf");
 
 sub publishedFiles {
 
-  my $archives = showPublished("archives","University Archives");
-  my $fales = showPublished("fales","Fales");
-  my $tamwag = showPublished("tamwag","Tamiment-Wagner");
-  my $nyhs = showPublished("nyhs","NYHS");
-  my $rism = showPublished("rism","Research Institute for the Study of Man");
-  my $bhs = showPublished("bhs","Brooklyn Historical Society");
-  my $poly = showPublished("poly","Poly Archives");
-  
+  my ($identifier) = @_;
+
+  # collections look up
+  my %collections = listOfCollections();
+
+  # html to output the tab
+  my $collections_tab = '';
+
+  # html to output the collection items tables
+  my $collections_output = '';
+
+  # iterate collections and build the html to be render
+  for (keys %collections) {
+    $collections_tab .= '<li class="archive-' . $_ . ($_ eq $identifier ? ' selected' : '') . '"><a href="#' . $_ . '" class="tab archive-' . $_ . '" data-id="' . $_ . '" data-upload="' . $confHash{'PUBLISHER_URI'} . '/upload/' . $_ .'" data-name="' . $collections{$_} . '" data-uri="' . $confHash{'PUBLISHER_URI'} . '/publish/' . $_ . '">' . $collections{$_} . '</a></li>';
+    if ( defined($identifier) && ($_ eq $identifier) ) {
+      $collections_output .= '<div id="' . $_ . '">' . showPublished($_, $collections{$_}) . '</div>';
+    }
+    else {
+      $collections_output .= '<div id="' . $_ . '"></div>';
+    }
+  }
+
   my $body = qq#
-      <form name="publish" class="pure-form pure-form-stacked">
-        <fieldset>
-          <legend>Review published finding aids</legend>
-        </fieldset>
-        <div id="collections">
-          <ul>
-            <li><a href="\#archives">University Archives</a></li>
-            <li><a href="\#fales">Fales</a></li>
-            <li><a href="\#tamwag">Tamiment-Wagner</a></li>
-            <li><a href="\#nyhs">NYHS</a></li>            
-            <li><a href="\#rism">Research Institute for the Study of Man</a></li>
-            <li><a href="\#bhs">Brooklyn Historical Society</a></li>
-            <li><a href="\#poly">Poly Archives</a></li>
-          </ul>
-          <div>
-            <div id="archives">$archives</div>
-            <div id="fales">$fales</div>
-            <div id="tamwag">$tamwag</div>
-            <div id="nyhs">$nyhs</div>
-            <div id="rism">$rism</div>
-            <div id="bhs">$bhs</div>
-            <div id="poly">$poly</div>
-          </div>
-        </div>
-      </form>
+    <div class="container msg"></div>
+    <div class="overlay">
+      <div id="panelContent">
+        <div class="yui3-widget-bd"></div>
+      </div>
+      <div id="nestedPanel"></div>
+    </div>
+    <form name="published" class="archive-table pure-form pure-form-stacked">
+      <fieldset>
+        <legend>Review published <span class="archive">$collections{$identifier}</span> finding aids</legend>
+      </fieldset>
+      <div id="collections">
+        <ul>$collections_tab</ul>
+        <div>$collections_output</div>
+      </div>
+    </form>
   #;
   
   return $body;
@@ -54,7 +59,6 @@ sub showPublished {
   my ($dir,$heading) = @_;
   my $previewDir = "$confHash{'CONTENT_PATH'}/html";
   my @publishedEAD = `ls $previewDir/$dir/`;
-  
   my $tbody = "";
   
   foreach (@publishedEAD) {
@@ -71,7 +75,7 @@ sub showPublished {
   }
   
   my $body = qq#
-    <h3 class="title hidden">$heading</h3>
+    <h3 class="title">$heading</h3>
     <table class="tab-table pure-table pure-table-bordered pure-table-striped">
       <thead>
         <tr>
