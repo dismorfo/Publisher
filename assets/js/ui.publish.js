@@ -106,23 +106,36 @@ YUI().use('node', 'event', 'tabview', 'pjax', 'panel', 'io', 'dd-plugin', 'uploa
     	
     	    var uploadDone = false;
     	    
-    	    if (uploader) {
-    	    	uploader.destroy();
-    	    }
-    	
             var uploader = new Y.Uploader({
         	    width: "250px",
         	    fileFieldName: 'eadfile',
+        	    fileFilterFunction: function(fileInstance) {
+        	    	
+        	        // We only accept XML documents
+                	if ( (/\.(xml)$/i).test(fileInstance.get('name')) ) {
+                	    return true;
+                	}
+                	else {
+                		Y.one('#panelContent .yui3-widget-bd').set('innerHTML', fileInstance.get('name') + ' is not a XML document, please try again.');
+                       panel.show();
+
+                	}
+        	    },
                 height: "35px",
                 multipleFiles: true,
                 swfURL: "http://yui.yahooapis.com/3.12.0/build/uploader/assets/flashuploader.swf?t=" + Math.random(),
                 simLimit: 2,
                 withCredentials: false
             });
+            
+            // allow drag and drop of files
+            uploader.set("dragAndDropArea", "#filelist");
         
             uploader.render("#selectFilesButtonContainer");
-
+            
             uploader.after("fileselect", function (event) {
+            	
+            	var panel_body = Y.one('#panelContent .yui3-widget-bd');
 
                 var fileList = event.fileList
                   , fileTable = Y.one("#filenames tbody");
@@ -136,7 +149,7 @@ YUI().use('node', 'event', 'tabview', 'pjax', 'panel', 'io', 'dd-plugin', 'uploa
                     fileTable.setHTML("");
                 }
 
-                Y.each(fileList, function (fileInstance) {
+                Y.each(fileList, function (fileInstance, index) {
                     fileTable.append("<tr id='" + fileInstance.get("id") + "_row" + "'>" +
                                      "<td class='filename'>" + fileInstance.get("name") + "</td>" +
                                      "<td class='percentdone'>Hasn't started yet</td>");
@@ -171,16 +184,12 @@ YUI().use('node', 'event', 'tabview', 'pjax', 'panel', 'io', 'dd-plugin', 'uploa
                 panel.show();
                 
             var node = panel_body.one('.eadid');        	
-                
-                Y.log(
-                	panel_body.one('.eadid').get('text')
-                );
-                
-                Y.one('.yui3-tabview-content .tab-table tbody').append('<tr><td></td><td><a href="#" target="_blank">EAD</a></td><td><a href="#" target="_blank">HTML</a></td><td><a href="#" target="_blank">Inner</a></td><td><a href="#" target="_blank">Outer</a></td><td><a href="#" data-action="publicate" data-eadid="" data-repo="" class="publicate">Publish</a></td><td><a href="" data-action="delete" data-eadid="" data-repo="tamwag" class="remove">Remove</a></td></tr>');
+            
+            Y.one('.yui3-tabview-content .tab-table tbody').append('<tr><td></td><td><a href="#" target="_blank">EAD</a></td><td><a href="#" target="_blank">HTML</a></td><td><a href="#" target="_blank">Inner</a></td><td><a href="#" target="_blank">Outer</a></td><td><a href="#" data-action="publicate" data-eadid="" data-repo="" class="publicate">Publish</a></td><td><a href="" data-action="delete" data-eadid="" data-repo="tamwag" class="remove">Remove</a></td></tr>');
 
             var fileRow = Y.one("#" + event.file.get("id") + "_row");
-                // fileRow.one(".percentdone").set("text", "Finished!");
-                fileRow.remove(true);
+            
+            fileRow.remove(true);
         });
 
         uploader.on("totaluploadprogress", function (event) {
@@ -208,8 +217,14 @@ YUI().use('node', 'event', 'tabview', 'pjax', 'panel', 'io', 'dd-plugin', 'uploa
         });
 
         Y.one("#uploadFilesButton").on("click", function () {
-            if (!uploadDone && uploader.get("fileList").length > 0) {
-                uploader.uploadAll();
+        	
+        	var fileList = uploader.get("fileList");
+        	
+            if (!uploadDone && fileList.length > 0) {
+            	
+            	 //Y.each(fileList, function (fileInstance, index) {
+                   uploader.uploadAll();
+                //})
             }
         });
     }

@@ -75,6 +75,6 @@ for e in $EADS; do
     echo \<eadid\>$eadid\</eadid\>			
   fi
   
-  cp "$APP_PATH/files/shared/assets/php/toc.php" "$CONTENT_STAGING_PATH/html/$ARCHIVETYPE/$FAID/toc.php" >> $APP_PATH/log.out
+  cp "$APP_PATH/files/shared/assets/php/toc.php" "$CONTENT_STAGING_PATH/html/$ARCHIVETYPE/$FAID/toc.php"
   
 done
