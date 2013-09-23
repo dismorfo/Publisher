@@ -153,22 +153,10 @@ sub processUpload {
     return $output; 
 
   }
-  
   else {
     $output .= '<p>Unable to upload ' . $eadFile . ' an error occur, please make sure you have a valid EAD and try again.</p>';
   }
   
-
-  
-  # there was a error 
-  #else {
-  #  $output .= $transformError;
-  #}
-        
-  # open (MYFILE, '>>data.txt');
-  # print MYFILE "Bob\n";
-  # close (MYFILE); 
-        
 }
     
 
