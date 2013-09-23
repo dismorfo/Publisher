@@ -13,153 +13,164 @@ do $dir . 'cgi/inc/readConf.pl';
 my %confHash = createHashConf('conf/eadpublisher.conf');
 
 sub processUpload {
-
-  my $output = '';
-
-  # grabbing file
+	
+  # Grab file
   my $eadFile = param("eadfile");
 
-  # grabbing file dir
+  # Grab file dir
   my $eadDir =  param("eaddir");
+
+  # 3 tests to fail as fast as we can
   
-  if ($eadFile && $eadDir) {
-  	
-    my $dtd = $confHash{'CONTENT_URI'} . '/dtd/ead/ead.dtd';
-
-    # test for upper case letter	
-  	my $upper_case_letters = $eadFile =~ tr/A-Z//;
-  	
-  	# check if file name has upper case letter
-    if ($upper_case_letters == 0) {
-    	
-      # setting path for upload 
-      my $uploadDIR = $confHash{'CONTENT_STAGING_PATH'} .'/ead';
-  
-      my $origPath = $uploadDIR;
-
-      # appending to preset path
-      $uploadDIR .= '/' . $eadDir;
- 
-      # if file doesn't exist
-      if (! -s $eadFile) {
-        $output .= '<p>No contents in file. Please check file.</p>';
-      }
-
-      # otherwise continue
-
-      # stripping file name of any forward or backward slashes from name
-      $eadFile =~ s/.*[\/\\](.*)/$1/;
-
-      # creating file handle
-      my $upload_filehandle = upload("eadfile");
-
-      # if directory doesn't exist, create specified directory and change permissions to 777 for all users
-      if (! -d $uploadDIR) {
-        mkdir($uploadDIR);
-        chmod(0777, $uploadDIR);
-      }
-
-      # open handle to write
-      open UPLOADFILE, ">$uploadDIR/$eadFile.tmp" || die "can't open " . $eadFile;
-
-      # making file binary to prevent data corruption
-      binmode UPLOADFILE;
-
-      # uploading file
-      my $eadid = '';
-
-      while ( <$upload_filehandle> ) {
-        
-        # stripped out DTD declaration if it exists
-        $_ =~ s/<\!DOCTYPE.*?ead\.dtd\">//;
-        
-        if ($_ =~ /(<ead)([\s|>])(.*)/ &&  $_ !~ /931666-22-9>/) {
-          my $rest = $3;
-          $_ = "<ead xsi:schemaLocation=\"urn:isbn:1-931666-22-9 http://www.loc.gov/ead/ead.xsd\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xmlns:ns2=\"http://www.w3.org/1999/xlink\" xmlns=\"urn:isbn:1-931666-22-9\">";
-          if ($rest =~ /<.*?>/) {
-	        $_ .= $rest;
-          }
-        }
-        
-        if ($_ =~ /<eadid[^>]*>(.*)<\/eadid>/) {
-          $eadid = $1;
-
-        }
-        
-        if ($eadid =~ /\s+/) {
-          close UPLOADFILE;
-          return '<p>Invalid EAD. Please remove any whitepace from the EAD ID.</p>'; 
-        }
-        
-        # note that this won't handle EADs where there is no namespace 
-        # and the ead tag spans multiple lines let's hope there are 
-        # none of those
-        print UPLOADFILE;
-      }
-      
-      # Log an error if an <eadid> could not be extracted
-      if (length($eadid) < 1) {
-        $output .= '<p>You tried to upload a file that does not contain an &lt;eadid&gt; tag!</p>';
-        close UPLOADFILE;
-        return $output;
-      }
-
-      # closing file handle after writing
-      close UPLOADFILE; 
- 
-      # rename the file based on the <eadid>
-      my $oldFile = $eadFile;
-      
-      if (rename("$uploadDIR/$eadFile.tmp","$uploadDIR/$eadid.xml")) {
-        $eadFile = "$eadid.xml";
-      }
-      else {
-        $output .= '<p>Error renaming uploaded file.</p>';
-      }
-      
-      # testing to see if file has been written to the specified location 
-      my $fileExist = $uploadDIR . '/' . $eadFile;
-         
-      # transforming xml into html and XML for SOLR
-      my ($transform, $url, $transformError) = transformFile($origPath, $eadDir, $eadid);
-              
-      if (-e $fileExist) {
-
-        chmod(0777, $fileExist);
-        
-        $output .= '<p>EAD Id: <span class="eadid" data-eadid="' . $eadid .'" data-repo="' . $eadDir .'" data-publicate="" data-remove="" data-inner="" data-outer="">' . $eadid . '</a></p>';        
-
-        $output .= '<p>' . $oldFile . ' has been successfully uploaded and renamed to ' . $eadFile . '.</p>';
-        
-        my $eadURL = $url;
-        
-        $eadURL =~ s/html.*/ead/; 
-        
-        $eadURL .= '/' . $eadDir . '/' . $eadFile;
-        
-        # outputting link to xml EAD
-        $output .= '<p>Your EAD finding aid can be previewed here: <a class="ead" href="'. $eadURL . '" target="_blank">' . $eadURL . '</a></p>';
-      } 
-      else {
-        $output .= '<p>Unable to upload ' . $eadFile . ' an error occur, please make sure you have a valid EAD and try again.</p>';
-      }
-      
-      # outputting link to html finding aid
-      
-      # no error found
-      if ($transformError !~ /Error/) {
-        $output .= '<p>Your HTML finding aid can be previewed here: <a class="html" href="' . $url . '" target="_blank">' . $url . '</a></p>';
-      }
-      # there was a error 
-      else {
-        $output .= $transformError;
-      }
-    }
-	else {
-	  $output .= '<p><strong>Error!</strong> ' . $eadFile . ' must be in lower case. All files must be in lower case, rename your file into lower case, and upload them again.</p>';
-    }
+  # 1: Test arguments: eadFile and eadDir
+  if (!$eadFile || !$eadDir) {
+    return '<p>A problem was fount with the request; please try again.</p>';
   }
+  
+  # 2: Test for upper case letter	
+  my $upper_case_letters = $eadFile =~ tr/A-Z//;
+  
+  if ($upper_case_letters != 0) {
+    return '<p>All files must be in lower case, rename your file (' . $eadFile . ') into lower case, and upload them again.</p>';
+  }
+  
+  # 3: Test file
+  if (! -s $eadFile) {
+    return '<p>No contents in file. Please check file.</p>';
+  }
+  
+  # We are clear to continue
+
+  # prepare for return message
+  my $output = '';
+
+  # uploading file
+  my $eadid = '';
+
+  my $dtd = $confHash{'CONTENT_URI'} . '/dtd/ead/ead.dtd';
+
+  # setting path for upload 
+  my $uploadDIR = $confHash{'CONTENT_STAGING_PATH'} . '/ead';
+
+  my $origPath = $uploadDIR;
+
+  # appending to preset path
+  $uploadDIR .= '/' . $eadDir;
+
+  # stripping file name of any forward or backward slashes from name
+  $eadFile =~ s/.*[\/\\](.*)/$1/;
+
+  # file handle
+  my $upload_filehandle = upload("eadfile");
+  
+  # rename the file based on the <eadid>
+  my $oldFile = $eadFile;
+
+  # if directory doesn't exist, create specified directory
+  if (! -d $uploadDIR) {
+    mkdir($uploadDIR);
+    chmod(0775, $uploadDIR);
+  }
+
+  # open handle to write
+  open UPLOADFILE, ">$uploadDIR/$eadFile.tmp" || return "<p>Unexpected error. Can't open " . $eadFile . " file.</p>";
+
+  # Prevent data corruption
+  binmode UPLOADFILE;
+
+  while ( <$upload_filehandle> ) {
+    # stripped out DTD declaration if it exists
+    $_ =~ s/<\!DOCTYPE.*?ead\.dtd\">//;
+        
+    if ($_ =~ /(<ead)([\s|>])(.*)/ &&  $_ !~ /931666-22-9>/) {
+      my $rest = $3;
+      $_ = "<ead xsi:schemaLocation=\"urn:isbn:1-931666-22-9 http://www.loc.gov/ead/ead.xsd\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xmlns:ns2=\"http://www.w3.org/1999/xlink\" xmlns=\"urn:isbn:1-931666-22-9\">";
+      if ($rest =~ /<.*?>/) {
+	    $_ .= $rest;
+      }
+    }
+
+    if ($_ =~ /<eadid[^>]*>(.*)<\/eadid>/) {
+      $eadid = $1;
+    }
+        
+    if ($eadid =~ /\s+/) {
+      close UPLOADFILE;
+      return '<p>Invalid EAD. Please remove any whitepace from the EAD ID.</p>'; 
+    }
+        
+    # Note that this won't handle EADs where there is no namespace and the ead tag spans multiple lines let's hope there are none of those 
+    print UPLOADFILE;
+  }
+  
+  # close file handle after writing
+  close UPLOADFILE;
+
+  # Log an error if an <eadid> could not be extracted
+  if (length($eadid) < 1) {
+    return '<p>You tried to upload a file that does not contain an &lt;eadid&gt; tag!</p>';
+  }
+
+  if (rename($uploadDIR . '/' . $eadFile . '.tmp', $uploadDIR . '/' . $eadid . '.xml')) {
+    $eadFile = $eadid . '.xml';
+  }
+
+  else {
+    return '<p>Error renaming uploaded file.</p>';
+  }
+
+  # transforming xml into html and XML for SOLR
+  my ($transform, $url, $transformError) = transformFile($origPath, $eadDir, $eadid);
+              
+  my $fileExist = $uploadDIR . '/' . $eadFile;
+
+  # Test if file has been written to the specified location      
+  if (-e $fileExist) {
+
+    chmod(0775, $fileExist);
+        
+    my $eadURL = $url;
+        
+    $eadURL =~ s/html.*/ead/; 
+        
+    $eadURL .= '/' . $eadDir . '/' . $eadFile;
+        
+    $output .= '<div class="eadid" data-eadid="' . $eadid .'" data-xml="' . $eadURL . '" data-html="' . $url . '" data-repo="' . $eadDir .'" data-publicate="' . $confHash{'PUBLISHER_URI'} . '/publicate/' . $eadDir . '/' . $eadid . '" data-delete="' . $confHash{'PUBLISHER_URI'} . '/delete/' . $eadDir . '/' . $eadid . '" data-inner="' . $confHash{'CONTENT_STAGING_URI'} . '/solr2/' . $eadDir . '/' . $eadid . '.solr.xml" data-outer="' . $confHash{'CONTENT_STAGING_URI'} . '/solr1/' . $eadDir . '/' . $eadid . '.solr.xml">';
+
+    # Output file link
+    $output .= '<p>' . $oldFile . ' has been successfully uploaded and renamed to ' . $eadFile . '.</p>';
+
+    # Output XML link 
+    $output .= '<p>Your EAD finding aid can be previewed here: <a class="ead" href="'. $eadURL . '" target="_blank">' . $eadURL . '</a></p>';
+    
+    # Output HTML link 
+    if ($transformError !~ /Error/) {
+      $output .= '<p>Your HTML finding aid can be previewed here: <a class="html" href="' . $url . '" target="_blank">' . $url . '</a></p>';
+    }
+
+    $output .= '</div>';
+    
+    return $output; 
+
+  }
+  
+  else {
+    $output .= '<p>Unable to upload ' . $eadFile . ' an error occur, please make sure you have a valid EAD and try again.</p>';
+  }
+  
+
+  
+  # there was a error 
+  #else {
+  #  $output .= $transformError;
+  #}
+        
+  # open (MYFILE, '>>data.txt');
+  # print MYFILE "Bob\n";
+  # close (MYFILE); 
+        
 }
+    
 
 sub transformFile {
 
@@ -244,9 +255,11 @@ sub transformFile {
   if ($transform2 =~ /<solrFile>(.*)<\/solrFile>/) {
     $solrFile = $1;
   }
+
   else {
     $error .= '<p>Error - no Solr file returned by the transformer</p>';
-  }  
-
+  }
+  
   return ($transform, $url, $error);
+
 }
