@@ -60,21 +60,21 @@ sub publicate_archive {
   my $deployEad = $dir . '/bin/deploy-ead.bash';
   
   if (-x $deployEad) {
-	my @args = ($deployEad, "$repo/$faid");
+	my @args = ($deployEad, $repo . "/" . $faid);
     $deploy = system(@args);
   }
 
   else {
-    return "Error: The following file is not executable: $deployEad";
+    return "<p>Error: The following file is not executable: " . $deployEad ."</p>";
   }
-
-  if (-e $published && $deploy == 0) { 
-    return "<a href=\"$publishedURL\">$publishedURL</a> has been successfully published";
+  
+  if ($deploy == 0) { 
+    return '<p><a href="' . $publishedURL .'">' . $publishedURL . '</a> has been successfully published</p>';
   }
 
   else {
     return '<p>There was a problem - please contact the administrator.</p>';
   }
-
+  
   return $deploy;
 }

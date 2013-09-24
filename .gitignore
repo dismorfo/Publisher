@@ -4,7 +4,5 @@
 .project
 log.out
 /conf/eadpublisher.conf
-/files/preview/ead/*
-/files/preview/html/*
-/files/preview/solr1/*
-/files/preview/solr2/*
+/files/preview/*
+/files/prod/*

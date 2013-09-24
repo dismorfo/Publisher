@@ -10,14 +10,7 @@ do 'cgi/common.pl';
 # request type
 my $pjax = param("pjax");
 
-# add specific page/content sub routines
-if (defined($pjax) ) {
-  do 'cgi/pages/published.pjax.pl';
-}
-
-else {
-  do 'cgi/pages/published.page.pl';
-}
+do 'cgi/pages/published.page.pl';
 
 my @route = getRoute();
 
