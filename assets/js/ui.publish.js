@@ -177,7 +177,7 @@ YUI().use('node', 'event', 'tabview', 'pjax', 'panel', 'io', 'dd-plugin', 'uploa
                 
             var node = panel_body.one('.eadid');
             
-            Y.one('.yui3-tabview-content .tab-table tbody').append('<tr><td>' + node.getAttribute('data-eadid') + '</td><td><a href="' + node.getAttribute('data-xml') + '" target="_blank">EAD</a></td><td><a href="' + node.getAttribute('data-html') + '" target="_blank">HTML</a></td><td><a href="' + node.getAttribute('data-inner') + '" target="_blank">Inner</a></td><td><a href="' + node.getAttribute('data-outer') + '" target="_blank">Outer</a></td><td><a href="' + node.getAttribute('data-publicate') + '" class="publicate">Publish</a></td><td><a class="remove"  data-action="delete" href="' + node.getAttribute('data-delete') + '" data-repo="' + node.getAttribute('data-repo') + '" data-eadid="' + node.getAttribute('data-eadid') + '">Remove</a></td></tr>');
+            Y.one('.yui3-tabview-content .tab-table tbody').append('<tr><td>' + node.getAttribute('data-eadid') + '</td><td><a href="' + node.getAttribute('data-xml') + '" target="_blank">EAD</a></td><td><a href="' + node.getAttribute('data-html') + '" target="_blank">HTML</a></td><td><a href="' + node.getAttribute('data-inner') + '" target="_blank">Inner</a></td><td><a href="' + node.getAttribute('data-outer') + '" target="_blank">Outer</a></td><td><a href="' + node.getAttribute('data-publicate') + '" class="publicate" data-action="publicate" data-repo="' + node.getAttribute('data-repo') + '" data-eadid="' + node.getAttribute('data-eadid') + '">Publish</a></td><td><a class="remove"  data-action="delete" href="' + node.getAttribute('data-delete') + '" data-repo="' + node.getAttribute('data-repo') + '" data-eadid="' + node.getAttribute('data-eadid') + '">Remove</a></td></tr>');
 
             var fileRow = Y.one("#" + event.file.get("id") + "_row");
             
@@ -238,7 +238,7 @@ YUI().use('node', 'event', 'tabview', 'pjax', 'panel', 'io', 'dd-plugin', 'uploa
         var panel_body = Y.one('#panelContent .yui3-widget-bd');
 
         function onStart(id, result, a) {
-            panel_body.set('innerHTML', 'Making sure that the magic happen, this can take up to few minutes, please wait.');
+            panel_body.set('innerHTML', 'Our fearless minions are working their magic, this can take up to few minutes. Please wait.');
             panel.show();
         }
         

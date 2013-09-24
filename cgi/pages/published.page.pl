@@ -92,8 +92,8 @@ sub showPublished {
       $tbody .= '<td>' . $_ . '</td>';
       $tbody .= '<td><a target="_blank" href="' . $confHash{'CONTENT_URI'} . '/ead/' . $dir . '/' . $_ . '.xml">EAD</a></td>';
       $tbody .= '<td><a target="_blank" href="' . $confHash{'CONTENT_URI'} . '/html/' . $dir . '/' . $_ . '">HTML</a></td>';
-      $tbody .= '<td><a target="_blank" href="' . $confHash{'SOLR1_URI'} . '/select/?q=collection.id:' . $dir . '_' . $_ . '&wt=xml">Inner</a></td>';
-      $tbody .= '<td><a target="_blank" href="' . $confHash{'SOLR2_URI'} . '/select/?q=id:' . $dir . '_' . $_ . '&wt=xml">Outer</a></td>';
+      $tbody .= '<td><a target="_blank" href="' . $confHash{'SOLR1_URI'} . '/select/?q=id:' . $dir . '_' . $_ . '&wt=xml">Inner</a></td>';
+      $tbody .= '<td><a target="_blank" href="' . $confHash{'SOLR2_URI'} . '/select/?q=collection.id:' . $dir . '_' . $_ . '&wt=xml">Outer</a></td>';
       
       $tbody .= '</tr>';
     }

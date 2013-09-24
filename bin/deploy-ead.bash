@@ -106,6 +106,22 @@ mv -f $HTML/* $CONTENT_PATH/html/$COLL/$FAID/
 
 rm -rf $HTML
 
+if [ ! -d $CONTENT_PATH/solr1 ]; then
+  mkdir -p $CONTENT_PATH/solr1
+fi
+
+if [ ! -d $CONTENT_PATH/solr1/$COLL ]; then
+  mkdir -p $CONTENT_PATH/solr1/$COLL
+fi
+
+if [ ! -d $CONTENT_PATH/solr2 ]; then
+  mkdir -p $CONTENT_PATH/solr2
+fi
+
+if [ ! -d $CONTENT_PATH/solr2/$COLL ]; then
+  mkdir -p $CONTENT_PATH/solr2/$COLL
+fi
+
 for s in $SOLR1S; do
   if [[ ${s} == *${*}* ]]; then
     
@@ -113,8 +129,10 @@ for s in $SOLR1S; do
     curl $URL1 --data-binary @$s -H 'Content-type:text/xml; charset=utf-8' >> $APP_PATH/log.out
     
     # send the commit command to make sure all the changes are flushed and visible
-    # curl "$URL1?softCommit=true" --data-binary '<commit/>' -H 'Content-type:text/xml; charset=utf-8' >> $APP_PATH/log.out
-    curl "$URL1" --data-binary '<commit/>' -H 'Content-type:text/xml; charset=utf-8' >> $APP_PATH/log.out
+    curl "$URL1?softCommit=true" --data-binary '<commit/>' -H 'Content-type:text/xml; charset=utf-8' >> $APP_PATH/log.out
+    
+    echo [`date`] Move $s to $CONTENT_PATH/solr1/$COLL/$s >> $APP_PATH/log.out
+    mv $s $CONTENT_PATH/solr1/$COLL
         
   fi
 done
@@ -127,8 +145,10 @@ for s in $SOLR2S; do
     curl $URL2 --data-binary @$s -H 'Content-type:text/xml; charset=utf-8' >> $APP_PATH/log.out
         
     # send the commit command to make sure all the changes are flushed and visible
-    # curl "$URL2" --data-binary '<commit/>' -H 'Content-type:text/xml; charset=utf-8' >> $APP_PATH/log.out
-    curl "$URL2?softCommit=true" --data-binary '<commit/>' -H 'Content-type:text/xml; charset=utf-8' >> $APP_PATH/log.out
+    curl "$URL2" --data-binary '<commit/>' -H 'Content-type:text/xml; charset=utf-8' >> $APP_PATH/log.out
+    
+    echo [`date`] Move $s to $CONTENT_PATH/solr2/$COLL/$s >> $APP_PATH/log.out
+    mv $s $CONTENT_PATH/solr2/$COLL
     
   fi
 done
